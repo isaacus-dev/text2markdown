@@ -1,0 +1,14 @@
+The three main types of rock, classified by how they form, are igneous, sedimentary, and metamorphic. These types are defined by their formation processes: cooling magma (igneous), accumulation of sediments (sedimentary), or heat and pressure transformation (metamorphic), as discussed in this article from AMNH.<br>
+
+## Igneous Rock
+
+Formed from the cooling and solidification of molten rock (magma or lava).<br>
+
+## Sedimentary Rock
+
+Formed by the accumulation, compaction, and cementation of sediments (minerals, organic particles) over time.<br>
+
+## Metamorphic Rock
+
+Formed when existing rocks are subjected to intense heat and pressure, changing their original structure and mineral composition.<br>
+These rock types are constantly changing from one form to another through the geological rock cycle.<br>

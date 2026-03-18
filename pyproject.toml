@@ -1,0 +1,16 @@
+[project]
+name = "text2markdown"
+version = "0.1.0"
+description = "Python library for converting plain text into markdown."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+isaacus = [
+   "isaacus" 
+]

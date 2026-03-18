@@ -1,0 +1,20 @@
+# Ignore everything
+*
+
+# code
+!src
+!src/text2markdown
+!src/text2markdown/**
+
+# tests
+!tests
+!tests/**
+
+# version-control
+!readme.md
+!.gitignore
+!pyproject.toml
+!LICENSE
+
+# Ignore byte files
+__pycache__/
