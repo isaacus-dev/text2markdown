@@ -23,7 +23,7 @@ An [Isaacus API key](https://platform.isaacus.com/accounts/signup) is required t
 
 ### Example
 Below is a short demo demonstrating the different ways you are able to use Text2Markdown.
-```
+```python
 from text2markdown.t2md import text_to_markdown
 from os import environ
 
@@ -48,7 +48,7 @@ output = text_to_markdown(text=text)
 print(output) 
 ```
 Alternatively, supply an [ILGS document](https://docs.isaacus.com/ilgs/introduction):
-```
+```python
 from isaacus import Isaacus
 
 # Initialise client
@@ -71,7 +71,7 @@ print(output)
 ```
 By default, `text_to_markdown` includes all supported features.
 Optional parameters can be configured to disable unwanted features:
-```
+```python
 text_to_markdown(
     text=text,
     cross_references=False,
@@ -81,7 +81,7 @@ text_to_markdown(
 )
 ```
 An asynchronous option is available:
-```
+```python
 import asyncio
 from text2markdown.async_t2md import text_to_markdown_async
 
