@@ -5,16 +5,17 @@ from typing import Literal, TYPE_CHECKING
 from collections import deque
 from dataclasses import dataclass
 
+import isaacus
+
 if TYPE_CHECKING:
-    import isaacus
     from isaacus.types.ilgs.v1.document import Document as ILGSDocument
     from isaacus.types.ilgs.v1.span import Span
     from isaacus.types.ilgs.v1.segment import Segment
     
-    
 POSSIBLE_ANNOTATIONS = ( 
     "heading",
     "title_heading",            # Reserved for document title. 
+    "title",
     "cross_ref",                # Cross referencing another annotation
     "junk",
     "quote",                    
@@ -29,11 +30,12 @@ class _Annotation:
     kind : Literal[
         "heading",
         "title_heading",
+        "title", 
         "cross_ref",
         "junk",
         "quote",
         "ext_ref",
-        "src_ref"
+        "src_ref",
     ]
     # kind=="heading" only 
     level: int | None = None        # heading level; only relevant for kind == heading
@@ -43,10 +45,6 @@ class _Annotation:
     start_id: int | None = None     # Starting segment ID of reference (where the cross_ref will point to)
 
 
-def has_title(seg: Segment):
-    return not (seg.title is None and seg.code is None and seg.type_name is None)
-
-
 def text_to_markdown(
     text: str | ILGSDocument,
     *,
@@ -54,7 +52,7 @@ def text_to_markdown(
     strike_junk: bool = True,
     wrap_quotes: bool = True,
     italicise_ext_refs: bool = True,
-    isaacus_client: "isaacus.Isaacus | None" = None,
+    isaacus_client: isaacus.Isaacus | None = None,
 ) -> str:
     """Converts plain text to markdown.
 
@@ -75,14 +73,6 @@ def text_to_markdown(
     # If input is raw text, convert into ILGS document
     if isinstance(text, str):
         if isaacus_client is None:
-            try:
-                import isaacus
-
-            except ImportError as e:
-                raise ImportError(
-                    """ The Isaacus package is required if an ILGSDocument is not provided. You can install this with `pip install isaacus`."""
-                ) from e
-
             api_key = os.getenv("ISAACUS_API_KEY")
             if api_key is None:
                 raise ValueError(
@@ -103,47 +93,93 @@ def text_to_markdown(
     else:
         ilgs_doc = text
     text = ilgs_doc.text
-
+    
     # Idea: Gather all annotations to queue, build a hierarchy of events ordered by index,
     # then perform the necessary plain text -> markdown transformations 
     # as we iterate over the input text
     ann_queue: list[_Annotation] = []
-
     headings = deque(sorted(ilgs_doc.headings, key=lambda span: span.start))
-    segs = deque(sorted(ilgs_doc.segments, key=lambda s: (s.span.start, -s.span.end)))
+    segs = sorted(ilgs_doc.segments, key=lambda s: (s.span.start, -s.span.end))
+    num_segs = len(segs)
+
+    # We need the disjoint span ranges of each segment for heading->segment mapping 
+    # to ensure (or increase the likelihood of) headings being unique to segments which actually have a heading
+    # rather than just ones that contain it. 
+    disjoint_seg_spans: list[tuple[int, int]] = []
+    for seg in reversed(segs):
+        dj_start = seg.span.start
+        if disjoint_seg_spans and seg.span.end >= disjoint_seg_spans[-1][0]:
+            # this segment ends after the start of the next segment; cut off the intersection
+            dj_end = disjoint_seg_spans[-1][0]
+        else:
+            dj_end = seg.span.end
+
+        disjoint_seg_spans.append((dj_start, dj_end))
+
     # Check for title
     if (title := ilgs_doc.title) is not None:
-        ann_queue.append(_Annotation(title.start, title.end, kind="title_heading"))
+        if title.start <= headings[0].start < title.end:
+            h = headings.popleft()
+            ann_queue.append(_Annotation(h.start, h.end, kind="title_heading"))
 
     # If we want cross_references, then we benefit from having a segment id -> span map 
     seg_id_to_span: dict[str, Span] = {} if cross_references else None
     id_to_seg: dict[str, Segment] = {None: None}
+    has_heading: set[tuple[int, int]] = set()
 
     # Find headings and add their annotations with levels
-    for seg in segs:
+    for idx, seg in enumerate(segs):
+        if (seg.span.start, seg.span.end) in has_heading:
+            continue
+
         if seg_id_to_span is not None: 
             seg_id_to_span[seg.id] = seg.span
-
+        
         id_to_seg[seg.id] = seg
+        level = seg.level
 
-        while headings and headings[0].start < seg.span.start:
+        span_start, span_end = disjoint_seg_spans[num_segs-idx-1]
+        if span_end - span_start <= 0:
+            continue
+
+        while headings and headings[0].start < span_start:
             headings.popleft()
 
-        if headings and seg.span.start <= headings[0].start < seg.span.end and has_title(seg):
-            h = headings.popleft()
-            
-            # Ensure depth level is relative to other titled segments
-            level = seg.level
-            curr = id_to_seg[seg.parent]
-            while curr is not None:
-                # decrement level for each parent segment missing a title
-                if not has_title(curr):
-                    level -= 1
+        # Check if there's a heading in our disjointified span interval
+        if headings and span_start <= headings[0].start < span_end:
+            kind = "heading"
+            h = headings.popleft() 
+            ann_start, ann_end = h.start, h.end
 
-                curr = id_to_seg[curr.parent]
-            ann_queue.append(_Annotation(h.start, h.end, kind="heading", level=level))
+        # ===== Don't use seg.title anymore ===== 
+       # elif seg.title is not None or seg.code is not None:
+       #     #  fallback; we can't use a heading, so see if we can string together a title 
+       #     kind = "title"
+       #     ordered_parts = (seg.code, seg.title)
+       #     ann_start = None
+       #     for idx, part in enumerate(ordered_parts):
+       #         if part is None:
+       #             continue 
+       #         
+       #         ann_end = part.end
+       #         if ann_start is None:
+       #             ann_start = part.start     
+             
+        else:
+            continue
 
-    # Gather annotations for the enabled optional parameters
+        # ensure heading depth is with respect to parents with headings
+        curr = id_to_seg[seg.parent]
+        while curr is not None:
+            # decrement level for each parent segment missing a title
+            if (curr.span.start, curr.span.end) not in has_heading:
+                level -= 1
+            curr = id_to_seg[curr.parent]
+        
+        has_heading.add((seg.span.start, seg.span.end))
+        ann_queue.append(_Annotation(ann_start, ann_end, kind=kind, level=level))
+
+    # Gather annotations for the optional parameters!
     optional_annotators = {
         "cross_ref": (ilgs_doc.crossreferences, cross_references),
         "junk": (ilgs_doc.junk, strike_junk),
@@ -184,89 +220,120 @@ def text_to_markdown(
         "heading": 0, 
         **{ann_kind: 1 for ann_kind in POSSIBLE_ANNOTATIONS if ann_kind != "heading"}
     }
+
+    # We have all our annotations, add them to event queue, sort by index
     events = []
     for ann in ann_queue:
         events.append((ann.start, "start", ann))
         events.append((ann.end, "end", ann))
     events.sort(key=lambda a: (a[0], tie_break[a[-1].kind]))
-
+    
+    in_heading = True
     prev_kind = ""
     curr_idx = 0
     md: list[str] = [] # Output markdown
     for pos, t, ann in events:
         kind = ann.kind
-        md.append(text[curr_idx:pos])
+        
+        # Headings may span multiple lines; in this case, we want to concatenate them 
+        # onto the same line
+        if in_heading and kind == "heading" or kind == "title":
+            # stich heading together
+            pieces = [s.strip() for s in text[curr_idx:pos].split()]
+            if pieces:
+                md.append(" ".join(pieces)+"\n")
+        elif pos != curr_idx:
+            md.append(text[curr_idx:pos])
 
         match ann.kind:
-            case "heading":
-                level = ann.level
-                # Ensure headers have empty lines above and below for consistent rendering
+            case "heading" | "title":
+                # prepend with # based on level (at least 2)
                 if t=="start":
-                    md.append(f"{'#'*(level+2)} ")
+                    md.append(f"\n{'#'*(min(6, ann.level+2))} ")
+                    in_heading = True
+                if t=="end":
+                    in_heading = False
 
             case "title_heading":
+                # prepend single # 
                 md.append("# " if t=="start" else "\n")
+                in_heading = t=="start"
 
             case "cross_ref":
-                md.append("[" if t=="start" else f"](#{ann.start_id.replace(":", "-")})")
+                # Set hyperlink 
+                newlines = 0
+                # Ensure that we remove all added whitespace/newlines before enclosing in brackets
+                if md and t=="end":
+                    original_len = len(md[-1])
+                    md[-1] = md[-1].rstrip()
+                    newlines = original_len - len(md[-1])
+
+                appended = "\n" * newlines
+                md.append("[" if t=="start" else f"](#{ann.start_id.replace(':', '-')}){appended}")
 
             case "junk":
-                # Cross out junk, add extra white-space at the end
-                md.append("~~" + " "*(t=="end"))
+                # Cross out junk
+                md.append("~~")
                 
             case "quote":
-                # iffy check for whether or not the quote is on a newline
+                # turn into blockquotes only if quote appears on newline
                 if t == "start" and pos > 0 and text[pos-1] == "\n":
                     md.append("> ")
                 else: 
-                    md.append("\n")
+                    md.append("\n\n")
 
             case "ext_ref":
                 # Italicise external references
-                md.append("*" + " "*(t=="end"))
+                md.append("*")
             
             case "src_ref":
                 # set anchor at source
                 if t == "start" and prev_kind != "src_ref": 
                     tag = f"""<a id="{ann.start_id.replace(":", "-")}"></a>"""
                     md.append(tag)         
+
         prev_kind = ann.kind
         curr_idx = pos
         
     md.append(text[curr_idx:])
 
-    # Finally, need to standardise formatting w.r.t. newlines
+    # Finally, need to standardise formatting w.r.t. newlines: Don't want more than two blank lines in a row
     raw = "".join(md)
-    newline_removed = (f"{line}\n" for line in raw.splitlines() if line.strip())
-
+    
     # Headings and obvious pre-existing lists should have exactly one
     # blank line before and after 
-    list_like = ["-", "•"]
+    list_like = ["-", "•", "➤"]
     clean = []
-    for line in newline_removed:
+    for line in raw.splitlines(True):
         is_item = any(line.strip().startswith(c) for c in list_like)
         prev_is_item = clean and any(clean[-1].strip().startswith(c) for c in list_like)
         heading = line.startswith("#")
 
-        if not heading and not is_item and not prev_is_item:
-            clean.append(f"{line.rstrip()}<br>\n")
-            continue
-        
-        # Adding newlines after headings; check if blank spaces already exist first
-        if heading:
-            if clean and clean[-1].endswith("\n\n"):
-                clean.append(f"{line}\n")
-            else:
-                clean.append(f"\n{line}\n")
-            continue
-        
-        # Adding newlines between list blocks, only if there isn't a pre-existing blank space
-        if (clean and not clean[-1].endswith("\n\n")) and (is_item and not prev_is_item):
-            clean.append(f"\n{line}")
-        elif prev_is_item and not is_item:
-            clean.append(f"\n{line}")
-        else:
+        if not heading and not prev_is_item and not is_item:
             clean.append(line)
-        
+            continue
 
-    return "".join(clean).strip()
+        if heading: 
+            clean.append(f"\n{line}\n")
+        elif is_item or prev_is_item:
+            clean.append(f"\n{line}")
+ 
+    blank_lines = 0
+    blank_removed: list[str] = []
+    for line in "".join(clean).splitlines():
+
+        if not line.strip():
+            blank_lines += 1 
+        else: 
+            blank_lines = 0
+
+        if blank_lines >= 2:
+            continue
+
+        if line.strip():
+            blank_lines += 1
+            blank_removed.append(f"{line.lstrip('.,: ')} \n\n")
+        else:
+            blank_removed.append(f"{line}\n")
+
+    return "".join(blank_removed).strip()

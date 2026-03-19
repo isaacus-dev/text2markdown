@@ -1,112 +1,201 @@
-# 2025 VCE Business Management external assessment report
+# 2025 VCE Business Management external assessment report 
 
-This report provides sample answers, or an indication of what answers may have included. Unless otherwise stated, these are not intended to be exemplary or complete responses.<br>
-The statistics in this report may be subject to rounding, resulting in a total of more or less than 100 per cent.<br>
+This report provides sample answers, or an indication of what answers may have included. Unless otherwise stated, these are not intended to be exemplary or complete responses.  
 
-## Section A
+The statistics in this report may be subject to rounding, resulting in a total of more or less than 100 per cent. 
 
-Question 1a.<br>
-Mark<br>
-0<br>
-1<br>
-2<br>
-Average<br>
-%<br>
-3<br>
-20<br>
-76<br>
-1.7<br>
-This question required students to outline one clear difference between the terms ‘retirement’ and ‘redundancy’. There are several differences that were considered acceptable, including:<br>
+Section A 
 
-    • Retirement is voluntary and initiated by the employee, while redundancy is normally involuntary and is initiated by the business.
-    • Retirement will often mean that the employee leaves the workforce entirely, while redundancy may mean that the employee seeks employment elsewhere.
-    • Entitlements available differ based on the method of termination; a redundancy package will usually be available to a person who ends their employment through redundancy, while those who retire will not be entitled to a redundancy package as part of their termination.
+## Question 1a. 
 
-Students are advised that outlining a difference between two things involves explicit reference to each term as points of comparison. For example, stating that ‘a difference is that retirement is voluntary’ is a descriptive statement about one term only and therefore is not a difference. 
-It is also important to use the technical language of the study rather than informal terms such as ‘being fired’ or ‘resigning’. Students are encouraged to view each task as an instruction. Question 1a. required only an outline, or very brief description, of one difference between retirement and redundancy as means of employment termination. Some students wrote long responses with detailed definitions without responding to the task by pointing out a clear difference between the two. Responses that were written in this way were able to earn a maximum of one mark.<br>
-The following is an example of a high-scoring student response:<br>
-> One difference between these two forms of termination is that retirement is voluntary whereas redundancy is involuntary. This is evident as those who retire choose to terminate their employment to leave the workforce entirely, whilst those who are made redundant do not usually choose to be redundant. Instead, it occurs due to insufficient work or the fact that their position no longer exists.<br>
-~~© VCAA~~<br>
+Mark 
 
-### Question 1b.
+0 
 
-Mark<br>
-0<br>
-1<br>
-2<br>
-3<br>
-Average<br>
-%<br>
-17<br>
-23<br>
-35<br>
-25<br>
-1.7<br>
-This question required students to describe one driving force that has led to the changes that were occurring at Doggy Dugout, the business described in the brief case study. To receive the full three marks, students needed to demonstrate an understanding of one driving force, explain the link or relationship between that force and the actual change occurring, and then provide a specific link to the business in the case study.<br>
-The most common error was the incorrect use of ‘pursuit of profit’ as a driving force for change in this instance. ‘Profit’ is equal to the revenue earned by a business minus the expenses incurred by that business. A significant number of students attempted to redefine this term to mean ‘any financial benefit received by the owners’. In seeking to sell Doggy Dugout, its owners were not specifically seeking to increase the profit of the business. On the other hand, students were able to refer to the owners’ desire to retire as a driving force to selling as this is explicitly referenced in the case study.<br>
-Students are encouraged to gain an understanding of how to make meaningful links between specific theory learnt in Business Management classes and case studies. Simply restating material from a case study is not explaining a link or application of theory. An effective link is made when the students are able to extrapolate additional information from the case study that is relevant to the theoretical knowledge they are presenting.<br>
-The following is an example of a high-scoring student response:<br>
-> One driving force that supported the change at Doggy Dugout is competitors. As the business is operating in a highly competitive market, likely with many businesses that are bigger than them, this supported the owner’s plan to sell the business to a larger company. This would make it possible for the business to improve its market share and gain a competitive advantage over other businesses in the industry. This driving force would have promoted the sale of the business to a bigger company in an attempt to improve the various KPIs that are measures of success for this business.<br>
-Question 1c.<br>
-Mark<br>
-0<br>
-1<br>
-2<br>
-3<br>
-4<br>
-Average<br>
-%<br>
-5<br>
-11<br>
-31<br>
-33<br>
-20<br>
-2.5<br>
-Students were required to explain both one advantage and one disadvantage of using high-risk strategies to overcome employee resistance to change.<br>
-It was common for students to overlook the plural (‘strategies’) in the task and focus their response on just one strategy. Many students did not incorporate the final few words of the task into their response; they needed to explain the strengths and weaknesses of this approach specifically when seeking to overcome resistance to change.<br>
-Students need to demonstrate a breadth of understanding in their response to these types of questions. For example, many students argued that these strategies might be effective in the short term as an advantage, but then simply argued that the disadvantage is that they are unlikely to be effective in the long term. This was seen as ‘double dipping’. These response types were not able to access more than half of the marks available because students had effectively reversed their initial statement and then repeated it.<br>
-The following is an example of a high-scoring student response:<br>
-> One advantage of using high risk strategies is that it has the short term positive outcome of immediate compliance. Typically, threatening or manipulating employees by either implying negative consequences or sharing selective information encourages employees to comply quickly. This saves time and may be beneficial in critical situations where a business requires employees to quickly overcome resistance and support change.<br>
-However, one disadvantage is that high risk strategies can destroy the manager–employee relationship. Employees may feel betrayed when they are threatened or manipulated and no longer trust the management. This can damage corporate culture and even create more resistance to change as employees no longer feel connected to the business in a positive way.<br>
-~~© VCAA              Page 3~~<br>
+1 
 
-### Question 2a.
+2 
 
-Mark<br>
-0<br>
-1<br>
-2<br>
-3<br>
-Average<br>
-%<br>
-15<br>
-39<br>
-37<br>
-9<br>
-1.4<br>
-Students were asked to describe the specific way the manager had used the skill of decision-making at the Pilates studio that was the subject of the case study. Students were expected to identify that Sam (the manager) had specifically used a persuasive management style; the choice of management style has a direct impact on the manner in which the skill would have been applied.<br>
-Students were required to demonstrate an understanding of the management skill of decision-making and link this to the persuasive management style. Finally, they also needed to provide context that makes this relevant to the business in the case study.<br>
-Many responses went beyond the scope of the task. Rather than describing the process, students often chose to evaluate the way in which Sam might have used decision-making, or stated their opinion about the actual decision that was made – neither of which was required. Careful reading of the task would have guided students to understanding the explicit requirements of the task.<br>
-The following is an example of a high-scoring student response:<br>
-> Decision making is the skill of having a goal or objective and making a selection from a range of alternatives to try and achieve that goal. Sam has used this by recognising that costs could have increased due to wages or salaries for her instructors, thus she had to make the decision to change the roster and reduce the number of hours of work for most instructors. As a persuasive manager, Sam would have used a centralised decision-making process.<br>
+Average 
 
-### Question 2b.
+% 
 
-Mark<br>
-0<br>
-1<br>
-2<br>
-3<br>
-Average<br>
-%<br>
-17<br>
-21<br>
-45<br>
-17<br>
-1.6<br>
-Students were required to describe one dispute resolution process that might have been used within the case study. Students were able to write about any form of dispute resolution in their response. Mediation and arbitration were the most common types of dispute resolution processes applied to this question by students.<br>
-Some responses lacked clarity about the different ways workplace disputes can be solved. For example, it was common for students to write about mediation but then state that this would always lead to a binding outcome. While this is true of arbitration, mediation will only lead to a binding outcome in certain, specific circumstances.<br>
-Although alternative forms of dispute resolution were accepted (such as conciliation or working with a member of the Human Resources team), teachers are encouraged to ensure that students have a meaningful understanding of the key terms that are introduced in the *Business Management Study Design* . This includes both mediation and arbitration, which are listed under Unit 3, Area of Study 2 on page 18 of the study design.<br>
-The following is an example of a high-scoring student response:<br>
-> One dispute resolution process that Perfecto Pilates may use to resolve the dispute at the pilates and yoga studio is arbitration. This is a dispute resolution process which involves an independent third party such as the Fair Work Commission hearing the arguments of the disputing parties and making a legally binding decision. The employees and the managers would each have an opportunity to speak about the impact of changing the rosters in a way that reduces overall working hours for staff. Arbitration is a more formal dispute resolution process which often takes place in a court-like setting with the aim of providing a final decision at Perfecto Pilates to resolve the dispute that is currently occurring.<br>
-~~© VCAA          Page 3~~<br>
+3 
+
+20 
+
+76 
+
+1.7 
+
+This question required students to outline one clear difference between the terms ‘retirement’ and ‘redundancy’. There are several differences that were considered acceptable, including: 
+
+• Retirement is voluntary and initiated by the employee, while redundancy is normally involuntary and is initiated by the business. 
+
+• Retirement will often mean that the employee leaves the workforce entirely, while redundancy may mean that the employee seeks employment elsewhere. 
+
+• Entitlements available differ based on the method of termination; a redundancy package will usually be available to a person who ends their employment through redundancy, while those who retire will not be entitled to a redundancy package as part of their termination. 
+
+Students are advised that outlining a difference between two things involves explicit reference to each term as points of comparison. For example, stating that ‘a difference is that retirement is voluntary’ is a descriptive statement about one term only and therefore is not a difference.  
+
+It is also important to use the technical language of the study rather than informal terms such as ‘being fired’ or ‘resigning’. Students are encouraged to view each task as an instruction. Question 1a. required only an outline, or very brief description, of one difference between retirement and redundancy as means of employment termination. Some students wrote long responses with detailed definitions without responding to the task by pointing out a clear difference between the two. Responses that were written in this way were able to earn a maximum of one mark. 
+
+The following is an example of a high-scoring student response: 
+
+> One difference between these two forms of termination is that retirement is voluntary whereas redundancy is involuntary. This is evident as those who retire choose to terminate their employment to leave the workforce entirely, whilst those who are made redundant do not usually choose to be redundant. Instead, it occurs due to insufficient work or the fact that their position no longer exists. 
+
+~~© VCAA~~ 
+
+## Question 1b. 
+
+Mark 
+
+0 
+
+1 
+
+2 
+
+3 
+
+Average 
+
+% 
+
+17 
+
+23 
+
+35 
+
+25 
+
+1.7 
+
+This question required students to describe one driving force that has led to the changes that were occurring at Doggy Dugout, the business described in the brief case study. To receive the full three marks, students needed to demonstrate an understanding of one driving force, explain the link or relationship between that force and the actual change occurring, and then provide a specific link to the business in the case study. 
+
+The most common error was the incorrect use of ‘pursuit of profit’ as a driving force for change in this instance. ‘Profit’ is equal to the revenue earned by a business minus the expenses incurred by that business. A significant number of students attempted to redefine this term to mean ‘any financial benefit received by the owners’. In seeking to sell Doggy Dugout, its owners were not specifically seeking to increase the profit of the business. On the other hand, students were able to refer to the owners’ desire to retire as a driving force to selling as this is explicitly referenced in the case study. 
+
+Students are encouraged to gain an understanding of how to make meaningful links between specific theory learnt in Business Management classes and case studies. Simply restating material from a case study is not explaining a link or application of theory. An effective link is made when the students are able to extrapolate additional information from the case study that is relevant to the theoretical knowledge they are presenting. 
+
+The following is an example of a high-scoring student response: 
+
+> One driving force that supported the change at Doggy Dugout is competitors. As the business is operating in a highly competitive market, likely with many businesses that are bigger than them, this supported the owner’s plan to sell the business to a larger company. This would make it possible for the business to improve its market share and gain a competitive advantage over other businesses in the industry. This driving force would have promoted the sale of the business to a bigger company in an attempt to improve the various KPIs that are measures of success for this business. 
+
+## Question 1c. 
+
+Mark 
+
+0 
+
+1 
+
+2 
+
+3 
+
+4 
+
+Average 
+
+% 
+
+5 
+
+11 
+
+31 
+
+33 
+
+20 
+
+2.5 
+
+Students were required to explain both one advantage and one disadvantage of using high-risk strategies to overcome employee resistance to change.  
+
+It was common for students to overlook the plural (‘strategies’) in the task and focus their response on just one strategy. Many students did not incorporate the final few words of the task into their response; they needed to explain the strengths and weaknesses of this approach specifically when seeking to overcome resistance to change.  
+
+Students need to demonstrate a breadth of understanding in their response to these types of questions. For example, many students argued that these strategies might be effective in the short term as an advantage, but then simply argued that the disadvantage is that they are unlikely to be effective in the long term. This was seen as ‘double dipping’. These response types were not able to access more than half of the marks available because students had effectively reversed their initial statement and then repeated it. 
+
+The following is an example of a high-scoring student response: 
+
+> One advantage of using high risk strategies is that it has the short term positive outcome of immediate compliance. Typically, threatening or manipulating employees by either implying negative consequences or sharing selective information encourages employees to comply quickly. This saves time and may be beneficial in critical situations where a business requires employees to quickly overcome resistance and support change. 
+
+However, one disadvantage is that high risk strategies can destroy the manager–employee relationship. Employees may feel betrayed when they are threatened or manipulated and no longer trust the management. This can damage corporate culture and even create more resistance to change as employees no longer feel connected to the business in a positive way. 
+
+~~© VCAA              Page 3~~ 
+
+## Question 2a. 
+
+Mark 
+
+0 
+
+1 
+
+2 
+
+3 
+
+Average 
+
+% 
+
+15 
+
+39 
+
+37 
+
+9 
+
+1.4 
+
+Students were asked to describe the specific way the manager had used the skill of decision-making at the Pilates studio that was the subject of the case study. Students were expected to identify that Sam (the manager) had specifically used a persuasive management style; the choice of management style has a direct impact on the manner in which the skill would have been applied. 
+
+Students were required to demonstrate an understanding of the management skill of decision-making and link this to the persuasive management style. Finally, they also needed to provide context that makes this relevant to the business in the case study. 
+
+Many responses went beyond the scope of the task. Rather than describing the process, students often chose to evaluate the way in which Sam might have used decision-making, or stated their opinion about the actual decision that was made – neither of which was required. Careful reading of the task would have guided students to understanding the explicit requirements of the task. 
+
+The following is an example of a high-scoring student response: 
+
+> Decision making is the skill of having a goal or objective and making a selection from a range of alternatives to try and achieve that goal. Sam has used this by recognising that costs could have increased due to wages or salaries for her instructors, thus she had to make the decision to change the roster and reduce the number of hours of work for most instructors. As a persuasive manager, Sam would have used a centralised decision-making process. 
+
+## Question 2b. 
+
+Mark 
+
+0 
+
+1 
+
+2 
+
+3 
+
+Average 
+
+% 
+
+17 
+
+21 
+
+45 
+
+17 
+
+1.6 
+
+Students were required to describe one dispute resolution process that might have been used within the case study. Students were able to write about any form of dispute resolution in their response. Mediation and arbitration were the most common types of dispute resolution processes applied to this question by students. 
+
+Some responses lacked clarity about the different ways workplace disputes can be solved. For example, it was common for students to write about mediation but then state that this would always lead to a binding outcome. While this is true of arbitration, mediation will only lead to a binding outcome in certain, specific circumstances. 
+
+Although alternative forms of dispute resolution were accepted (such as conciliation or working with a member of the Human Resources team), teachers are encouraged to ensure that students have a meaningful understanding of the key terms that are introduced in the *Business Management Study Design*. This includes both mediation and arbitration, which are listed under Unit 3, Area of Study 2 on page 18 of the study design. 
+
+The following is an example of a high-scoring student response: 
+
+> One dispute resolution process that Perfecto Pilates may use to resolve the dispute at the pilates and yoga studio is arbitration. This is a dispute resolution process which involves an independent third party such as the Fair Work Commission hearing the arguments of the disputing parties and making a legally binding decision. The employees and the managers would each have an opportunity to speak about the impact of changing the rosters in a way that reduces overall working hours for staff. Arbitration is a more formal dispute resolution process which often takes place in a court-like setting with the aim of providing a final decision at Perfecto Pilates to resolve the dispute that is currently occurring. 
+
+~~© VCAA          Page 3~~
