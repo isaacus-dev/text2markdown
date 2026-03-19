@@ -50,12 +50,14 @@ def run_default() -> None:
         with open(TEST_OUT_DIR / f"{test.stem}.md", "w") as f:
             f.write(txt)
 
+
 async def run_async() -> None: 
     tests = sorted([test for test in  TEST_DIR.iterdir() if test.is_file() and test.suffix == ".txt"])
     for test in tests:
         # don't actually do anything, just check that there's no errors
         resp = await t2mda(get_text(test))
         assert(isinstance(resp, str))
+
 
 async def test():
     TEST_OUT_DIR.mkdir(exist_ok=True)

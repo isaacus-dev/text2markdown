@@ -12,6 +12,7 @@ from isaacus import Isaacus
 if TYPE_CHECKING:
     from isaacus.types.ilgs.v1.document import Document as ILGSDocument
 
+
 async def text_to_markdown_async(
     text: str | ILGSDocument,
     *,
