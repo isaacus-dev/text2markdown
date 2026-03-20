@@ -38,22 +38,30 @@ async def text_to_markdown_async(
         isaacus_client (Isaacus, AsyncIsaacus, optional): A pre-initialised instance of an isaacus API client. If `None`, a new instance will be created instead.  
     """
     ilgs_doc = text
-    if isinstance(text, str) and not isinstance(isaacus_client, Isaacus):
-        # need to make API call, run in thread pool
-        api_key = os.getenv("ISAACUS_API_KEY")
-        if api_key is None:
-            raise ValueError(
-                """ Could not find an Isaacus API key in environment variables. See https://platform.isaacus.com/accounts/signup/."""
-            )
-       
+    if isinstance(text, str):
         if isaacus_client is None:
+            api_key = os.getenv("ISAACUS_API_KEY")
+            if api_key is None:
+                raise ValueError(
+                    """ Could not find an Isaacus API key in environment variables. See https://platform.isaacus.com/accounts/signup/."""
+                )
             client = AsyncIsaacus()
+        else:
+            client = isaacus_client
         
-        enrichment_result = await client.enrichments.create(
-            model="kanon-2-enricher",
-            texts=text,
-            overflow_strategy="auto"
-        )
+        if isinstance(client, AsyncIsaacus):
+            enrichment_result = await client.enrichments.create(
+                model="kanon-2-enricher",
+                texts=text,
+                overflow_strategy="auto"
+            )
+        else:
+            enrichment_result = client.enrichments.create(
+                model="kanon-2-enricher",
+                texts=text,
+                overflow_strategy="auto"
+            )
+
         ilgs_doc = enrichment_result.results[0].document
 
     # no API call, can just run directly
