@@ -20,9 +20,9 @@ async def text_to_markdown_async(
     strike_junk: bool = True,
     wrap_quotes: bool = True,
     italicise_ext_refs: bool = True,
-    isaacus_client: Isaacus | AsyncIsaacus | None = None,
+    isaacus_client: AsyncIsaacus | None = None,
 ) -> str:
-    """Converts plain text to markdown with async support. If a synchronous Isaacus client or ILGS Document is provided, this function is identical to its synchronous counterpart.  
+    """Converts plain text to markdown with async support. If an ILGS Document is provided, this function is identical to its synchronous counterpart.  
 
     Args:
         text (str | ILGSDocument): Input text to be converted to markdown.
@@ -35,32 +35,25 @@ async def text_to_markdown_async(
 
         italicise_ext_refs (bool, optional): Whether or not to italicise any external references.
 
-        isaacus_client (Isaacus, AsyncIsaacus, optional): A pre-initialised instance of an isaacus API client. If `None`, a new instance will be created instead.  
+        isaacus_client (AsyncIsaacus, optional): A pre-initialised instance of an async isaacus API client. If `None`, a new instance will be created instead.  
     """
+
+    if isinstance(isaacus_client, Isaacus):
+        raise TypeError(
+            """ Synchronous Isaacus client is not supported in async context. Use AsyncIsaacus to 
+            create an async client or call the synchronous function instead.
+            """
+        )
+
     ilgs_doc = text
     if isinstance(text, str):
-        if isaacus_client is None:
-            api_key = os.getenv("ISAACUS_API_KEY")
-            if api_key is None:
-                raise ValueError(
-                    """ Could not find an Isaacus API key in environment variables. See https://platform.isaacus.com/accounts/signup/."""
-                )
-            client = AsyncIsaacus()
-        else:
-            client = isaacus_client
+        client = isaacus_client or AsyncIsaacus()
         
-        if isinstance(client, AsyncIsaacus):
-            enrichment_result = await client.enrichments.create(
-                model="kanon-2-enricher",
-                texts=text,
-                overflow_strategy="auto"
-            )
-        else:
-            enrichment_result = client.enrichments.create(
-                model="kanon-2-enricher",
-                texts=text,
-                overflow_strategy="auto"
-            )
+        enrichment_result = await client.enrichments.create(
+            model="kanon-2-enricher",
+            texts=text,
+            overflow_strategy="auto"
+        )
 
         ilgs_doc = enrichment_result.results[0].document
 
