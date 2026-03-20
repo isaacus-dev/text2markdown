@@ -2,12 +2,11 @@
 from __future__ import annotations
 
 from typing import TYPE_CHECKING
-import os
-
-from .t2md import text_to_markdown
 
 from isaacus import AsyncIsaacus
 from isaacus import Isaacus
+from .t2md import text_to_markdown
+
 
 if TYPE_CHECKING:
     from isaacus.types.ilgs.v1.document import Document as ILGSDocument

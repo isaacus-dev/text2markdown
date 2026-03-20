@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import os
 from typing import Literal, TYPE_CHECKING
 from collections import deque
 from dataclasses import dataclass
@@ -73,12 +72,6 @@ def text_to_markdown(
     # If input is raw text, convert into ILGS document
     if isinstance(text, str):
         if isaacus_client is None:
-            api_key = os.getenv("ISAACUS_API_KEY")
-            if api_key is None:
-                raise ValueError(
-                    """ Could not find an Isaacus API key in environment variables. See https://platform.isaacus.com/accounts/signup/."""
-                )
-
             isaacus_client = isaacus.Isaacus()
 
         ilgs_doc = (
@@ -143,7 +136,7 @@ def text_to_markdown(
 
         while headings and headings[0].start < span_start:
             h = headings.popleft()
-            # Default "segmentless" headings to current segment, whatever that is
+            # Default "segmentless" headings to current segment level, whatever that is
             ann_queue.append(_Annotation(h.start, h.end, kind="heading", level=seg.level))
 
         annotations: list[tuple[int, int, int]] = []

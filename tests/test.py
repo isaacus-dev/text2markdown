@@ -5,6 +5,7 @@ from typing import TYPE_CHECKING
 import asyncio
 
 from dotenv import load_dotenv
+from isaacus import IsaacusError
 
 from text2markdown.t2md import text_to_markdown as t2md
 from text2markdown.async_t2md import text_to_markdown_async as t2mda
@@ -33,7 +34,7 @@ def no_api_key() -> bool:
     try: 
         t2md(text)
         err = False
-    except ValueError: 
+    except IsaacusError: 
         err = True
 
     return err
