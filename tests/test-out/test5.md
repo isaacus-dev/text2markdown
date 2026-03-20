@@ -108,7 +108,7 @@ All Services:
 
 - Video Content requires an HDCP connection. 
 
-Audio and Video Content Sales and Rentals: 
+### Audio and Video Content Sales and Rentals: 
 
 - You can use Digital Rights Management (DRM)-free Content on a reasonable number of compatible devices that you own or control. DRM-protected Content can be used on up to five (5) computers and any number of devices that you sync to from those computers. 
 
@@ -118,13 +118,13 @@ Audio and Video Content Sales and Rentals:
 
 - Purchased Content will generally remain available for you to download, redownload, or otherwise access from Apple. Though it is unlikely, subsequent to your purchase, Content may be removed from the Services and become unavailable for further download or access from Apple (for instance, because Apple loses its right from the Content provider to make it available). To ensure your ability to continue enjoying Content, we encourage you to download all purchased Content to a device in your possession and to back it up. 
 
-App Store Content: 
+### App Store Content: 
 
 - The term “Apps” includes apps and App Clips for any Apple platform and/or operating system, including any in-app purchases, extensions (such as keyboards), stickers, and Subscriptions made available in such apps or App Clips. 
 
 - Individuals acting on behalf of a commercial enterprise, governmental organization or educational institution (an “Enterprise”) may download and sync non-Arcade Apps for use by either (i) a single individual on one (1) or more devices owned or controlled by an Enterprise; or (ii) multiple individuals on a single shared device owned or controlled by an Enterprise. For the sake of clarity, each device used serially or collectively by multiple users requires a separate license. 
 
-Apple Music: 
+### Apple Music: 
 
 - An Individual Apple Music membership allows you to stream on a single device at a time; a Family membership allows you or your Family members to stream on up to six (6) devices at a time. 
 
@@ -134,7 +134,7 @@ Apple Music:
 
 - If your Subscription ends, Apps downloaded via Apple Arcade will no longer be accessible to you. 
 
-Apple TV Content: 
+### Apple TV Content: 
 
 - For most channels, you can stream video Content on up to three (3) devices simultaneously.  
 
@@ -218,7 +218,7 @@ A Pass allows you to purchase and receive television Content as it becomes avail
 
 ## <a id="seg-103"></a>O. ADDITIONAL APP STORE TERMS (EXCLUDING APPLE ARCADE APPS) 
 
-LICENSE OF APP STORE CONTENT 
+### LICENSE OF APP STORE CONTENT 
 
 App licenses are provided to you by Apple or a third party developer (“App Provider”). Apple acts as an agent for App Providers in operating the App Store and is not a party to the sales contract or user agreement between you and the App Provider. However, if you are a customer of Apple Distribution International Ltd. or Apple Services Pte. Ltd., then the merchant of record is that entity, which means that you acquire the App license from Apple Distribution International Ltd. or Apple Services Pte. Ltd., as applicable, but the App is licensed by the App Provider. An App licensed by Apple is an “Apple App;” an App licensed by an App Provider is a “Third Party App.” Any App that you acquire is governed by the Licensed Application End User License Agreement (“Standard EULA”) set forth below, unless Apple or the App Provider provides an overriding custom license agreement (“Custom EULA”). To the full extent permitted by law, the App Provider of any Third Party App is solely responsible for its content and warranties, as well as any claims that you may have related to the Third Party App. You acknowledge and agree that Apple is a third-party beneficiary of the Standard EULA or Custom EULA applicable to each Third Party App and may therefore enforce such agreement. Certain Apps, such as stickers and iMessage apps, may not appear on the device springboard but can be accessed and used in the Messages app drawer. 
 

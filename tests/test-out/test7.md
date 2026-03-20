@@ -94,7 +94,7 @@ To the extent U.S. Privacy Laws apply:
 
 ## <a id="seg-46"></a>Schedule 1 
 
-Details of Processing 
+### Details of Processing 
 
 ### 1. Nature and Purpose: 
 

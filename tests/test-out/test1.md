@@ -4,7 +4,7 @@ Businesses of all sizes are major contributors to the economic and social wellbe
 
 ### <a id="seg-2"></a>Area of Study 1 
 
-The business idea 
+#### The business idea 
 
 In this area of study students investigate the concept of entrepreneurship. They consider how business ideas are created and how conditions can be fostered for new business ideas to emerge. New business ideas come from a range of sources, such as identifying a gap in the market, technological developments and changing customer needs. Students explore some of the considerations to be made before a business can be established as well as the importance of businesses to the national economy and social wellbeing. 
 
@@ -54,7 +54,7 @@ a nation, such as government investment in research and development, council gra
 
 ### <a id="seg-24"></a>Area of Study 2 
 
-Internal business environment and planning 
+#### Internal business environment and planning 
 
 The internal environment affects the approach a business takes to planning and the extent to which planning is successful. A business owner will generally have more control over the activities, functions and pressures that occur within the business. These factors, such as business models, legal business structures and staffing, will also be influenced to some extent by the external environment. Students explore the factors within the internal business environment and consider how planning decisions involving these factors may affect the ultimate success of a business, with success being measured by the extent to which business objectives are met within a specific timeframe. 
 
@@ -112,7 +112,7 @@ To achieve this outcome the student will draw on key knowledge and key skills ou
 
 • an overview of the factors within the external (macro and operating) environment that affect business planning 
 
-Macro factors affecting business planning 
+##### Macro factors affecting business planning 
 
 • an overview of key legal and government regulations affecting businesses in the planning stage 
 
@@ -126,7 +126,7 @@ Macro factors affecting business planning
 
 • corporate social responsibility considerations related to business planning, such as environmental considerations and planning for socially responsible production of goods and services 
 
-Operating factors that affect business planning 
+##### Operating factors that affect business planning 
 
 • customer needs and expectations 
 

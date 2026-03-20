@@ -4,7 +4,7 @@ This report provides sample answers, or an indication of what answers may have i
 
 The statistics in this report may be subject to rounding, resulting in a total of more or less than 100 per cent. 
 
-Section A 
+## Section A 
 
 ## Question 1a. 
 

@@ -98,7 +98,7 @@ def text_to_markdown(
     # then perform the necessary plain text -> markdown transformations 
     # as we iterate over the input text
     ann_queue: list[_Annotation] = []
-    headings = deque(sorted(ilgs_doc.headings, key=lambda span: span.start))
+    headings = deque(sorted([h for h in ilgs_doc.headings if h.decode(text).strip()], key=lambda span: span.start))
     segs = sorted(ilgs_doc.segments, key=lambda s: (s.span.start, -s.span.end))
     num_segs = len(segs)
 
@@ -131,53 +131,47 @@ def text_to_markdown(
     for idx, seg in enumerate(segs):
         if (seg.span.start, seg.span.end) in has_heading:
             continue
-
+        
         if seg_id_to_span is not None: 
             seg_id_to_span[seg.id] = seg.span
         
         id_to_seg[seg.id] = seg
-        level = seg.level
 
         span_start, span_end = disjoint_seg_spans[num_segs-idx-1]
         if span_end - span_start <= 0:
             continue
 
         while headings and headings[0].start < span_start:
-            headings.popleft()
+            h = headings.popleft()
+            # Default "segmentless" headings to current segment, whatever that is
+            ann_queue.append(_Annotation(h.start, h.end, kind="heading", level=seg.level))
 
-        # Check if there's a heading in our disjointified span interval
-        if headings and span_start <= headings[0].start < span_end:
-            kind = "heading"
+        annotations: list[tuple[int, int, int]] = []
+        level = seg.level
+        # annotate any headings in our disjointified span interval
+        while headings and span_start <= headings[0].start < span_end:
             h = headings.popleft() 
-            ann_start, ann_end = h.start, h.end
-
-        # ===== Don't use seg.title anymore ===== 
-       # elif seg.title is not None or seg.code is not None:
-       #     #  fallback; we can't use a heading, so see if we can string together a title 
-       #     kind = "title"
-       #     ordered_parts = (seg.code, seg.title)
-       #     ann_start = None
-       #     for idx, part in enumerate(ordered_parts):
-       #         if part is None:
-       #             continue 
-       #         
-       #         ann_end = part.end
-       #         if ann_start is None:
-       #             ann_start = part.start     
-             
-        else:
+            annotations.append((h.start, h.end, level))
+            level += 1
+        if not annotations:
+            # no heading in this segment
             continue
 
-        # ensure heading depth is with respect to parents with headings
-        curr = id_to_seg[seg.parent]
-        while curr is not None:
-            # decrement level for each parent segment missing a title
-            if (curr.span.start, curr.span.end) not in has_heading:
-                level -= 1
-            curr = id_to_seg[curr.parent]
-        
         has_heading.add((seg.span.start, seg.span.end))
-        ann_queue.append(_Annotation(ann_start, ann_end, kind=kind, level=level))
+
+        for ann in annotations: 
+            ann_start, ann_end, ann_level = ann
+
+            # ensure heading depth is with respect to parents with headings
+            curr = id_to_seg[seg.parent]
+            while curr is not None:
+                # decrement level for each parent segment missing a heading
+                if (curr.span.start, curr.span.end) not in has_heading:
+                    ann_level -= 1
+                curr = id_to_seg[curr.parent]
+            
+            ann_queue.append(_Annotation(ann_start, ann_end, kind="heading", level=ann_level))
+
 
     # Gather annotations for the optional parameters!
     optional_annotators = {
@@ -296,32 +290,15 @@ def text_to_markdown(
         curr_idx = pos
         
     md.append(text[curr_idx:])
-
-    # Finally, need to standardise formatting w.r.t. newlines: Don't want more than two blank lines in a row
     raw = "".join(md)
     
-    # Headings and obvious pre-existing lists should have exactly one
-    # blank line before and after 
-    list_like = ["-", "•", "➤"]
-    clean = []
-    for line in raw.splitlines(True):
-        is_item = any(line.strip().startswith(c) for c in list_like)
-        prev_is_item = clean and any(clean[-1].strip().startswith(c) for c in list_like)
-        heading = line.startswith("#")
-
-        if not heading and not prev_is_item and not is_item:
-            clean.append(line)
-            continue
-
-        if heading: 
-            clean.append(f"\n{line}\n")
-        elif is_item or prev_is_item:
-            clean.append(f"\n{line}")
+    # We want to ensure there are no more than two blank lines in a row
+    # and we want headings to have blank lines before and after they're declared
+    clean = (f"\n{line}\n" if line.startswith("#") else line for line in raw.splitlines(True))
  
     blank_lines = 0
     blank_removed: list[str] = []
     for line in "".join(clean).splitlines():
-
         if not line.strip():
             blank_lines += 1 
         else: 
