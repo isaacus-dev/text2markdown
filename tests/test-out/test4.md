@@ -16,7 +16,7 @@
 
 3.2 [Section 2 — Data Protection](#seg-47) 
 
-[2.1 Subsection — Lawful Basis](#seg-49) 
+2.1 Subsection — Lawful Basis 
 
 [2.2 Subsection — Cross-References](#seg-53) 
 
@@ -94,7 +94,7 @@ Clause 1.1. Licensor hereby grants to Licensee a non-exclusive, revocable, non-t
 
 Introductory paragraph (decision-style, unnumbered): The tribunal notes that data processing must be lawful, fair, and transparent. 
 
-#### <a id="seg-49"></a>2.1 Subsection — Lawful Basis. 
+#### 2.1 Subsection — Lawful Basis. 
 
 <a id="seg-50"></a>(a) Item. Processing shall rely on at least one lawful basis as per GDPR Article 6(1)(b). 
 
@@ -170,7 +170,7 @@ Description: A block diagram showing user → app → API → database.
 
 ## <a id="seg-80"></a>Back Matter — Signatures & Attestations 
 
-### The Parties: 
+The Parties: 
 
 The Licensor (corporate): Acme Data Pty Ltd (ACN 123 456 789), registered in Australia on 15 August 2010; principal place of business: Level 10, 200 Collins Street, Melbourne VIC 3000, Australia; website https://acmedata.example 
 
@@ -270,12 +270,8 @@ Effective: 01 February 2024
 
 Expires: 01 February 2026 
 
-Terms of use 
+~~Gasasdaossarysads~~ 
 
-Glossary 
+~~Feedb22w2sadsdsap22~~ 
 
-Feedback 
-
-Sitemap 
-
-Video help guides
+~~Vide134451o help guides 34234~~

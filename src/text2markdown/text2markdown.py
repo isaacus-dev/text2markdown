@@ -172,9 +172,7 @@ def text2markdown(
 
                     # need to add in annotations for the source reference as well, for anchoring
                     start_seg_span = id_to_seg[start_id].span
-                    ann_queue.append(
-                        _Annotation(start_seg_span.start, start_seg_span.end, kind="src_ref", start_id=start_id)
-                    )
+                    ann_queue.append(_Annotation(start_seg_span.start, start_seg_span.end, kind="src_ref", start_id=start_id))
 
                 case "junk":
                     ann_queue.append(_Annotation(ann.start, ann.end, kind=kind))
@@ -240,7 +238,7 @@ def text2markdown(
                 md.append("[" if t == "start" else f"](#{ann.start_id.replace(':', '-')}){appended}")
 
             case "junk":
-                # Cross out junk
+                # strike-out junk
                 md.append("~~")
 
             case "quote":
@@ -265,9 +263,30 @@ def text2markdown(
     md.append(text[curr_idx:])
     raw = "".join(md)
 
-    # We want to ensure there are no more than two blank lines in a row
-    # and we want headings to have blank lines before and after they're declared
-    clean = (f"\n{line}\n" if line.startswith("#") else line for line in raw.splitlines(True))
+    # We have some post-processing to do
+    in_junk = False
+    clean = []
+    for line in raw.splitlines():
+        # subsequent lines of text marked as junk
+        if in_junk:
+            if not line.endswith("~"):
+                clean.append(f"\n~~{line}~~\n")
+            else:
+                # Last line
+                clean.append(f"~~{line}\n")
+                in_junk = False
+            continue 
+
+        if line.startswith("#"):
+            # Ensure blank space before and after headings
+            clean.append(f"\n{line}\n")
+
+        elif line.startswith("~") and not line.endswith("~"):
+            clean.append(f"{line}~~\n")
+            in_junk = True
+
+        else:
+            clean.append(f"{line}\n")
 
     blank_lines = 0
     blank_removed: list[str] = []
