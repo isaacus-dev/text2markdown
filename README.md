@@ -1,95 +1,86 @@
-# Text2Markdown
-Efficient Python library for converting plain text into markdown format.
-Text2Markdown relies on a model to parse plain text, for which the 
-[Kanon 2 Enricher](https://docs.isaacus.com/capabilities/enrichment) was used.
+# text2markdown 📝
+**text2markdown** is a Python library for intelligently converting plain text into Markdown.
 
-Text2Markdown, being AI-powered, automatically infers key relationships within plain text. 
+text2markdown is powered by the [Isaacus enrichment API](https://docs.isaacus.com/capabilities/enrichment), which converts unstructured documents into rich, highly structured knowledge graphs that can easily be transformed into Markdown.
 
-It is currently capable of:
+In all, text2markdown is capable of:
+- Identifying and formatting headings.
+- Segmenting text into nested sections.
+- Hyperlinking cross-references within texts to other sections.
+- Italicizing cited documents.
+- Detecting and formatting block quotations.
+- Striking through junk text.
 
-- Segmenting text into sections with headings based on their hierarchical structure
-- Embedding hyperlinks towards referenced sections
-- Italicising external references 
-- Detecting block quotations 
-- Striking-through junk text
-
-## Usage
-### Installation 
-To install text2markdown, run 
-```
+## Setup 📦
+text2markdown can be installed with `pip` (or `uv`):
+```bash
 pip install text2markdown
 ```
-An [Isaacus API key](https://platform.isaacus.com/accounts/signup) is required to use this library. 
 
-### Example
-Below is a short demo demonstrating the different ways you are able to use Text2Markdown.
+An [Isaacus API key](https://platform.isaacus.com/accounts/signup) is also required to use this library.
+
+## Usage 👩‍💻
+The code snippet below demonstrates how you might use `text2markdown()` to intelligently convert a short document into Markdown.
 ```python
-from text2markdown.t2md import text_to_markdown
-from os import environ
+from text2markdown import text2markdown
 
-# Add Isaacus API key as an environment variable
-environ["ISAACUS_API_KEY"] = "INSERT_YOUR_API_KEY_HERE"
+text = """\
+The Smallest Document In The World
+This is a generic document.
 
-text = """
-Section 1
-I prefer markdown over plain text.
-Reason 1:
-I can tell what I am seeing.
-Furthermore, text like in Section 2 become readable.
+Section 1 - Background
+One upon a time, there was a mayor who said:
+We love Markdown so much that everyone should and must use it for everything.
 
-Section 2 
-bar once famously said:
-foo is a bar if and only if bar.
-foo was not happy.
-"""
+Section 2 - Problem
+The mayor's directive, as stated in Section 1, was sadly too difficult to enforce."""
 
-# Run text_to_markdown on input text
-output = text_to_markdown(text=text)
-print(output) 
+output = text2markdown(text)
+print(output)
 ```
-Alternatively, supply an [ILGS document](https://docs.isaacus.com/ilgs/introduction):
+
+The output should look something like this:
+```markdown
+# The Smallest Document In The World 
+
+This is a generic document. 
+
+## <a id="seg-1"></a>Section 1 - Background 
+
+One upon a time, there was a mayor who said: 
+
+> We love Markdown so much that everyone should and must use it for everything. 
+
+## Section 2 - Problem 
+
+The mayor's directive, as stated in [Section 1](#seg-1), was sadly too difficult to enforce.
+```
+
+An asynchronous version of `text2markdown()` is also available, supporting all of the same features and arguments as its synchronous equivalent. It can be used like so:
 ```python
+from text2markdown import text2markdown_async
+
+output = await text2markdown_async(text)
+print(output)
+```
+
+All of the various capabilities of text2markdown can be toggled on or off using optional Boolean parameters, as shown below:
+```python
+from text2markdown import text2markdown
+
 from isaacus import Isaacus
 
-# Initialise client
-client = Isaacus()
-
-# Create ILGS document
-ilgs_doc = client.enrichments.create(
-    model="kanon-2-enricher", 
-    texts=text,
-    overflow_strategy="auto"
-).results[0].document
-
-# Run text_to_markdown
-output = text_to_markdown(
-    text=ilgs_doc,
-    isaacus_client=client
+output = text2markdown(
+    text,
+    link_xrefs=True,
+    strike_junk=True,
+    block_quotes=True,
+    italicize_refs=True,
+    enrichment_model="kanon-2-enricher",
+    isaacus_client=Isaacus(),
 )
 print(output)
-
 ```
-By default, `text_to_markdown` includes all supported features.
-Optional parameters can be configured to disable unwanted features:
-```python
-text_to_markdown(
-    text=text,
-    cross_references=False,
-    strike_junk=False,
-    wrap_quotes=False,
-    italicise_ext_refs=False,
-)
-```
-An asynchronous option is available:
-```python
-import asyncio
-from text2markdown.async_t2md import text_to_markdown_async
 
-async def foo():
-    result = await text_to_markdown_async(text)
-    print(result)
-
-asyncio.run(foo())
-```
-## License
-This library is licensed under the MIT License. 
+## License 📜
+This library is licensed under the [MIT License](https://github.com/isaacus-dev/text2markdown/blob/main/LICENCE).

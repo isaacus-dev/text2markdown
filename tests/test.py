@@ -1,4 +1,4 @@
-from __future__ import annotations
+sfrom __future__ import annotations
 
 from pathlib import Path
 from typing import TYPE_CHECKING
@@ -7,8 +7,8 @@ import asyncio
 from dotenv import load_dotenv
 from isaacus import IsaacusError
 
-from text2markdown.t2md import text_to_markdown as t2md
-from text2markdown.async_t2md import text_to_markdown_async as t2mda
+from text2markdown.text2markdown import text2markdown as t2md
+from text2markdown.async_text2markdown import text2markdown_async as t2mda
 
 if TYPE_CHECKING:
     from os import PathLike

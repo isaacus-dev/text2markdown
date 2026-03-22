@@ -1,4 +1,4 @@
-""" Python library for converting plain text into markdown. """
+"""A Python library for intelligently converting text into Markdown."""
 
-from .t2md import text_to_markdown
-from .async_t2md import text_to_markdown_async 
+from .text2markdown import text2markdown
+from .async_text2markdown import text2markdown_async
