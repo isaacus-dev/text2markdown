@@ -198,7 +198,6 @@ def text2markdown(
     events.sort(key=lambda a: (a[0], tie_break[a[-1].kind]))
 
     in_heading = True
-    prev_kind = ""
     curr_idx = 0
     md: list[str] = []  # Output markdown
     for pos, t, ann in events:
@@ -257,11 +256,10 @@ def text2markdown(
 
             case "src_ref":
                 # set anchor at source
-                if t == "start" and prev_kind != "src_ref":
-                    tag = f"""<a id="{ann.start_id.replace(":", "-")}"></a>"""
+                tag = f"""<a id="{ann.start_id.replace(":", "-")}"></a>"""
+                if md and tag not in md[-1] and t == "start":
                     md.append(tag)
 
-        prev_kind = ann.kind
         curr_idx = pos
 
     md.append(text[curr_idx:])

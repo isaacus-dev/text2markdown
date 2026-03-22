@@ -100,11 +100,11 @@ Term
 
 The Agreement is valid from the earlier of (i) the Effective Date, and (ii) the date when the Subscriber starts using the Services, and shall remain in force during the initial period set out in the *Order Form* (the ”Initial Service Term”). 
 
-4.1.2 
+<a id="seg-28"></a>4.1.2 
 
 Unless terminated by Legora with at least 90 days’ written notice or by Subscriber with at least 30 days’ written notice before the expiry of the then current service period, the Agreement shall automatically renew for additional periods equal to the expiring Initial Service Term (each a “Renewal Term”). 
 
-4.2 
+<a id="seg-29"></a>4.2 
 
 Termination for cause 
 
@@ -130,7 +130,7 @@ The provisions herein that by their nature are intended to survive the expiratio
 
 Indemnification by Legora 
 
-5.1.1 
+<a id="seg-37"></a>5.1.1 
 
 Legora will defend Subscriber, against any third-party claim alleging that Subscriber’s use of the Services, in accordance with this Agreement, infringes any Intellectual Property Rights of such third party and will indemnify Subscriber against any damages actually awarded against Subscriber resulting from such claim.  
 
@@ -208,7 +208,7 @@ NEITHER PARTY SHALL BE LIABLE UNDER THE AGREEMENT FOR ANY INDIRECT, SPECIAL, INC
 
 OTHER THAN WITH RESPECT TO (I) THE SUBSCRIBER’S PAYMENT OBLIGATIONS UNDER THIS AGREEMENT, (II) THE PARTIES’ OBLIGATIONS UNDER [SECTION 5 (INDEMNIFICATION)](#seg-35) AND (III) CLAIMS BASED ON LIABILITY WHICH, BY LAW, CANNOT BE LIMITED (E.G. TORT CLAIMS FOR GROSS NEGLIGENCE AND INTENTIONAL MISCONDUCT), A PARTY’S AGGREGATE LIABILITY UNDER THE AGREEMENT SHALL NOT EXCEED THE TOTAL FEES PAID OR PAYABLE BY THE SUBSCRIBER IN THE 12 MONTHS PRIOR TO THE EVENT THAT GAVE RISE TO THE CLAIM. 
 
-6.4.3 
+<a id="seg-60"></a>6.4.3 
 
 THE LIMITATION IN [CLAUSE 6.4.2](#seg-59) SHALL NOT APPLY TO A PARTY’S BREACH OF [SECTION 7.2](#seg-70) OR THE *DATA PROCESSING AGREEMENT* ENTERED INTO BETWEEN THE PARTIES (“ENHANCED CLAIMS”). FOR ALL ENHANCED CLAIMS, EACH PARTY’S AGGREGATE LIABILITY UNDER THE AGREEMENT SHALL NOT EXCEED 2X THE TOTAL FEES PAID OR PAYABLE BY THE SUBSCRIBER IN THE 12 MONTHS PRIOR TO THE EVENT THAT GAVE RISE TO THE CLAIM. 
 

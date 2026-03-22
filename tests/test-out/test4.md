@@ -120,7 +120,7 @@ Paragraph. See [Part IV](#seg-59), [Clause 4.2](#seg-62), and [Schedule 1 Table 
 
 <a id="seg-61"></a>4.1 Clause — Force Majeure. A party unable to perform due to a Force Majeure Event shall notify the other promptly; obligations are suspended during the event. 
 
-4.2 Clause — Governing Law and Jurisdiction. This Instrument is governed by the laws of the State of Victoria, Australia, and the parties submit to the exclusive jurisdiction of the courts of Victoria, Australia. 
+<a id="seg-62"></a>4.2 Clause — Governing Law and Jurisdiction. This Instrument is governed by the laws of the State of Victoria, Australia, and the parties submit to the exclusive jurisdiction of the courts of Victoria, Australia. 
 
 4.3 Clause — Notices. 
 
