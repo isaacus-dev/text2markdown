@@ -14,7 +14,6 @@ if TYPE_CHECKING:
 POSSIBLE_ANNOTATIONS = ( 
     "heading",
     "title_heading",            # Reserved for document title. 
-    "title",
     "cross_ref",                # Cross referencing another annotation
     "junk",
     "quote",                    
@@ -29,7 +28,6 @@ class _Annotation:
     kind : Literal[
         "heading",
         "title_heading",
-        "title", 
         "cross_ref",
         "junk",
         "quote",
@@ -95,9 +93,10 @@ def text_to_markdown(
     segs = sorted(ilgs_doc.segments, key=lambda s: (s.span.start, -s.span.end))
     num_segs = len(segs)
 
-    # We need the disjoint span ranges of each segment for heading->segment mapping 
-    # to ensure (or increase the likelihood of) headings being unique to segments which actually have a heading
-    # rather than just ones that contain it. 
+    # we want to 'disjointify' our span segments. If we have segment spans [[25, 40], [30, 50]], 
+    # then it is desirable to have a representation in the form [[25, 30], [30, 50]]. If we have it in this form,
+    # we can say the heading [30, 40] belongs to the segment [30, 50] because it is uniquely contained in it 
+    # in the disjoint representation
     disjoint_seg_spans: list[tuple[int, int]] = []
     for seg in reversed(segs):
         dj_start = seg.span.start
@@ -110,24 +109,15 @@ def text_to_markdown(
         disjoint_seg_spans.append((dj_start, dj_end))
 
     # Check for title
-    if (title := ilgs_doc.title) is not None:
-        if title.start <= headings[0].start < title.end:
-            h = headings.popleft()
-            ann_queue.append(_Annotation(h.start, h.end, kind="title_heading"))
+    if (title := ilgs_doc.title) and title.start <= headings[0].start < title.end:
+        h = headings.popleft()
+        ann_queue.append(_Annotation(h.start, h.end, kind="title_heading"))
 
-    # If we want cross_references, then we benefit from having a segment id -> span map 
-    seg_id_to_span: dict[str, Span] = {} if cross_references else None
     id_to_seg: dict[str, Segment] = {None: None}
     has_heading: set[tuple[int, int]] = set()
 
     # Find headings and add their annotations with levels
     for idx, seg in enumerate(segs):
-        if (seg.span.start, seg.span.end) in has_heading:
-            continue
-        
-        if seg_id_to_span is not None: 
-            seg_id_to_span[seg.id] = seg.span
-        
         id_to_seg[seg.id] = seg
 
         span_start, span_end = disjoint_seg_spans[num_segs-idx-1]
@@ -136,7 +126,7 @@ def text_to_markdown(
 
         while headings and headings[0].start < span_start:
             h = headings.popleft()
-            # Default "segmentless" headings to current segment level, whatever that is
+            # Default "segmentless" headings' level to current segment level
             ann_queue.append(_Annotation(h.start, h.end, kind="heading", level=seg.level))
 
         annotations: list[tuple[int, int, int]] = []
@@ -146,11 +136,10 @@ def text_to_markdown(
             h = headings.popleft() 
             annotations.append((h.start, h.end, level))
             level += 1
+
         if not annotations:
             # no heading in this segment
             continue
-
-        has_heading.add((seg.span.start, seg.span.end))
 
         for ann in annotations: 
             ann_start, ann_end, ann_level = ann
@@ -162,8 +151,10 @@ def text_to_markdown(
                 if (curr.span.start, curr.span.end) not in has_heading:
                     ann_level -= 1
                 curr = id_to_seg[curr.parent]
-            
+    
             ann_queue.append(_Annotation(ann_start, ann_end, kind="heading", level=ann_level))
+
+        has_heading.add((seg.span.start, seg.span.end))
 
 
     # Gather annotations for the optional parameters!
@@ -186,7 +177,7 @@ def text_to_markdown(
                     )
 
                     # need to add in annotations for the source reference as well, for anchoring
-                    start_seg_span = seg_id_to_span[start_id]
+                    start_seg_span = id_to_seg[start_id].span
                     ann_queue.append(
                         _Annotation(start_seg_span.start, start_seg_span.end, kind="src_ref", start_id=start_id)
                     )
@@ -224,7 +215,7 @@ def text_to_markdown(
         
         # Headings may span multiple lines; in this case, we want to concatenate them 
         # onto the same line
-        if in_heading and kind == "heading" or kind == "title":
+        if in_heading and kind == "heading":
             # stich heading together
             pieces = [s.strip() for s in text[curr_idx:pos].split()]
             if pieces:
@@ -233,7 +224,7 @@ def text_to_markdown(
             md.append(text[curr_idx:pos])
 
         match ann.kind:
-            case "heading" | "title":
+            case "heading":
                 # prepend with # based on level (at least 2)
                 if t=="start":
                     md.append(f"\n{'#'*(min(6, ann.level+2))} ")

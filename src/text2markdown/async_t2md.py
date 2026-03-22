@@ -60,4 +60,4 @@ async def text_to_markdown_async(
     return text_to_markdown(ilgs_doc, cross_references=cross_references,
                             strike_junk=strike_junk, wrap_quotes=wrap_quotes,
                             italicise_ext_refs=italicise_ext_refs,
-                            isaacus_client=isaacus_client)
+                            isaacus_client=client)
