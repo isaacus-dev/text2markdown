@@ -1,357 +1,365 @@
-## Unit 1: Planning a business 
+## Unit 1: Planning a business
 
-Businesses of all sizes are major contributors to the economic and social wellbeing of a nation. The ability of entrepreneurs to establish a business and the fostering of conditions under which new business ideas can emerge are vital for a nation’s wellbeing. Taking a business idea and planning how to make it a reality are the cornerstones of economic and social development. In this unit students explore the factors affecting business ideas and the internal and external environments within which businesses operate, as well as the effect of these on planning a business. They also consider the importance of the business sector to the national economy and social wellbeing. 
+Businesses of all sizes are major contributors to the economic and social wellbeing of a nation. The ability of entrepreneurs to establish a business and the fostering of conditions under which new business ideas can emerge are vital for a nation’s wellbeing. Taking a business idea and planning how to make it a reality are the cornerstones of economic and social development. In this unit students explore the factors affecting business ideas and the internal and external environments within which businesses operate, as well as the effect of these on planning a business. They also consider the importance of the business sector to the national economy and social wellbeing.
 
-### <a id="seg-2"></a>Area of Study 1 
+### <a id="seg-2"></a>Area of Study 1
 
-#### The business idea 
+#### The business idea
 
-In this area of study students investigate the concept of entrepreneurship. They consider how business ideas are created and how conditions can be fostered for new business ideas to emerge. New business ideas come from a range of sources, such as identifying a gap in the market, technological developments and changing customer needs. Students explore some of the considerations to be made before a business can be established as well as the importance of businesses to the national economy and social wellbeing. 
+In this area of study students investigate the concept of entrepreneurship. They consider how business ideas are created and how conditions can be fostered for new business ideas to emerge. New business ideas come from a range of sources, such as identifying a gap in the market, technological developments and changing customer needs. Students explore some of the considerations to be made before a business can be established as well as the importance of businesses to the national economy and social wellbeing.
 
-#### Outcome 1 
+#### Outcome 1
 
-On completion of this unit the student should be able to describe a process for creating and developing  
+On completion of this unit the student should be able to describe a process for creating and developing 
 
-a business idea, and explain how innovative and entrepreneurial practices can contribute to the national economy and social wellbeing. 
+a business idea, and explain how innovative and entrepreneurial practices can contribute to the national economy and social wellbeing.
 
-To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 1](#seg-2). 
+To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 1](#seg-2).
 
-#### Key knowledge 
+#### Key knowledge
 
-• the concept of entrepreneurship 
+&emsp;• the concept of entrepreneurship
 
-• the personal motivation behind starting a business such as the desire for financial and personal independence, to make a profit and to fulfil a market and/or social need 
+&emsp;• the personal motivation behind starting a business such as the desire for financial and personal independence, to make a profit and to fulfil a market and/or social need
 
-• the characteristics of successful business managers and business entrepreneurs and how these characteristics contribute to business success 
+&emsp;• the characteristics of successful business managers and business entrepreneurs and how these characteristics contribute to business success
 
-• sources of business opportunity such as innovation, recognising and taking advantage of market opportunities, changing customer needs, research and development, technological development  
+&emsp;• sources of business opportunity such as innovation, recognising and taking advantage of market opportunities, changing customer needs, research and development, technological development 
 
-and global markets 
+and global markets
 
-• the importance of goal setting and decision-making in business 
+&emsp;• the importance of goal setting and decision-making in business
 
-• the importance of business concept development 
+&emsp;• the importance of business concept development
 
-• the relationship between business opportunities and business concept development 
+&emsp;• the relationship between business opportunities and business concept development
 
-• market research and initial feasibility studies 
+&emsp;• market research and initial feasibility studies
 
-• the contribution that businesses make to the economic and social wellbeing of a nation 
+&emsp;• the contribution that businesses make to the economic and social wellbeing of a nation
 
-• the methods by which a culture of business innovation and entrepreneurship may be fostered in  
+&emsp;• the methods by which a culture of business innovation and entrepreneurship may be fostered in 
 
-a nation, such as government investment in research and development, council grants for new businesses, school-based educational programs in entrepreneurship, and the creation of regional business start-up hubs 
+a nation, such as government investment in research and development, council grants for new businesses, school-based educational programs in entrepreneurship, and the creation of regional business start-up hubs
 
-#### Key skills 
+#### Key skills
 
-• identify, define, describe and apply business management concepts and terms 
+&emsp;• identify, define, describe and apply business management concepts and terms
 
-• interpret, discuss and compare business information and ideas 
+&emsp;• interpret, discuss and compare business information and ideas
 
-• analyse case studies and contemporary examples of business management 
+&emsp;• analyse case studies and contemporary examples of business management
 
-• apply business management knowledge to practical and/or simulated business situations 
+&emsp;• apply business management knowledge to practical and/or simulated business situations
 
-### <a id="seg-24"></a>Area of Study 2 
+### <a id="seg-24"></a>Area of Study 2
 
-#### Internal business environment and planning 
+#### Internal business environment and planning
 
-The internal environment affects the approach a business takes to planning and the extent to which planning is successful. A business owner will generally have more control over the activities, functions and pressures that occur within the business. These factors, such as business models, legal business structures and staffing, will also be influenced to some extent by the external environment. Students explore the factors within the internal business environment and consider how planning decisions involving these factors may affect the ultimate success of a business, with success being measured by the extent to which business objectives are met within a specific timeframe. 
+The internal environment affects the approach a business takes to planning and the extent to which planning is successful. A business owner will generally have more control over the activities, functions and pressures that occur within the business. These factors, such as business models, legal business structures and staffing, will also be influenced to some extent by the external environment. Students explore the factors within the internal business environment and consider how planning decisions involving these factors may affect the ultimate success of a business, with success being measured by the extent to which business objectives are met within a specific timeframe.
 
-#### Outcome 2 
+#### Outcome 2
 
-On completion of this unit the student should be able to describe the internal business environment and analyse how factors from within it may affect business planning. 
+On completion of this unit the student should be able to describe the internal business environment and analyse how factors from within it may affect business planning.
 
-To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 2](#seg-24). 
+To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 2](#seg-24).
 
-#### Key knowledge 
+#### Key knowledge
 
-• the relationship between the internal environment and the external environment of a business 
+&emsp;• the relationship between the internal environment and the external environment of a business
 
-• types of businesses such as sole trader, partnership, private limited company, public listed company, social enterprises and government business enterprises, and the factors affecting the choice of business structure 
+&emsp;• types of businesses such as sole trader, partnership, private limited company, public listed company, social enterprises and government business enterprises, and the factors affecting the choice of business structure
 
-• types of business models such as online business, direct-to-consumer business, bricks-and-mortar business, franchise, importer and exporter 
+&emsp;• types of business models such as online business, direct-to-consumer business, bricks-and-mortar business, franchise, importer and exporter
 
-• costs and benefits of purchasing an existing business compared with establishing a new business 
+&emsp;• costs and benefits of purchasing an existing business compared with establishing a new business
 
-• business resource needs (natural, labour and capital) and the factors affecting the use of business resources  
+&emsp;• business resource needs (natural, labour and capital) and the factors affecting the use of business resources 
 
-• business locations and the factors affecting choice of location 
+&emsp;• business locations and the factors affecting choice of location
 
-• sources of finance available to establish a business and the factors affecting the type and source of finance chosen 
+&emsp;• sources of finance available to establish a business and the factors affecting the type and source of finance chosen
 
-• business support services such as legal, financial, technological, community-based, formal and informal networks, and business mentors 
+&emsp;• business support services such as legal, financial, technological, community-based, formal and informal networks, and business mentors
 
-• planning analysis tools to assist in determining the strengths and weaknesses of decisions regarding changing internal factors, such as SWOT analysis 
+&emsp;• planning analysis tools to assist in determining the strengths and weaknesses of decisions regarding changing internal factors, such as SWOT analysis
 
-• overview of business plans, including the benefits of using them and an outline of their key features  
+&emsp;• overview of business plans, including the benefits of using them and an outline of their key features 
 
-• corporate social responsibility considerations and business planning 
+&emsp;• corporate social responsibility considerations and business planning
 
-#### Key skills 
+#### Key skills
 
-• identify, define, describe and apply business management concepts and terms  
+&emsp;• identify, define, describe and apply business management concepts and terms 
 
-• interpret, discuss, compare and evaluate business information and ideas  
+&emsp;• interpret, discuss, compare and evaluate business information and ideas 
 
-• analyse case studies and contemporary examples of business management 
+&emsp;• analyse case studies and contemporary examples of business management
 
-• apply business management knowledge to practical and/or simulated business situations 
+&emsp;• apply business management knowledge to practical and/or simulated business situations
 
-### <a id="seg-47"></a>Area of Study 3 External business environment and planning 
+### <a id="seg-47"></a>Area of Study 3
 
-The external environment consists of all elements outside a business that may act as pressures or forces on business operations. Students consider factors from the external environment such as legal, political, social, economic, technological, global and corporate social responsibility factors and the effects these may have on the decisions made when planning a business. 
+### External business environment and planning
 
-#### Outcome 3 
+The external environment consists of all elements outside a business that may act as pressures or forces on business operations. Students consider factors from the external environment such as legal, political, social, economic, technological, global and corporate social responsibility factors and the effects these may have on the decisions made when planning a business.
 
-On completion of this unit the student should be able to describe the external environment of a business and explain how the macro and operating factors within it may affect business planning. 
+#### Outcome 3
 
-To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 3](#seg-47). 
+On completion of this unit the student should be able to describe the external environment of a business and explain how the macro and operating factors within it may affect business planning.
 
-#### Key knowledge 
+To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 3](#seg-47).
 
-• an overview of the factors within the external (macro and operating) environment that affect business planning 
+#### Key knowledge
 
-##### Macro factors affecting business planning 
+&emsp;• an overview of the factors within the external (macro and operating) environment that affect business planning
 
-• an overview of key legal and government regulations affecting businesses in the planning stage 
+##### Macro factors affecting business planning
 
-• societal attitudes and behaviour such as values, beliefs and trends 
+&emsp;• an overview of key legal and government regulations affecting businesses in the planning stage
 
-• economic conditions such as interest rates, employment levels, tax rates and levels of consumer confidence 
+&emsp;• societal attitudes and behaviour such as values, beliefs and trends
 
-• technological considerations such as how the market may change in the future and how businesses adapt to developments in technology 
+&emsp;• economic conditions such as interest rates, employment levels, tax rates and levels of consumer confidence
 
-• global considerations such as overseas competitors, overseas markets, offshoring of labour, exchange rates, patenting, copyrights, trademarks and online sales 
+&emsp;• technological considerations such as how the market may change in the future and how businesses adapt to developments in technology
 
-• corporate social responsibility considerations related to business planning, such as environmental considerations and planning for socially responsible production of goods and services 
+&emsp;• global considerations such as overseas competitors, overseas markets, offshoring of labour, exchange rates, patenting, copyrights, trademarks and online sales
 
-##### Operating factors that affect business planning 
+&emsp;• corporate social responsibility considerations related to business planning, such as environmental considerations and planning for socially responsible production of goods and services
 
-• customer needs and expectations 
+##### Operating factors that affect business planning
 
-• competitors’ behaviour 
+&emsp;• customer needs and expectations
 
-• suppliers of business resources and considerations regarding the supply chain, such as from where resources are sourced and how they reach the business 
+&emsp;• competitors’ behaviour
 
-• special interest groups such as environmental lobby groups, business associations and unions 
+&emsp;• suppliers of business resources and considerations regarding the supply chain, such as from where resources are sourced and how they reach the business
 
-#### Key skills 
+&emsp;• special interest groups such as environmental lobby groups, business associations and unions
 
-• identify, define, describe and apply business management concepts and terms 
+#### Key skills
 
-• interpret, discuss, compare and evaluate business information and ideas 
+&emsp;• identify, define, describe and apply business management concepts and terms
 
-• analyse case studies and contemporary examples of business management 
+&emsp;• interpret, discuss, compare and evaluate business information and ideas
 
-• apply business management knowledge to practical and/or simulated business situations 
+&emsp;• analyse case studies and contemporary examples of business management
 
-### Assessment 
+&emsp;• apply business management knowledge to practical and/or simulated business situations
 
-The award of satisfactory completion for a unit is based on whether the student has demonstrated the set of outcomes specified for the unit. Teachers should use a variety of learning activities and assessment tasks that provide a range of opportunities for students to demonstrate the key knowledge and key skills in the outcomes. 
+### Assessment
 
-The areas of study, including the key knowledge and key skills listed for the outcomes, should be used for course design and the development of learning activities and assessment tasks. Assessment must be a part of the regular teaching and learning program and should be completed mainly in class and within a limited timeframe. 
+The award of satisfactory completion for a unit is based on whether the student has demonstrated the set of outcomes specified for the unit. Teachers should use a variety of learning activities and assessment tasks that provide a range of opportunities for students to demonstrate the key knowledge and key skills in the outcomes.
 
-All assessments at Units 1 and 2 are school-based. Procedures for assessment of levels of achievement in Units 1 and 2 are a matter for school decision. 
+The areas of study, including the key knowledge and key skills listed for the outcomes, should be used for course design and the development of learning activities and assessment tasks. Assessment must be a part of the regular teaching and learning program and should be completed mainly in class and within a limited timeframe.
 
-For this unit students are required to demonstrate three outcomes. As a set these outcomes encompass the areas of study in the unit. 
+All assessments at Units 1 and 2 are school-based. Procedures for assessment of levels of achievement in Units 1 and 2 are a matter for school decision.
 
-Suitable tasks for assessment in this unit may be selected from the following: 
+For this unit students are required to demonstrate three outcomes. As a set these outcomes encompass the areas of study in the unit.
 
-• a case study analysis 
+Suitable tasks for assessment in this unit may be selected from the following:
 
-• short-answer and extended-answer structured questions 
+&emsp;• a case study analysis
 
-• a business research report 
+&emsp;• short-answer and extended-answer structured questions
 
-• development of a business plan and/or feasibility study 
+&emsp;• a business research report
 
-• an interview with and a report on a chosen business 
+&emsp;• development of a business plan and/or feasibility study
 
-• a school-based, short-term business activity 
+&emsp;• an interview with and a report on a chosen business
 
-• a business simulation exercise 
+&emsp;• a school-based, short-term business activity
 
-• an essay 
+&emsp;• a business simulation exercise
 
-• a business survey and analysis 
+&emsp;• an essay
 
-• a media analysis. 
+&emsp;• a business survey and analysis
 
-Where teachers allow students to choose between tasks, they must ensure that the tasks they set are of comparable scope and demand. 
+&emsp;• a media analysis.
 
-## Unit 2: Establishing a business 
+Where teachers allow students to choose between tasks, they must ensure that the tasks they set are of comparable scope and demand.
 
-This unit focuses on the establishment phase of a business. Establishing a business involves compliance with legal requirements as well as decisions about how best to establish a system of financial record keeping, staff the business and establish a customer base. In this unit students examine the legal requirements that must be met to establish a business. They investigate the essential features of effective marketing and consider the best way to meet the needs of the business in terms of staffing and financial record keeping. Students analyse management practices by applying key knowledge to contemporary business case studies from the past four years. 
+## Unit 2: Establishing a business
 
-### Area of Study 1 Legal requirements and financial considerations 
+This unit focuses on the establishment phase of a business. Establishing a business involves compliance with legal requirements as well as decisions about how best to establish a system of financial record keeping, staff the business and establish a customer base. In this unit students examine the legal requirements that must be met to establish a business. They investigate the essential features of effective marketing and consider the best way to meet the needs of the business in terms of staffing and financial record keeping. Students analyse management practices by applying key knowledge to contemporary business case studies from the past four years.
 
-It is essential to deal with legal and financial matters when establishing a business. In this area of study students are introduced to the legal requirements and financial considerations that are vital in establishing a business. They also consider the implications for the business if legal and financial requirements are not met. 
+### Area of Study 1
 
-#### Outcome 1 
+### Legal requirements and financial considerations
 
-On completion of this unit the student should be able to outline the key legal requirements and financial record-keeping considerations when establishing a business, and explain the importance of establishing effective policies and procedures to achieve compliance with these requirements.  
+It is essential to deal with legal and financial matters when establishing a business. In this area of study students are introduced to the legal requirements and financial considerations that are vital in establishing a business. They also consider the implications for the business if legal and financial requirements are not met.
 
-To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 1](#seg-2). 
+#### Outcome 1
 
-#### Key knowledge 
+On completion of this unit the student should be able to outline the key legal requirements and financial record-keeping considerations when establishing a business, and explain the importance of establishing effective policies and procedures to achieve compliance with these requirements. 
 
-• an overview of key legal requirements for establishing a business such as registering the business name, registering a website domain, trade practices legislation, business tax compliance and work  
+To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 1](#seg-2).
 
-safe insurance 
+#### Key knowledge
 
-• an overview of the role of external professionals when establishing a business 
+&emsp;• an overview of key legal requirements for establishing a business such as registering the business name, registering a website domain, trade practices legislation, business tax compliance and work 
 
-• the importance of establishing bank accounts, financial control systems and record-keeping strategies  
+safe insurance
 
-• the importance of choosing appropriate suppliers including the benefits and limitations of suppliers that meet the corporate social responsibility objectives of the business 
+&emsp;• an overview of the role of external professionals when establishing a business
 
-• the need for policies and procedures to achieve compliance with legal requirements and establish business routines 
+&emsp;• the importance of establishing bank accounts, financial control systems and record-keeping strategies 
 
-• technological and global issues that may affect decision-making when establishing a business, such  
+&emsp;• the importance of choosing appropriate suppliers including the benefits and limitations of suppliers that meet the corporate social responsibility objectives of the business
 
-as generating customer databases and contacts with overseas suppliers and retailers 
+&emsp;• the need for policies and procedures to achieve compliance with legal requirements and establish business routines
 
-#### Key skills 
+&emsp;• technological and global issues that may affect decision-making when establishing a business, such 
 
-• identify, define, describe and apply business management concepts and terms 
+as generating customer databases and contacts with overseas suppliers and retailers
 
-• interpret, discuss, compare and evaluate business information and ideas 
+#### Key skills
 
-• analyse case studies and contemporary examples of business management 
+&emsp;• identify, define, describe and apply business management concepts and terms
 
-• apply business management knowledge to practical and/or simulated business situations 
+&emsp;• interpret, discuss, compare and evaluate business information and ideas
 
-### <a id="seg-106"></a>Area of Study 2 Marketing a business 
+&emsp;• analyse case studies and contemporary examples of business management
 
-Establishing a strong customer base for a business is an important component of success. In this area  
+&emsp;• apply business management knowledge to practical and/or simulated business situations
 
-of study students develop an understanding that marketing encompasses a wide range of management practices, from identifying the needs of the target market and creating a brand presence through to consideration of the 7Ps of marketing and the impact of rapidly changing technology on marketing practices. They also consider effective public relations strategies and the benefits these can bring to  
+### <a id="seg-106"></a>Area of Study 2
 
-a business. 
+### Marketing a business
 
-### Outcome 2 
+Establishing a strong customer base for a business is an important component of success. In this area 
 
-On completion of this unit the student should be able to explain how establishing a customer base and  
+of study students develop an understanding that marketing encompasses a wide range of management practices, from identifying the needs of the target market and creating a brand presence through to consideration of the 7Ps of marketing and the impact of rapidly changing technology on marketing practices. They also consider effective public relations strategies and the benefits these can bring to 
 
-a marketing presence supports the achievement of business objectives, analyse effective marketing and public relations strategies and apply these strategies to business-related case studies. 
+a business.
 
-To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 2](#seg-106). 
+### Outcome 2
 
-### Key knowledge 
+On completion of this unit the student should be able to explain how establishing a customer base and 
 
-• the relationship between marketing, establishing a customer base and business objectives 
+a marketing presence supports the achievement of business objectives, analyse effective marketing and public relations strategies and apply these strategies to business-related case studies.
 
-• internal and external (macro and operating) environment factors affecting the establishment of a customer base and creation of a brand identity 
+To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 2](#seg-106).
 
-• market research practices such as data collection techniques, analysis and interpretation 
+### Key knowledge
 
-• target market attributes such as market dimensions, segments, consumer trends and behaviour 
+&emsp;• the relationship between marketing, establishing a customer base and business objectives
 
-• the 7Ps model of marketing: product, price, place, promotion, people, physical evidence and process 
+&emsp;• internal and external (macro and operating) environment factors affecting the establishment of a customer base and creation of a brand identity
 
-• the product life cycle: introduction, growth, maturity, decline, extension, and the relationship between each of these stages and the choice of marketing strategy 
+&emsp;• market research practices such as data collection techniques, analysis and interpretation
 
-• the features and value of customer relations strategies such as providing quality customer service and establishing customer loyalty programs 
+&emsp;• target market attributes such as market dimensions, segments, consumer trends and behaviour
 
-• technological developments in marketing such as social media, email marketing, search engine optimisation, artificial intelligence, data analytics and management of data 
+&emsp;• the 7Ps model of marketing: product, price, place, promotion, people, physical evidence and process
 
-• an overview of public relations and its relationship to business objectives 
+&emsp;• the product life cycle: introduction, growth, maturity, decline, extension, and the relationship between each of these stages and the choice of marketing strategy
 
-• public relations strategies such as planned and crisis public relations, the importance of maintaining a positive relationship with the customer base and the implications if this relationship is not maintained 
+&emsp;• the features and value of customer relations strategies such as providing quality customer service and establishing customer loyalty programs
 
-• corporate social responsibility management considerations regarding establishment of a customer base, such as green marketing and the protection of customer privacy 
+&emsp;• technological developments in marketing such as social media, email marketing, search engine optimisation, artificial intelligence, data analytics and management of data
 
-### Key skills 
+&emsp;• an overview of public relations and its relationship to business objectives
 
-• identify, define, describe and apply business management concepts and terms 
+&emsp;• public relations strategies such as planned and crisis public relations, the importance of maintaining a positive relationship with the customer base and the implications if this relationship is not maintained
 
-• interpret, discuss, compare and evaluate business information and ideas 
+&emsp;• corporate social responsibility management considerations regarding establishment of a customer base, such as green marketing and the protection of customer privacy
 
-• analyse case studies and contemporary examples of business management 
+### Key skills
 
-• apply business management knowledge to practical and/or simulated business situations 
+&emsp;• identify, define, describe and apply business management concepts and terms
 
-### <a id="seg-130"></a>Area of Study 3 Staffing a business 
+&emsp;• interpret, discuss, compare and evaluate business information and ideas
 
-Staff, as one of the greatest assets of a business, are an important consideration during the establishment phase. The quantity and quality of staff has a direct link to business productivity and the achievement of business objectives. In this area of study students consider staffing requirements that will meet the needs of a business and contribute to productivity and achievement of business objectives. They research the processes undertaken by the business in relation to the recruitment, selection and induction of staff. Students consider the opportunities that the skills and capabilities of staff can offer a business, the legal obligations that must be addressed in relation to staff, and the relationship between employers and employees within a business. 
+&emsp;• analyse case studies and contemporary examples of business management
 
-### Outcome 3 
+&emsp;• apply business management knowledge to practical and/or simulated business situations
 
-On completion of this unit the student should be able to discuss the importance of staff to a business, discuss the staffing needs for a business, and evaluate staff-management strategies from both an employer and staff perspective. 
+### <a id="seg-130"></a>Area of Study 3
 
-To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 3](#seg-130). 
+### Staffing a business
 
-### Key knowledge 
+Staff, as one of the greatest assets of a business, are an important consideration during the establishment phase. The quantity and quality of staff has a direct link to business productivity and the achievement of business objectives. In this area of study students consider staffing requirements that will meet the needs of a business and contribute to productivity and achievement of business objectives. They research the processes undertaken by the business in relation to the recruitment, selection and induction of staff. Students consider the opportunities that the skills and capabilities of staff can offer a business, the legal obligations that must be addressed in relation to staff, and the relationship between employers and employees within a business.
 
-• the relationship between the performance of staff and achieving business objectives 
+### Outcome 3
 
-• identification of the staffing needs of the business such as the knowledge, skills and ideas staff can contribute to the business 
+On completion of this unit the student should be able to discuss the importance of staff to a business, discuss the staffing needs for a business, and evaluate staff-management strategies from both an employer and staff perspective.
 
-• the effects that developments in technology may have on staffing needs 
+To achieve this outcome the student will draw on key knowledge and key skills outlined in [Area of Study 3](#seg-130).
 
-• job analysis and its relationship to job design, job descriptions and job specifications 
+### Key knowledge
 
-• recruitment methods and the advantages and disadvantages of each method: 
+&emsp;• the relationship between the performance of staff and achieving business objectives
 
-• internal such as intranet and word of mouth 
+&emsp;• identification of the staffing needs of the business such as the knowledge, skills and ideas staff can contribute to the business
 
-• external such as websites, online recruitment agencies and social media 
+&emsp;• the effects that developments in technology may have on staffing needs
 
-• selection methods such as interview, psychological testing, work testing, online selection, and the advantages and disadvantages of each 
+&emsp;• job analysis and its relationship to job design, job descriptions and job specifications
 
-• overview of the *National Employment Standards* 
+&emsp;• recruitment methods and the advantages and disadvantages of each method:
 
-• employer expectations such as contracts of employment, loyalty and terms of notice 
+&emsp;• internal such as intranet and word of mouth
 
-• employee expectations such as conditions of employment, remuneration, job security and work-life balance 
+&emsp;• external such as websites, online recruitment agencies and social media
 
-• overview of legal obligations for staffing such as occupational health and safety (OH&S) regulations and equal employment opportunity (EEO) legislation  
+&emsp;• selection methods such as interview, psychological testing, work testing, online selection, and the advantages and disadvantages of each
 
-• the purpose and common methods of employee induction 
+&emsp;• overview of the *National Employment Standards*
 
-• corporate social responsibility management considerations regarding establishment of staffing for a business and overseas recruitment 
+&emsp;• employer expectations such as contracts of employment, loyalty and terms of notice
 
-### Key skills 
+&emsp;• employee expectations such as conditions of employment, remuneration, job security and work-life balance
 
-• identify, define, describe and apply business management concepts and terms 
+&emsp;• overview of legal obligations for staffing such as occupational health and safety (OH&S) regulations and equal employment opportunity (EEO) legislation 
 
-• interpret, discuss, compare and evaluate business information and ideas 
+&emsp;• the purpose and common methods of employee induction
 
-• analyse case studies and contemporary examples of business management 
+&emsp;• corporate social responsibility management considerations regarding establishment of staffing for a business and overseas recruitment
 
-• apply business management knowledge to practical and/or simulated business situations 
+### Key skills
 
-### Assessment 
+&emsp;• identify, define, describe and apply business management concepts and terms
 
-The award of satisfactory completion for a unit is based on whether the student has demonstrated the set of outcomes specified for the unit. Teachers should use a variety of learning activities and assessment tasks that provide a range of opportunities for students to demonstrate the key knowledge and key skills  
+&emsp;• interpret, discuss, compare and evaluate business information and ideas
 
-in the outcomes. 
+&emsp;• analyse case studies and contemporary examples of business management
 
-The areas of study, including the key knowledge and key skills listed for the outcomes, should be used for course design and the development of learning activities and assessment tasks. Assessment must be a part of the regular teaching and learning program and should be completed mainly in class and within a limited timeframe. 
+&emsp;• apply business management knowledge to practical and/or simulated business situations
 
-All assessments at Units 1 and 2 are school-based. Procedures for assessment of levels of achievement in Units 1 and 2 are a matter for school decision. 
+### Assessment
 
-For this unit students are required to demonstrate three outcomes. As a set these outcomes encompass the areas of study in the unit. 
+The award of satisfactory completion for a unit is based on whether the student has demonstrated the set of outcomes specified for the unit. Teachers should use a variety of learning activities and assessment tasks that provide a range of opportunities for students to demonstrate the key knowledge and key skills 
 
-Suitable tasks for assessment in this unit may be selected from the following: 
+in the outcomes.
 
-• a case study analysis 
+The areas of study, including the key knowledge and key skills listed for the outcomes, should be used for course design and the development of learning activities and assessment tasks. Assessment must be a part of the regular teaching and learning program and should be completed mainly in class and within a limited timeframe.
 
-• short-answer and extended-answer structured questions 
+All assessments at Units 1 and 2 are school-based. Procedures for assessment of levels of achievement in Units 1 and 2 are a matter for school decision.
 
-• a business research report 
+For this unit students are required to demonstrate three outcomes. As a set these outcomes encompass the areas of study in the unit.
 
-• an interview with and a report on a chosen business 
+Suitable tasks for assessment in this unit may be selected from the following:
 
-• a school-based, short-term business activity 
+&emsp;• a case study analysis
 
-• a business simulation exercise 
+&emsp;• short-answer and extended-answer structured questions
 
-• an essay 
+&emsp;• a business research report
 
-• a business survey and analysis 
+&emsp;• an interview with and a report on a chosen business
 
-• a media analysis. 
+&emsp;• a school-based, short-term business activity
+
+&emsp;• a business simulation exercise
+
+&emsp;• an essay
+
+&emsp;• a business survey and analysis
+
+&emsp;• a media analysis.
 
 Where teachers allow students to choose between tasks, they must ensure that the tasks they set are of comparable scope and demand.

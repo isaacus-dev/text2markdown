@@ -28,7 +28,7 @@ def get_text(path: PathLike) -> str:
 
 
 def no_api_key() -> bool:
-    """ Call `text_to_markdown` with no API key. """
+    """ Call `text2markdown` with no API key. """
     tests = [test for test in TEST_DIR.iterdir() if test.is_file()]
     text = get_text(tests[0])
 
@@ -42,7 +42,7 @@ def no_api_key() -> bool:
 
 
 def run_default() -> None:
-    """ Calls `text_to_markdown` on all tests in `/test_in`
+    """ Calls `text2markdown` on all tests in `/test_in`
     with default args and saves output in `/test_out`
     """
     tests = sorted([test for test in  TEST_DIR.iterdir() if test.is_file() and test.suffix == ".txt"])

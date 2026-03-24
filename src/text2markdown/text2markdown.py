@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import re
+
 from typing import Literal
 from collections import deque
 from dataclasses import dataclass
@@ -11,7 +13,7 @@ from isaacus.types.ilgs.v1.document import Document as ILGSDocument
 
 _POSSIBLE_ANNOTATIONS = (
     "heading",
-    "title_heading",  # Reserved for document title.
+    "subtitle",
     "cross_ref",  # Cross referencing another annotation
     "junk",
     "quote",
@@ -23,10 +25,10 @@ _POSSIBLE_ANNOTATIONS = (
 @dataclass
 class _Annotation:
     start: int  # Annotation starting index
-    end: int  # Annotation Ending index
+    end: int  # Annotation ending index
     kind: Literal[
         "heading",
-        "title_heading",
+        "subtitle",
         "cross_ref",
         "junk",
         "quote",
@@ -38,7 +40,21 @@ class _Annotation:
     seg_id: int | None = None  # Segment ID the heading is a part of
 
     # kind=="cross_ref" or "src_ref" only
-    start_id: int | None = None  # Starting segment ID of reference (where the cross_ref will point to)
+    start_id: int | None = None  # Starting segment ID of reference (where cross_ref points to)
+
+
+def is_list_line(line: str):
+    list_patterns = [
+        # Unordered lists: -, *, +
+        re.compile(r'^\s{0,3}[-+*]\s+'),
+
+        # Ordered lists: 1.  2.  10.
+        re.compile(r'^\s{0,3}\d+\.\s+'),
+
+        # Ordered lists with parentheses: 1)  2)
+        re.compile(r'^\s{0,3}\d+\)\s+'),
+    ]
+    return any(p.match(line) for p in list_patterns)
 
 
 def text2markdown(
@@ -105,10 +121,15 @@ def text2markdown(
 
         disjoint_seg_spans.append((dj_start, dj_end))
 
-    # Check for title
-    if (title := doc.title) and title.start <= headings[0].start < title.end:
+    # Check for title; level 1 heading "#" is reserved for the title heading
+    if (title := doc.title) and headings[0].start <= title.start < headings[0].end:
         h = headings.popleft()
-        ann_queue.append(_Annotation(h.start, h.end, kind="title_heading"))
+        ann_queue.append(_Annotation(h.start, h.end, kind="heading", level=1))
+
+    # Extract subtitle
+    if (subtitle := doc.subtitle) and headings[0].start <= subtitle.start < headings[0].end:
+        h = headings.popleft()
+        ann_queue.append(_Annotation(h.start, h.end, kind="subtitle"))
 
     id_to_seg: dict[str, Segment] = {None: None}
     has_heading: set[tuple[int, int]] = set()
@@ -117,22 +138,23 @@ def text2markdown(
     for idx, seg in enumerate(segs):
         id_to_seg[seg.id] = seg
 
-        span_start, span_end = disjoint_seg_spans[num_segs - idx - 1]
+        span_start, span_end = disjoint_seg_spans[num_segs - idx - 1] # disjoint span interval
         if span_end - span_start <= 0:
             continue
 
-        while headings and headings[0].start < span_start:
+        curr_level = seg.level + 2 # offset counting to start from 2 instead of 0 (number of #'s in markdown format)
+        while headings and headings[0].start < span_start: 
             h = headings.popleft()
             # Default "segmentless" headings' level to current segment level
-            ann_queue.append(_Annotation(h.start, h.end, kind="heading", level=seg.level))
+            ann_queue.append(_Annotation(h.start, h.end, kind="heading", level=curr_level))
 
         annotations: list[tuple[int, int, int]] = []
-        level = seg.level
-        # annotate any headings in our disjointified span interval
+        # annotate any headings we find in this segments disjointified span interval
+        lev = curr_level
         while headings and span_start <= headings[0].start < span_end:
             h = headings.popleft()
-            annotations.append((h.start, h.end, level))
-            level += 1
+            annotations.append((h.start, h.end, lev))
+            lev += 1
 
         if not annotations:
             # no heading in this segment
@@ -195,47 +217,38 @@ def text2markdown(
         events.append((ann.end, "end", ann))
     events.sort(key=lambda a: (a[0], tie_break[a[-1].kind]))
 
-    in_heading = True
+    anchors: set[str] = set()
     curr_idx = 0
     md: list[str] = []  # Output markdown
     for pos, t, ann in events:
         kind = ann.kind
-
-        # Headings may span multiple lines; in this case, we want to concatenate them
-        # onto the same line
-        if in_heading and kind == "heading":
-            # stich heading together
-            pieces = [s.strip() for s in text[curr_idx:pos].split()]
-            if pieces:
-                md.append(" ".join(pieces) + "\n")
-        elif pos != curr_idx:
-            md.append(text[curr_idx:pos])
-
+        md.append(text[curr_idx:pos])
         match ann.kind:
             case "heading":
-                # prepend with # based on level (at least 2)
-                if t == "start":
-                    md.append(f"\n{'#' * (min(6, ann.level + 2))} ")
-                    in_heading = True
-                if t == "end":
-                    in_heading = False
+                # prepend with '#' based on level (at most 6)
+                num_hashtags = min(6, ann.level)
+                if num_hashtags == 1:
+                    # Title heading, center it 
+                    md.append("""<h1 style ="text-align: center;">""" if t == "start" else "</h1>")
+                    curr_idx = pos
+                    continue
 
-            case "title_heading":
-                # prepend single #
-                md.append("# " if t == "start" else "\n")
-                in_heading = t == "start"
+                prefix = f"\n{'#' * num_hashtags} "
+                if t == "start":
+                    md.append(prefix)
+
+                elif t == "end":
+                    md.pop() # Avoid heading duplication
+                    # add hashtags at the start of every heading line
+                    pieces = [s for s in text[curr_idx:pos].split('\n') if s.strip()]
+                    if pieces:
+                        md.append(prefix.join(pieces))
+            
+            case "subtitle":
+                md.append("""<p style="text-align: center;">""" if t == "start" else "</p>")
 
             case "cross_ref":
-                # Set hyperlink
-                newlines = 0
-                # Ensure that we remove all added whitespace/newlines before enclosing in brackets
-                if md and t == "end":
-                    original_len = len(md[-1])
-                    md[-1] = md[-1].rstrip()
-                    newlines = original_len - len(md[-1])
-
-                appended = "\n" * newlines
-                md.append("[" if t == "start" else f"](#{ann.start_id.replace(':', '-')}){appended}")
+                md.append("[" if t == "start" else f"](#{ann.start_id.replace(':', '-')})")
 
             case "junk":
                 # strike-out junk
@@ -255,8 +268,9 @@ def text2markdown(
             case "src_ref":
                 # set anchor at source
                 tag = f"""<a id="{ann.start_id.replace(":", "-")}"></a>"""
-                if md and tag not in md[-1] and t == "start":
+                if tag not in anchors:
                     md.append(tag)
+                anchors.add(tag)
 
         curr_idx = pos
 
@@ -267,12 +281,11 @@ def text2markdown(
     in_junk = False
     clean = []
     for line in raw.splitlines():
-        # subsequent lines of text marked as junk
+        # we're in a junk block; ensure '~~' is present on both ends of the line
         if in_junk:
-            if not line.endswith("~"):
+            if not line.endswith("~~"):
                 clean.append(f"\n~~{line}~~\n")
             else:
-                # Last line
                 clean.append(f"~~{line}\n")
                 in_junk = False
             continue 
@@ -281,28 +294,29 @@ def text2markdown(
             # Ensure blank space before and after headings
             clean.append(f"\n{line}\n")
 
-        elif line.startswith("~") and not line.endswith("~"):
+        elif line.startswith("~~") and not line.endswith("~~"):
+            # Junk text which spans multiple lines
             clean.append(f"{line}~~\n")
             in_junk = True
 
         else:
+            # Normal line
             clean.append(f"{line}\n")
 
-    blank_lines = 0
+    # ensure there are never consecutive blank lines in the output and render indents correctly
     blank_removed: list[str] = []
     for line in "".join(clean).splitlines():
         if not line.strip():
-            blank_lines += 1
-        else:
-            blank_lines = 0
+            continue 
 
-        if blank_lines >= 2:
-            continue
-
-        if line.strip():
-            blank_lines += 1
-            blank_removed.append(f"{line.lstrip('.,: ')} \n\n")
-        else:
-            blank_removed.append(f"{line}\n")
-
+        # Remove native list rendering for safe indent preservation
+        if is_list_line(line) and line.lstrip() == line:
+            line = f"&#8203;{line}"
+        
+        # Convert leading tabs/whitespace to html indent flags
+        line = re.sub(r"^(?:\t|\s{4})+", lambda m: m.group(0).replace("\t", "&emsp;").replace(" "*4, "&emsp;"), line)
+        line = re.sub(r"^((?:&emsp;)*)\s{2}", r"\1&ensp;", line)
+        line = re.sub(r"^((?:&emsp;|&ensp;)*)\s", r"\1&nbsp;", line)
+ 
+        blank_removed.append(f"{line}\n\n") 
     return "".join(blank_removed).strip()

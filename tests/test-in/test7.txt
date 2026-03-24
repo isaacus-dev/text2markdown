@@ -6,6 +6,43 @@ Effective: January 1, 2026
 
 (View previous data processing addendum)
 
+Table of Contents
+
+1. Details
+2. OpenAI Obligations
+   2.1 Customer Instructions
+   2.2 Notices to Customer
+   2.3 Confidentiality
+   2.4 Data Subject Requests
+   2.5 Security
+   2.6 Assistance to Customer
+   2.7 Personal Data Breaches
+   2.8 Assessing Compliance
+   2.9 Engagement of Sub-processors
+   2.10 Sub-processor Obligations
+   2.11 Data Return or Deletion
+3. Customer Obligations
+   3.1 Notices and Authorizations
+   3.2 Cooperation
+   3.3 Configurations
+4. International Data Transfers
+   4.1 EEA and Swiss Data
+   4.2 UK Data
+5. Further Requirements
+   5.1 U.S. Privacy Laws Obligations
+   5.2 Customer Restrictions
+6. Definitions
+7. Schedule 1 — Details of Processing
+   7.1 Nature and Purpose
+   7.2 Duration
+   7.3 Categories of Customer Data
+   7.4 Categories of Data Subjects
+   7.5 Sensitive Data Transferred
+   7.6 Frequency
+   7.7 Transfers to Sub-Processors
+   7.8 SCCs Information for UK Data
+
+
 This OpenAI Data Processing Addendum (“DPA”) supplements, and is incorporated into, the OpenAI Services Agreement (“Agreement”) governing use of the Services and is entered as of the Effective Date between the customer identified above (“Customer”) and OpenAI OpCo, LLC, on its behalf and on behalf of its Affiliates, as appropriate, unless Customer is based within a European Economic Area country or Switzerland, in which case it is entered into with OpenAI Ireland Ltd., on its behalf and on behalf of its Affiliates, as appropriate (“OpenAI”). Capitalized terms not defined in the DPA have the meanings provided in the Agreement. In this DPA, OpenAI and Customer are each referred to as a “Party” and collectively as the “Parties.” Customer represents it is lawfully able to enter into this Agreement and, if it is entering into the Agreement for an entity, that it has legal authority to bind that entity. By clicking “I agree,” accepting the Order Form, or using the Services, Customer agrees to this Agreement.
 1. Details.
 

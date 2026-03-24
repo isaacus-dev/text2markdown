@@ -38,7 +38,7 @@ async def text2markdown_async(
     # Raise an error if supplied with a synchronous Isaacus client.
     if isinstance(isaacus_client, isaacus.Isaacus):
         raise ValueError("""\
-        `text_to_markdown_async()` requires an asynchronous Isaacus client, but a synchronous Isaacus client was provided. Please supply an `isaacus.AsyncIsaacus` client or set `isaacus_client` to `None` to have an asynchronous client created automatically.""")
+        `text2markdown_async()` requires an asynchronous Isaacus client, but a synchronous Isaacus client was provided. Please supply an `isaacus.AsyncIsaacus` client or set `isaacus_client` to `None` to have an asynchronous client created automatically.""")
 
     # Convert the text into an Isaacus Legal Graph Schema (ILGS) Document if it is not one already.
     doc = text

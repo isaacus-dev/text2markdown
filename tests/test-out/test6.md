@@ -1,449 +1,503 @@
-~~Last updated January 22, 2025~~ 
+~~Last updated January 22, 2025~~
 
-~~Subscribe to updates~~ 
+~~Subscribe to updates~~
 
-## 1 Introduction 
+## 1
 
-<a id="seg-1"></a>1.1 
+## Introduction
 
-These general terms and conditions (“GTCs”), as they may be amended from time to time as set out herein, govern the use and provision of the Services provided by Legora or its Affiliates to the Subscriber and forms part of the Agreement between the Parties. 
+<a id="seg-1"></a>1.1
 
-1.2 
+These general terms and conditions (“GTCs”), as they may be amended from time to time as set out herein, govern the use and provision of the Services provided by Legora or its Affiliates to the Subscriber and forms part of the Agreement between the Parties.
 
-Capitalized terms that are used but not defined in this document shall have the meaning set out in the *Order Form*. 
+1.2
 
-## 2 The Services 
+Capitalized terms that are used but not defined in this document shall have the meaning set out in the *Order Form*.
 
-### 2.1 General 
+## 2
 
-2.1.1 
+## The Services
 
-Subject to the terms and conditions of the Agreement, the Subscriber hereby subscribes to, and Legora shall supply, the Services specified in the *Order Form*. 
+### 2.1
 
-2.1.2 
+### General
 
-Legora shall endeavor to make the Services available 24/7 except for interruptions due to support and maintenance. Legora shall use all commercially reasonable efforts to (i) undertake maintenance that cause as little disruption of the Services as possible and (ii) provide advance notice to the Subscriber of any suspension of the Services. 
+2.1.1
 
-2.1.3 
+Subject to the terms and conditions of the Agreement, the Subscriber hereby subscribes to, and Legora shall supply, the Services specified in the *Order Form*.
 
-The Subscriber is responsible for obtaining and maintaining, at its expense, the hardware, software and Internet connectivity necessary to access and use the Services. 
+2.1.2
 
-### 2.2 Account administration, access credentials, etc. 
+Legora shall endeavor to make the Services available 24/7 except for interruptions due to support and maintenance. Legora shall use all commercially reasonable efforts to (i) undertake maintenance that cause as little disruption of the Services as possible and (ii) provide advance notice to the Subscriber of any suspension of the Services.
 
-2.2.1 
+2.1.3
 
-Personnel specified by the Subscriber will be provided with administrative privileges (administrators) to manage the Subscriber’s account and its end users, whereby the administrators may be able to access logging and information about end users’ use of the Services. If an administrator or end user is no longer authorized to use the Services, the Subscriber shall promptly notify Legora.  
+The Subscriber is responsible for obtaining and maintaining, at its expense, the hardware, software and Internet connectivity necessary to access and use the Services.
 
-2.2.2 
+### 2.2
 
-The Subscriber is responsible for all administrators’ and end users’ use of the Services. The Subscriber is also responsible for safeguarding any access credentials related to the Services and for all acts and omissions under its account. In case of suspected or confirmed unauthorized access to or use of the Services or the access credentials, the Subscriber shall promptly inform Legora. 
+### Account administration, access credentials, etc.
 
-2.2.3 
+2.2.1
 
-The Subscriber shall assign each of its end users with an individual and specific license, which may not be shared, transferred or otherwise used by anyone else, unless specified in the Agreement. 
+Personnel specified by the Subscriber will be provided with administrative privileges (administrators) to manage the Subscriber’s account and its end users, whereby the administrators may be able to access logging and information about end users’ use of the Services. If an administrator or end user is no longer authorized to use the Services, the Subscriber shall promptly notify Legora. 
 
-### 2.3 Usage restrictions 
+2.2.2
 
-<a id="seg-13"></a>2.3.1 
+The Subscriber is responsible for all administrators’ and end users’ use of the Services. The Subscriber is also responsible for safeguarding any access credentials related to the Services and for all acts and omissions under its account. In case of suspected or confirmed unauthorized access to or use of the Services or the access credentials, the Subscriber shall promptly inform Legora.
 
-The Subscriber agrees not to (i) use the Services in a way that infringes, misappropriates or violates any person’s rights, (ii) sub-license, sell or otherwise transfer its right to access or use the Services, (iii) attempt to reverse engineer or derive the source code of the Services or any portion thereof, except as permitted by applicable law, (iv) modify, customize, port, translate, localize or create derivative works of the Services, (v) use any automated or programmatic method to extract data or Output from the Services (vii) use its access to the Services to build a product or service which competes with the Services, and/or (viii) use the Services in a manner that interferes or attempts to interfere with the proper working of the Services. 
+2.2.3
 
-2.3.2 
+The Subscriber shall assign each of its end users with an individual and specific license, which may not be shared, transferred or otherwise used by anyone else, unless specified in the Agreement.
 
-The Subscriber is responsible for its and its Affiliates’, and its and its Affiliates’, administrators’ and end users’, use of the Services and adherence (or failure to adhere) to the usage restrictions. If Legora has reasonable grounds to suspect that the Subscriber (or an individual administrator or end user) has violated [Clause 2.3.1](#seg-13), Legora will notify Subscriber by email (a ‘service notice’) and request Subscriber to take immediate and appropriate action. Legora may after providing written notice suspend the Subscriber’s (or the individual administrator’s or end user’s) access to the Services if (i) Legora has reasonable grounds to believe that such breach poses an immediate risk of damage to Legora, (ii) the Subscriber fails to comply with a service notice within the reasonable time-period set forth in the service notice or (iii) the breach is not capable of being remedied. If the Subscriber fails to take the required action stated in the service notice within 10 business days after a suspension, Legora may, without prejudice to its other rights and remedies, terminate the Agreement immediately for cause in accordance with [Clause 4.2](#seg-29). 
+### 2.3
 
-## 3 Fees and payment 
+### Usage restrictions
 
-3.1 
+<a id="seg-13"></a>2.3.1
 
-Fees 
+The Subscriber agrees not to (i) use the Services in a way that infringes, misappropriates or violates any person’s rights, (ii) sub-license, sell or otherwise transfer its right to access or use the Services, (iii) attempt to reverse engineer or derive the source code of the Services or any portion thereof, except as permitted by applicable law, (iv) modify, customize, port, translate, localize or create derivative works of the Services, (v) use any automated or programmatic method to extract data or Output from the Services (vii) use its access to the Services to build a product or service which competes with the Services, and/or (viii) use the Services in a manner that interferes or attempts to interfere with the proper working of the Services.
 
-3.1.1 
+2.3.2
 
-The Subscriber shall pay the fees for the Services (i) which follow from the *Order Form*, or, if not stated in the *Order Form*, (ii) charged in accordance with Legora’s offered standard subscription plans from time to time. 
+The Subscriber is responsible for its and its Affiliates’, and its and its Affiliates’, administrators’ and end users’, use of the Services and adherence (or failure to adhere) to the usage restrictions. If Legora has reasonable grounds to suspect that the Subscriber (or an individual administrator or end user) has violated [Clause 2.3.1](#seg-13), Legora will notify Subscriber by email (a ‘service notice’) and request Subscriber to take immediate and appropriate action. Legora may after providing written notice suspend the Subscriber’s (or the individual administrator’s or end user’s) access to the Services if (i) Legora has reasonable grounds to believe that such breach poses an immediate risk of damage to Legora, (ii) the Subscriber fails to comply with a service notice within the reasonable time-period set forth in the service notice or (iii) the breach is not capable of being remedied. If the Subscriber fails to take the required action stated in the service notice within 10 business days after a suspension, Legora may, without prejudice to its other rights and remedies, terminate the Agreement immediately for cause in accordance with [Clause 4.2](#seg-29).
 
-3.1.2 
+## 3
 
-The Subscriber’s payment of fees is neither (i) contingent on the delivery of any future functionality or features nor (ii) dependent on statements not set forth in the Agreement. 
+## Fees and payment
 
-3.1.3 
+3.1
 
-Legora reserves the right to update the fees charged hereunder, applicable on the coming Renewal Term, by giving at least 45 days’ notice. 
+Fees
 
-3.1.4 
+3.1.1
 
-If the Agreement is terminated, the Subscriber is obliged to pay all fees owed for the period before the termination date. Unless explicitly stated herein, the Subscriber will not get a refund of already paid fees, except for pre-paid fees covering the period after the termination date. If the Subscriber terminates the Agreement without cause before the end of the then-current term, the Subscriber must immediately pay the remaining fees for the remainder of the term. 
+The Subscriber shall pay the fees for the Services (i) which follow from the *Order Form*, or, if not stated in the *Order Form*, (ii) charged in accordance with Legora’s offered standard subscription plans from time to time.
 
-### 3.2 Payment terms 
+3.1.2
 
-3.2.1 
+The Subscriber’s payment of fees is neither (i) contingent on the delivery of any future functionality or features nor (ii) dependent on statements not set forth in the Agreement.
 
-Invoices are due net 30 days from the invoice date. 
+3.1.3
 
-3.2.2 
+Legora reserves the right to update the fees charged hereunder, applicable on the coming Renewal Term, by giving at least 45 days’ notice.
 
-If Legora does not receive any duly invoiced amount by the due date, Legora may (at its discretion and without limiting its rights or remedies hereunder), (i) charge an annual late interest equal to 12 per cent on the overdue amounts, (ii) suspend the Subscriber’s access to the Services, until the overdue amounts are paid in full, provided that Legora has given at least 10 business days’ prior notice of such suspension and Legora has not received payment of the defaulted amount within such period. In case of repeated payment delays by the Subscriber, Legora may also condition future subscription renewals and service orders on shorter payment terms. 
+3.1.4
 
-3.2.3 
+If the Agreement is terminated, the Subscriber is obliged to pay all fees owed for the period before the termination date. Unless explicitly stated herein, the Subscriber will not get a refund of already paid fees, except for pre-paid fees covering the period after the termination date. If the Subscriber terminates the Agreement without cause before the end of the then-current term, the Subscriber must immediately pay the remaining fees for the remainder of the term.
 
-The fees do not include VAT or any other taxes, levies, duties, or similar governmental charges of any nature (collectively ‘taxes’). The Subscriber is responsible for paying all taxes associated with the Agreement. If Legora is legally obligated to pay or collect taxes for which Subscriber is responsible, Legora will invoice Subscriber and Subscriber will pay that amount. Subscriber will provide Legora any information Legora reasonably requests to determine whether Legora is obligated to collect taxes. 
+### 3.2
 
-4 
+### Payment terms
 
-Term and termination 
+3.2.1
 
-4.1 
+Invoices are due net 30 days from the invoice date.
 
-Term 
+3.2.2
 
-<a id="seg-27"></a>4.1.1 
+If Legora does not receive any duly invoiced amount by the due date, Legora may (at its discretion and without limiting its rights or remedies hereunder), (i) charge an annual late interest equal to 12 per cent on the overdue amounts, (ii) suspend the Subscriber’s access to the Services, until the overdue amounts are paid in full, provided that Legora has given at least 10 business days’ prior notice of such suspension and Legora has not received payment of the defaulted amount within such period. In case of repeated payment delays by the Subscriber, Legora may also condition future subscription renewals and service orders on shorter payment terms.
 
-The Agreement is valid from the earlier of (i) the Effective Date, and (ii) the date when the Subscriber starts using the Services, and shall remain in force during the initial period set out in the *Order Form* (the ”Initial Service Term”). 
+3.2.3
 
-<a id="seg-28"></a>4.1.2 
+The fees do not include VAT or any other taxes, levies, duties, or similar governmental charges of any nature (collectively ‘taxes’). The Subscriber is responsible for paying all taxes associated with the Agreement. If Legora is legally obligated to pay or collect taxes for which Subscriber is responsible, Legora will invoice Subscriber and Subscriber will pay that amount. Subscriber will provide Legora any information Legora reasonably requests to determine whether Legora is obligated to collect taxes.
 
-Unless terminated by Legora with at least 90 days’ written notice or by Subscriber with at least 30 days’ written notice before the expiry of the then current service period, the Agreement shall automatically renew for additional periods equal to the expiring Initial Service Term (each a “Renewal Term”). 
+4
 
-<a id="seg-29"></a>4.2 
+Term and termination
 
-Termination for cause 
+4.1
 
-In addition to any termination rights stated elsewhere in the Agreement, a Party may terminate the Agreement for cause (i) upon 30 days’ written notice to the other Party of a material breach, if the breach remains uncured at the expiration of the notice period, (ii) if the other Party becomes the subject to a proceeding relating to insolvency, receivership, liquidation or assignment for the benefit of creditors or governmental regulations, or (iii) if the other Party goes out of business, or ceases its operations. 
+Term
 
-## 4.3 Effects of termination and survival 
+<a id="seg-27"></a>4.1.1
 
-4.3.1 
+The Agreement is valid from the earlier of (i) the Effective Date, and (ii) the date when the Subscriber starts using the Services, and shall remain in force during the initial period set out in the *Order Form* (the ”Initial Service Term”).
 
-Upon termination of the Agreement, howsoever occasioned, (i) the licenses under [Clause 8.2](#seg-82) shall terminate (except to the extent for the duration needed to allow Legora to assist the Subscriber with data retrieval under [Clause 4.3.2](#seg-33)), and (ii) all outstanding fees shall be due and payable. 
+<a id="seg-28"></a>4.1.2
 
-<a id="seg-33"></a>4.3.2 
+Unless terminated by Legora with at least 90 days’ written notice or by Subscriber with at least 30 days’ written notice before the expiry of the then current service period, the Agreement shall automatically renew for additional periods equal to the expiring Initial Service Term (each a “Renewal Term”).
 
-In connection with termination of the Agreement or otherwise during the Term, Legora undertakes to, on the Subscriber’s reasonable request and at the Subscriber’s reasonable expense, assist the Subscriber in retrieving any Subscriber Content stored in the Services (if any) in a standard machine-readable format. In addition, both Parties shall promptly return or, if so instructed by the other Party, destroy any Confidential Information of the other Party. Upon Subscriber’s written request, Legora shall delete any Subscriber Content stored in the Services (if any). 
+<a id="seg-29"></a>4.2
 
-4.3.3 
+Termination for cause
 
-The provisions herein that by their nature are intended to survive the expiration or termination of this Agreement shall so survive to the extent necessary for the intended preservation of the Parties’ rights and obligations. It is noted that the confidentiality undertakings in [Clause 7.2](#seg-70) shall survive for the longer of (i) 5 years counting from the termination hereof, (ii), in relation to any Confidential Information which comprises Intellectual Property Rights, the term of protection for the Intellectual Property Right, and (iii) in relation to any Confidential Information which comprises information covered by statutory and/or bar association rules on confidentiality, the time period required under applicable law/bar association rules (which, the Parties acknowledge, may be eternal or at least 100 years). 
+In addition to any termination rights stated elsewhere in the Agreement, a Party may terminate the Agreement for cause (i) upon 30 days’ written notice to the other Party of a material breach, if the breach remains uncured at the expiration of the notice period, (ii) if the other Party becomes the subject to a proceeding relating to insolvency, receivership, liquidation or assignment for the benefit of creditors or governmental regulations, or (iii) if the other Party goes out of business, or ceases its operations.
 
-## <a id="seg-35"></a>5 Indemnification 
+## 4.3
 
-<a id="seg-36"></a>5.1 
+## Effects of termination and survival
 
-Indemnification by Legora 
+4.3.1
 
-<a id="seg-37"></a>5.1.1 
+Upon termination of the Agreement, howsoever occasioned, (i) the licenses under [Clause 8.2](#seg-82) shall terminate (except to the extent for the duration needed to allow Legora to assist the Subscriber with data retrieval under [Clause 4.3.2](#seg-33)), and (ii) all outstanding fees shall be due and payable.
 
-Legora will defend Subscriber, against any third-party claim alleging that Subscriber’s use of the Services, in accordance with this Agreement, infringes any Intellectual Property Rights of such third party and will indemnify Subscriber against any damages actually awarded against Subscriber resulting from such claim.  
+<a id="seg-33"></a>4.3.2
 
-5.1.2 
+In connection with termination of the Agreement or otherwise during the Term, Legora undertakes to, on the Subscriber’s reasonable request and at the Subscriber’s reasonable expense, assist the Subscriber in retrieving any Subscriber Content stored in the Services (if any) in a standard machine-readable format. In addition, both Parties shall promptly return or, if so instructed by the other Party, destroy any Confidential Information of the other Party. Upon Subscriber’s written request, Legora shall delete any Subscriber Content stored in the Services (if any).
 
-If the Subscriber’s use of the Service results (or in Legora’s opinion is likely to result) in an infringement claim, Legora may either: (i) substitute functionally similar products or services; (ii) procure for the Subscriber the right to continue using the Service; or if (i) and (ii) are not commercially reasonable, (iii) terminate this Agreement, and refund the Subscriber any prepaid unused fees. Notwithstanding [Clause 5.1.1](#seg-37), Legora will not have an obligation to indemnify or defend the Subscriber to the extent the applicable claim is attributable to (a) any materials, data or technology not provided by Legora either alone or in combination with the Service, (b) Input, (c) Output that results from Input that is in violation of any terms or conditions of the Agreement or that Subscriber knew or reasonably should have known was likely to lead to violating Output, or (d) any modifications to the Services or other use of the Service in violation of the Agreement. 
+4.3.3
 
-5.2 
+The provisions herein that by their nature are intended to survive the expiration or termination of this Agreement shall so survive to the extent necessary for the intended preservation of the Parties’ rights and obligations. It is noted that the confidentiality undertakings in [Clause 7.2](#seg-70) shall survive for the longer of (i) 5 years counting from the termination hereof, (ii), in relation to any Confidential Information which comprises Intellectual Property Rights, the term of protection for the Intellectual Property Right, and (iii) in relation to any Confidential Information which comprises information covered by statutory and/or bar association rules on confidentiality, the time period required under applicable law/bar association rules (which, the Parties acknowledge, may be eternal or at least 100 years).
 
-Indemnification by subscriber 
+## <a id="seg-35"></a>5
 
-Subscriber will defend Legora against any third-party claim arising from or relating to Input or Output that results from Input that is in violation of any term or condition of the Agreement or that Subscriber knew or reasonably should have known was likely to lead to violating Output and indemnify Legora against any damages actually awarded against Legora resulting from such claim. 
+## Indemnification
 
-### 5.3 Indemnification Procedures 
+<a id="seg-36"></a>5.1
 
-5.3.1 
+Indemnification by Legora
 
-The indemnity obligations under [Sections 5.1 and 5.2](#seg-36) are conditioned upon the party receiving the claim (the “Indemnified Party”) (i) promptly giving the other party (the “Indemnifying Party”) written notice of the claim (ii) giving the Indemnifying Party sole control of the defense and settlement of the claim (except that the Indemnifying Party may not settle any claim unless the settlement unconditionally releases the Indemnified Party of all liability, the settlement does not affect the Indemnified Party’s Intellectual Property Rights, and the Indemnifying Party pays any settlement fees), and (iii) gives the Indemnifying Party all reasonable assistance in connection with the defense or settlement of the claim, at the Indemnifying Party’s expense. 
+<a id="seg-37"></a>5.1.1
 
-5.3.2 
+Legora will defend Subscriber, against any third-party claim alleging that Subscriber’s use of the Services, in accordance with this Agreement, infringes any Intellectual Property Rights of such third party and will indemnify Subscriber against any damages actually awarded against Subscriber resulting from such claim. 
 
-For avoidance of doubt, for the purposes of this [Section 5](#seg-35), a claim against the Indemnified Party shall be understood to include a claim against the Indemnified Party, its Affiliates, and its or its Affiliates’ officers, directors, and employees. 
+5.1.2
 
-## 6 Warranties and liability 
+If the Subscriber’s use of the Service results (or in Legora’s opinion is likely to result) in an infringement claim, Legora may either: (i) substitute functionally similar products or services; (ii) procure for the Subscriber the right to continue using the Service; or if (i) and (ii) are not commercially reasonable, (iii) terminate this Agreement, and refund the Subscriber any prepaid unused fees. Notwithstanding [Clause 5.1.1](#seg-37), Legora will not have an obligation to indemnify or defend the Subscriber to the extent the applicable claim is attributable to (a) any materials, data or technology not provided by Legora either alone or in combination with the Service, (b) Input, (c) Output that results from Input that is in violation of any terms or conditions of the Agreement or that Subscriber knew or reasonably should have known was likely to lead to violating Output, or (d) any modifications to the Services or other use of the Service in violation of the Agreement.
 
-### 6.1 AI limitations and responsibilities 
+5.2
 
-<a id="seg-46"></a>6.1.1 
+Indemnification by subscriber
 
-Artificial intelligence and machine learning are rapidly evolving fields of technology. Legora is constantly working to make the Services more accurate, reliable, safe, and beneficial. However, given the probabilistic nature of machine learning, use of the Services may in some situations result in incorrect Output that does not accurately reflect real people, places, or facts. The Subscriber is responsible for evaluating the accuracy and quality of Output as appropriate for its use case, including by using human review of the Output. The Subscriber is also responsible for the lawfulness of the Subscriber Content, including for verifying that its use of Subscriber Content does not infringe upon any third party’s rights. 
+Subscriber will defend Legora against any third-party claim arising from or relating to Input or Output that results from Input that is in violation of any term or condition of the Agreement or that Subscriber knew or reasonably should have known was likely to lead to violating Output and indemnify Legora against any damages actually awarded against Legora resulting from such claim.
 
-6.1.2 
+### 5.3
 
-For avoidance of doubt, and without limiting the generality of [Clause 6.1.1](#seg-46), the Output generated through the Services shall not be viewed as legal advice. Legora is not a law firm, does not practice law and does not give legal advice. Hence, Legora does not bear any legal responsibility for the Output or any information that is derived from the Services. 
+### Indemnification Procedures
 
-### 6.2 Services warranty 
+5.3.1
 
-<a id="seg-49"></a>6.2.1 
+The indemnity obligations under [Sections 5.1 and 5.2](#seg-36) are conditioned upon the party receiving the claim (the “Indemnified Party”) (i) promptly giving the other party (the “Indemnifying Party”) written notice of the claim (ii) giving the Indemnifying Party sole control of the defense and settlement of the claim (except that the Indemnifying Party may not settle any claim unless the settlement unconditionally releases the Indemnified Party of all liability, the settlement does not affect the Indemnified Party’s Intellectual Property Rights, and the Indemnifying Party pays any settlement fees), and (iii) gives the Indemnifying Party all reasonable assistance in connection with the defense or settlement of the claim, at the Indemnifying Party’s expense.
 
-Legora warrants during the Term, that (i) the Services will conform materially in accordance with the specifications provided by Legora and (ii) it will perform the Services in a professional manner, in accordance with generally accepted industry standards. 
+5.3.2
 
-6.2.2 
+For avoidance of doubt, for the purposes of this [Section 5](#seg-35), a claim against the Indemnified Party shall be understood to include a claim against the Indemnified Party, its Affiliates, and its or its Affiliates’ officers, directors, and employees.
 
-Legora also warrants that the Services, to its knowledge, do not infringe any third-party Intellectual Property Rights.  
+## 6
 
-6.2.3 
+## Warranties and liability
 
-Except in case of gross negligence or willful misconduct by Legora, the Subscriber’s sole and exclusive remedies for a breach of [Clause 6.2.1](#seg-49) shall be to (i) request a remedy of the breach, and (ii) if remedial action is not taken or possible and the breach is material, exercise its termination rights under [Clause 4.2](#seg-29).  
+### 6.1
 
-6.2.4 
+### AI limitations and responsibilities
 
-EXCEPT FOR THE WARRANTIES IN THIS SECTION, THE SERVICES ARE PROVIDED ON AN AS-IS BASIS AND LEGORA DISCLAIMS ALL WARRANTIES EXPRESS OR IMPLIED (EITHER IN FACT OR BY OPERATION OF LAW) OR STATUTORY, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUALITY, ACCURACY, NON-INFRINGEMENT AND TITLE. LEGORA DOES NOT REPRESENT OR WARRANT THAT THE USE OF THE SERVICES WILL BE UNINTERRUPTED OR ERROR FREE. 
+<a id="seg-46"></a>6.1.1
 
-6.2.5 
+Artificial intelligence and machine learning are rapidly evolving fields of technology. Legora is constantly working to make the Services more accurate, reliable, safe, and beneficial. However, given the probabilistic nature of machine learning, use of the Services may in some situations result in incorrect Output that does not accurately reflect real people, places, or facts. The Subscriber is responsible for evaluating the accuracy and quality of Output as appropriate for its use case, including by using human review of the Output. The Subscriber is also responsible for the lawfulness of the Subscriber Content, including for verifying that its use of Subscriber Content does not infringe upon any third party’s rights.
 
-Legora reserves the right, in its sole discretion, at any time to make improvements, additions, modifications (including, subject to [Clause 6.2.1](#seg-49), removing features), and to correct any errors or defects in the Services, notwithstanding that such measures may temporarily impair the Subscriber’s access to or use of the Services. 
+6.1.2
 
-### 6.3 Implementation Work warranty 
+For avoidance of doubt, and without limiting the generality of [Clause 6.1.1](#seg-46), the Output generated through the Services shall not be viewed as legal advice. Legora is not a law firm, does not practice law and does not give legal advice. Hence, Legora does not bear any legal responsibility for the Output or any information that is derived from the Services.
 
-<a id="seg-55"></a>6.3.1 
+### 6.2
 
-Legora warrants that any Implementation Work specified in the Agreement will be performed in a professional manner, in accordance with generally accepted industry standards. 
+### Services warranty
 
-6.3.2 
+<a id="seg-49"></a>6.2.1
 
-Except in case of gross negligence or willful misconduct by Legora, the Subscriber’s sole and exclusive remedies for a breach of [Clause 6.3.1](#seg-55) shall be to (i) request a remedy of the breach by way of re-performance of the Implementation Work by Legora or, (ii), if re-performance is not possible or would cause material inconvenience for the Subscriber, request reasonable refund/reduction of fees for Implementation Work proportionate to the breach and its impact on the Subscriber, and (iii) if remedial action is not taken or possible and the breach is material, exercise its termination rights in in relation to the Implementation Work under [Clause 4.2](#seg-29). 
+Legora warrants during the Term, that (i) the Services will conform materially in accordance with the specifications provided by Legora and (ii) it will perform the Services in a professional manner, in accordance with generally accepted industry standards.
 
-### 6.4 Liability and limitations of liability 
+6.2.2
 
-6.4.1 
+Legora also warrants that the Services, to its knowledge, do not infringe any third-party Intellectual Property Rights. 
 
-NEITHER PARTY SHALL BE LIABLE UNDER THE AGREEMENT FOR ANY INDIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, LOST OPPORTUNITIES, OR COST OF SUBSTITUTE SERVICES OR OTHER ECONOMIC LOSS ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  
+6.2.3
 
-<a id="seg-59"></a>6.4.2 
+Except in case of gross negligence or willful misconduct by Legora, the Subscriber’s sole and exclusive remedies for a breach of [Clause 6.2.1](#seg-49) shall be to (i) request a remedy of the breach, and (ii) if remedial action is not taken or possible and the breach is material, exercise its termination rights under [Clause 4.2](#seg-29). 
 
-OTHER THAN WITH RESPECT TO (I) THE SUBSCRIBER’S PAYMENT OBLIGATIONS UNDER THIS AGREEMENT, (II) THE PARTIES’ OBLIGATIONS UNDER [SECTION 5 (INDEMNIFICATION)](#seg-35) AND (III) CLAIMS BASED ON LIABILITY WHICH, BY LAW, CANNOT BE LIMITED (E.G. TORT CLAIMS FOR GROSS NEGLIGENCE AND INTENTIONAL MISCONDUCT), A PARTY’S AGGREGATE LIABILITY UNDER THE AGREEMENT SHALL NOT EXCEED THE TOTAL FEES PAID OR PAYABLE BY THE SUBSCRIBER IN THE 12 MONTHS PRIOR TO THE EVENT THAT GAVE RISE TO THE CLAIM. 
+6.2.4
 
-<a id="seg-60"></a>6.4.3 
+EXCEPT FOR THE WARRANTIES IN THIS SECTION, THE SERVICES ARE PROVIDED ON AN AS-IS BASIS AND LEGORA DISCLAIMS ALL WARRANTIES EXPRESS OR IMPLIED (EITHER IN FACT OR BY OPERATION OF LAW) OR STATUTORY, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUALITY, ACCURACY, NON-INFRINGEMENT AND TITLE. LEGORA DOES NOT REPRESENT OR WARRANT THAT THE USE OF THE SERVICES WILL BE UNINTERRUPTED OR ERROR FREE.
 
-THE LIMITATION IN [CLAUSE 6.4.2](#seg-59) SHALL NOT APPLY TO A PARTY’S BREACH OF [SECTION 7.2](#seg-70) OR THE *DATA PROCESSING AGREEMENT* ENTERED INTO BETWEEN THE PARTIES (“ENHANCED CLAIMS”). FOR ALL ENHANCED CLAIMS, EACH PARTY’S AGGREGATE LIABILITY UNDER THE AGREEMENT SHALL NOT EXCEED 2X THE TOTAL FEES PAID OR PAYABLE BY THE SUBSCRIBER IN THE 12 MONTHS PRIOR TO THE EVENT THAT GAVE RISE TO THE CLAIM. 
+6.2.5
 
-6.4.4 
+Legora reserves the right, in its sole discretion, at any time to make improvements, additions, modifications (including, subject to [Clause 6.2.1](#seg-49), removing features), and to correct any errors or defects in the Services, notwithstanding that such measures may temporarily impair the Subscriber’s access to or use of the Services.
 
-TO BE VALID, ANY CLAIMS FOR DAMAGES SHALL BE NOTIFIED TO THE OTHER PARTY NO LATER THAN 12 MONTHS FROM THE TIME THE RELEVANT PARTY BECAME AWARE OF THE EVENT GIVING RISE TO THE CLAIM, HOWEVER, NEVER LATER THAN 6 MONTHS AFTER THE EXPIRATION OR TERMINATION OF THE AGREEMENT. 
+### 6.3
 
-6.4.5 
+### Implementation Work warranty
 
-EACH PROVISION OF THE AGREEMENT THAT PROVIDES FOR A LIMITATION OF LIABILITY, DISCLAIMER OF WARRANTIES, OR EXCLUSION OF DAMAGES IS TO ALLOCATE THE RISKS OF THE AGREEMENT BETWEEN THE PARTIES.  EACH OF THESE PROVISIONS IS SEVERABLE AND INDEPENDENT OF ALL OTHER PROVISIONS OF THE AGREEMENT, AND EACH OF THESE PROVISIONS WILL APPLY EVEN IF THEY HAVE FAILED OF THEIR ESSENTIAL PURPOSE. 
+<a id="seg-55"></a>6.3.1
 
-6.4.6 
+Legora warrants that any Implementation Work specified in the Agreement will be performed in a professional manner, in accordance with generally accepted industry standards.
 
-Legora acknowledges that the Services may be used by the Subscriber’s Affiliates if this is set out in the Order Form and Legora’s liability under this Agreement shall include liability for damages caused to such Affiliates. The Subscriber is liable for its Affiliates use of the Services in compliance with this Agreement as if they were “Subscriber” hereunder. Any claims arising under this Agreement may only be brought by the Subscriber and not by its Affiliates. 
+6.3.2
 
-6.4.7 
+Except in case of gross negligence or willful misconduct by Legora, the Subscriber’s sole and exclusive remedies for a breach of [Clause 6.3.1](#seg-55) shall be to (i) request a remedy of the breach by way of re-performance of the Implementation Work by Legora or, (ii), if re-performance is not possible or would cause material inconvenience for the Subscriber, request reasonable refund/reduction of fees for Implementation Work proportionate to the breach and its impact on the Subscriber, and (iii) if remedial action is not taken or possible and the breach is material, exercise its termination rights in in relation to the Implementation Work under [Clause 4.2](#seg-29).
 
-The Subscriber is solely responsible to ensure that its use of the Services and Output is compliant with applicable export control legislation and trade sanctions. 
+### 6.4
 
-6.4.8 
+### Liability and limitations of liability
 
-Each Party shall bear its own attorneys’ fees, arbitration costs and other legal expenses incurred in connection with any claim arising under this Agreement. 
+6.4.1
 
-## <a id="seg-66"></a>7 Confidentiality and information security 
+NEITHER PARTY SHALL BE LIABLE UNDER THE AGREEMENT FOR ANY INDIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, LOST OPPORTUNITIES, OR COST OF SUBSTITUTE SERVICES OR OTHER ECONOMIC LOSS ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
 
-### 7.1 Confidential Information 
+<a id="seg-59"></a>6.4.2
 
-<a id="seg-68"></a>7.1.1 
+OTHER THAN WITH RESPECT TO (I) THE SUBSCRIBER’S PAYMENT OBLIGATIONS UNDER THIS AGREEMENT, (II) THE PARTIES’ OBLIGATIONS UNDER [SECTION 5 (INDEMNIFICATION)](#seg-35) AND (III) CLAIMS BASED ON LIABILITY WHICH, BY LAW, CANNOT BE LIMITED (E.G. TORT CLAIMS FOR GROSS NEGLIGENCE AND INTENTIONAL MISCONDUCT), A PARTY’S AGGREGATE LIABILITY UNDER THE AGREEMENT SHALL NOT EXCEED THE TOTAL FEES PAID OR PAYABLE BY THE SUBSCRIBER IN THE 12 MONTHS PRIOR TO THE EVENT THAT GAVE RISE TO THE CLAIM.
 
-“Confidential Information” means all information disclosed by a Party (”Disclosing Party”) to the other Party (”Receiving Party”), whether orally or in writing, (i) that is designated as confidential or, given the nature of the information and the circumstances of disclosure, should be understood to be confidential, (ii) Subscriber Content, (iii) the Services, (iv) the terms and conditions of the Agreement, and (iv) any business and marketing plans, technology and technical information, product plans and designs, and business processes disclosed by each Party in connection with the Agreement. 
+<a id="seg-60"></a>6.4.3
 
-7.1.2 
+THE LIMITATION IN [CLAUSE 6.4.2](#seg-59) SHALL NOT APPLY TO A PARTY’S BREACH OF [SECTION 7.2](#seg-70) OR THE *DATA PROCESSING AGREEMENT* ENTERED INTO BETWEEN THE PARTIES (“ENHANCED CLAIMS”). FOR ALL ENHANCED CLAIMS, EACH PARTY’S AGGREGATE LIABILITY UNDER THE AGREEMENT SHALL NOT EXCEED 2X THE TOTAL FEES PAID OR PAYABLE BY THE SUBSCRIBER IN THE 12 MONTHS PRIOR TO THE EVENT THAT GAVE RISE TO THE CLAIM.
 
-Notwithstanding [Clause 7.1.1](#seg-68), Confidential Information does not include information that (i) is at the time of disclosure, or later becomes, generally known to the public through no fault of the Receiving Party; (ii) was known to the Receiving Party with no obligation of confidentiality prior to disclosure by the Disclosing Party, as proven by records of the Receiving Party; (iii) is rightfully disclosed to the Receiving Party by a third party who did not directly or indirectly obtain the information subject to any confidentiality obligations, or (iv) is at any time independently developed by Receiving Party without the use of Disclosing Party’s Confidential Information as proven by records of Receiving Party. 
+6.4.4
 
-### <a id="seg-70"></a>7.2 Confidentiality undertaking and permitted disclosure 
+TO BE VALID, ANY CLAIMS FOR DAMAGES SHALL BE NOTIFIED TO THE OTHER PARTY NO LATER THAN 12 MONTHS FROM THE TIME THE RELEVANT PARTY BECAME AWARE OF THE EVENT GIVING RISE TO THE CLAIM, HOWEVER, NEVER LATER THAN 6 MONTHS AFTER THE EXPIRATION OR TERMINATION OF THE AGREEMENT.
 
-7.2.1 
+6.4.5
 
-The Receiving Party shall (i) keep the Disclosing Party’s Confidential Information confidential, (ii) safeguard all Confidential Information of the other Party with at least the same degree of care (but no less than reasonable care) as it uses to safeguard its own confidential information, and (iii) not use Confidential Information for any purpose outside the scope of the Agreement. 
+EACH PROVISION OF THE AGREEMENT THAT PROVIDES FOR A LIMITATION OF LIABILITY, DISCLAIMER OF WARRANTIES, OR EXCLUSION OF DAMAGES IS TO ALLOCATE THE RISKS OF THE AGREEMENT BETWEEN THE PARTIES.  EACH OF THESE PROVISIONS IS SEVERABLE AND INDEPENDENT OF ALL OTHER PROVISIONS OF THE AGREEMENT, AND EACH OF THESE PROVISIONS WILL APPLY EVEN IF THEY HAVE FAILED OF THEIR ESSENTIAL PURPOSE.
 
-7.2.2 
+6.4.6
 
-The Receiving Party is permitted to disclose Confidential Information to those of its employees, directors, attorneys, agents, subcontractors, and consultants who (i) need to know the Confidential Information in connection with the purpose, execution and contract management of the Agreement, and (ii) are bound by confidentiality obligations (either through agreement or under law) no less stringent than those in the Agreement. 
+Legora acknowledges that the Services may be used by the Subscriber’s Affiliates if this is set out in the Order Form and Legora’s liability under this Agreement shall include liability for damages caused to such Affiliates. The Subscriber is liable for its Affiliates use of the Services in compliance with this Agreement as if they were “Subscriber” hereunder. Any claims arising under this Agreement may only be brought by the Subscriber and not by its Affiliates.
 
-7.2.3 
+6.4.7
 
-The Receiving Party is also permitted to disclose Confidential Information if compelled by applicable law or a binding decision or order by any authority, regulator, governmental body or court of competent jurisdiction. If the Receiving Party becomes subject to a compelled disclosure proceeding which concerns Confidential Information, it shall, to the extent not prevented by law, provide the Disclosing Party with notice of the proceeding and compelled disclosure and cooperate in any effort to obtain confidential treatment of the Confidential Information. 
+The Subscriber is solely responsible to ensure that its use of the Services and Output is compliant with applicable export control legislation and trade sanctions.
 
-### 7.3 Information security 
+6.4.8
 
-7.3.1 
+Each Party shall bear its own attorneys’ fees, arbitration costs and other legal expenses incurred in connection with any claim arising under this Agreement.
 
-Each Party must implement reasonable and appropriate measures designed to help secure access to and use of the Confidential Information. 
+## <a id="seg-66"></a>7
 
-7.3.2 
+## Confidentiality and information security
 
-Legora is ISO 27001 certified and shall maintain the certification, or a corresponding certification or standard, throughout the Term. Legora will also adhere to its information security policy, as set out on Legora’s website and shall not during the term decrease the level of security.  
+### 7.1
 
-## 8 Intellectual property rights 
+### Confidential Information
 
-8.1 
+<a id="seg-68"></a>7.1.1
 
-General 
+“Confidential Information” means all information disclosed by a Party (”Disclosing Party”) to the other Party (”Receiving Party”), whether orally or in writing, (i) that is designated as confidential or, given the nature of the information and the circumstances of disclosure, should be understood to be confidential, (ii) Subscriber Content, (iii) the Services, (iv) the terms and conditions of the Agreement, and (iv) any business and marketing plans, technology and technical information, product plans and designs, and business processes disclosed by each Party in connection with the Agreement.
 
-8.1.1 
+7.1.2
 
-Legora and its Affiliates or licensors own all rights, title, and interest in and to the Services, including but not limited to all Intellectual Property Rights included therein, as well as modifications, updates and upgrades thereof. Nothing in this Agreement shall be considered a transfer or license to those rights, except as explicitly stated herein. 
+Notwithstanding [Clause 7.1.1](#seg-68), Confidential Information does not include information that (i) is at the time of disclosure, or later becomes, generally known to the public through no fault of the Receiving Party; (ii) was known to the Receiving Party with no obligation of confidentiality prior to disclosure by the Disclosing Party, as proven by records of the Receiving Party; (iii) is rightfully disclosed to the Receiving Party by a third party who did not directly or indirectly obtain the information subject to any confidentiality obligations, or (iv) is at any time independently developed by Receiving Party without the use of Disclosing Party’s Confidential Information as proven by records of Receiving Party.
 
-8.1.2 
+### <a id="seg-70"></a>7.2
 
-As between the parties, the Subscriber, its Affiliates and/or licensors owns all rights, title and interest in and to the Subscriber Content. 
+### Confidentiality undertaking and permitted disclosure
 
-8.1.3 
+7.2.1
 
-The Subscriber acknowledges that the Input provided to the Legora AI Platform may be identical or similar to input provided by third parties. Additionally, the Subscriber acknowledges that (i) due to the nature of machine learning, output may not be unique across customers/end users, and (ii) the Services may generate identical or similar output for Legora or a third party. Questions asked by, and responses generated for, Legora’s other customers are not considered Input, Output or Subscriber Content under this Agreement. 
+The Receiving Party shall (i) keep the Disclosing Party’s Confidential Information confidential, (ii) safeguard all Confidential Information of the other Party with at least the same degree of care (but no less than reasonable care) as it uses to safeguard its own confidential information, and (iii) not use Confidential Information for any purpose outside the scope of the Agreement.
 
-<a id="seg-82"></a>8.2 
+7.2.2
 
-Licenses 
+The Receiving Party is permitted to disclose Confidential Information to those of its employees, directors, attorneys, agents, subcontractors, and consultants who (i) need to know the Confidential Information in connection with the purpose, execution and contract management of the Agreement, and (ii) are bound by confidentiality obligations (either through agreement or under law) no less stringent than those in the Agreement.
 
-8.2.1 
+7.2.3
 
-Subject to the Subscriber’s and its Affiliates’ adherence to this Agreement, Legora grants the Subscriber a limited, non-exclusive, non-transferable, non-sublicensable (except to Affiliates), fully revocable license for the Term, in the jurisdictions supported by Legora and for the number of individual users stated in the *Order Form*, to access and use the Services specified in the *Order Form* for the Subscriber’s and its Affiliates’ internal business operations. 
+The Receiving Party is also permitted to disclose Confidential Information if compelled by applicable law or a binding decision or order by any authority, regulator, governmental body or court of competent jurisdiction. If the Receiving Party becomes subject to a compelled disclosure proceeding which concerns Confidential Information, it shall, to the extent not prevented by law, provide the Disclosing Party with notice of the proceeding and compelled disclosure and cooperate in any effort to obtain confidential treatment of the Confidential Information.
 
-8.2.2 
+### 7.3
 
-Subject to the Subscriber’s and its Affiliates’ adherence to this Agreement, Legora grants the Subscriber a perpetual, non-exclusive, non-transferable, non-sublicensable (except to Affiliates), royalty-free license, in the jurisdictions supported by Legora, to use any Deliverables, for the Subscriber’s and its Affiliates’ internal business operations. Unless otherwise specified in any applicable Statement of Work and aside from any Subscriber Content or derivative works thereof included in the Deliverables, Legora shall retain all ownership rights to the Deliverables. 
+### Information security
 
-8.2.3 
+7.3.1
 
-The Subscriber grants Legora a limited, non-exclusive, non-transferable, non-sublicensable (except to Affiliates), fully revocable license for the Term to use, store, copy, transmit, create derivative works of and display the Subscriber Content for the provision of the Services in accordance with the Agreement. Except for the aforesaid license, the Subscriber reserves all right, title, and interest in and to the Subscriber Content. 
+Each Party must implement reasonable and appropriate measures designed to help secure access to and use of the Confidential Information.
 
-### 8.3 Feedback, Usage Data and no training 
+7.3.2
 
-8.3.1 
+Legora is ISO 27001 certified and shall maintain the certification, or a corresponding certification or standard, throughout the Term. Legora will also adhere to its information security policy, as set out on Legora’s website and shall not during the term decrease the level of security. 
 
-Feedback, comments, ideas, proposals, and suggestions for improvements (collectively ‘feedback’) from the Subscriber (including its administrators and end users) is encouraged by Legora. It is noted that feedback is not treated as confidential, and Legora may use feedback without restriction or paying compensation, and that any Intellectual Property Rights resulting therefrom shall vest exclusively in Legora. 
+## 8
 
-8.3.2 
+## Intellectual property rights
 
-Furthermore, Legora may collect Usage Data to develop, improve, support and operate its Services. Legora may not share Usage Data with a third party except (i) in accordance with [Section 7](#seg-66) or (ii) to the extent the Usage Data is aggregated and anonymized such that the Subscriber and its end users cannot be identified. 
+8.1
 
-8.3.3 
+General
 
-Legora will not use Subscriber’s Confidential Information to train generative or base AI models, nor will it allow its subcontractors to do so, unless agreed upon separately in writing (e.g. for finetuning). 
+8.1.1
 
-## 9 Personal data 
+Legora and its Affiliates or licensors own all rights, title, and interest in and to the Services, including but not limited to all Intellectual Property Rights included therein, as well as modifications, updates and upgrades thereof. Nothing in this Agreement shall be considered a transfer or license to those rights, except as explicitly stated herein.
 
-When providing the Services to the Subscriber, Legora will process any personal data contained within the Subscriber Content on behalf of the Subscriber in accordance with the *Data Processing Agreement* entered into between the Parties. 
+8.1.2
 
-## 10 Miscellaneous 
+As between the parties, the Subscriber, its Affiliates and/or licensors owns all rights, title and interest in and to the Subscriber Content.
 
-10.1 
+8.1.3
 
-No partnership 
+The Subscriber acknowledges that the Input provided to the Legora AI Platform may be identical or similar to input provided by third parties. Additionally, the Subscriber acknowledges that (i) due to the nature of machine learning, output may not be unique across customers/end users, and (ii) the Services may generate identical or similar output for Legora or a third party. Questions asked by, and responses generated for, Legora’s other customers are not considered Input, Output or Subscriber Content under this Agreement.
 
-This Agreement does not create a partnership, joint venture, or agency relationship between the Parties or their respective Affiliates. The Parties are independent from each other, and neither Party will have the power to bind the other or to incur obligations on the other’s behalf without the other Party’s prior written consent. 
+<a id="seg-82"></a>8.2
 
-10.2 
+Licenses
 
-Notices 
+8.2.1
 
-Except as otherwise specified in the Agreement, all notices, permissions, and approvals shall be in writing and shall be deemed to have been given upon (i) personal delivery; (ii) the second business day after mailing; or (iii) the day of sending by email. Notices of termination of the Agreement shall be addressed to legal@legora.com and Legora’s account manager. All other notices under the Agreement shall be provided to the Parties’ respective contact person as specified in the *Order Form*. 
+Subject to the Subscriber’s and its Affiliates’ adherence to this Agreement, Legora grants the Subscriber a limited, non-exclusive, non-transferable, non-sublicensable (except to Affiliates), fully revocable license for the Term, in the jurisdictions supported by Legora and for the number of individual users stated in the *Order Form*, to access and use the Services specified in the *Order Form* for the Subscriber’s and its Affiliates’ internal business operations.
 
-10.3 
+8.2.2
 
-Waiver 
+Subject to the Subscriber’s and its Affiliates’ adherence to this Agreement, Legora grants the Subscriber a perpetual, non-exclusive, non-transferable, non-sublicensable (except to Affiliates), royalty-free license, in the jurisdictions supported by Legora, to use any Deliverables, for the Subscriber’s and its Affiliates’ internal business operations. Unless otherwise specified in any applicable Statement of Work and aside from any Subscriber Content or derivative works thereof included in the Deliverables, Legora shall retain all ownership rights to the Deliverables.
 
-No failure or delay by either Party in exercising any right under the Agreement will constitute a waiver of that right. Any term or condition of this Agreement may be waived at any time by the Party that is entitled to the benefit thereof, but no such waiver shall be effective unless set forth in a written instrument duly executed by or on behalf of the Party waiving such term or condition. No waiver by any Party of any term or condition of this Agreement, in any one or more instances, shall construed as a waiver of the same or any other term or condition of this Agreement. 
+8.2.3
 
-10.4 
+The Subscriber grants Legora a limited, non-exclusive, non-transferable, non-sublicensable (except to Affiliates), fully revocable license for the Term to use, store, copy, transmit, create derivative works of and display the Subscriber Content for the provision of the Services in accordance with the Agreement. Except for the aforesaid license, the Subscriber reserves all right, title, and interest in and to the Subscriber Content.
 
-Severability 
+### 8.3
 
-In the event any provision of this Agreement is wholly or partly invalid, the validity of this Agreement as a whole shall not be affected and the remaining provisions of this Agreement shall remain valid. To the extent that such invalidity materially affects a Party’s benefit from, or performance under, this Agreement, it shall be reasonably amended. 
+### Feedback, Usage Data and no training
 
-10.5 
+8.3.1
 
-Assignment 
+Feedback, comments, ideas, proposals, and suggestions for improvements (collectively ‘feedback’) from the Subscriber (including its administrators and end users) is encouraged by Legora. It is noted that feedback is not treated as confidential, and Legora may use feedback without restriction or paying compensation, and that any Intellectual Property Rights resulting therefrom shall vest exclusively in Legora.
 
-Neither Party may assign any of its rights or obligations under the Agreement, whether by operation of law or otherwise, without the other Party’s prior written consent (not to be unreasonably withheld) provided, however, that either Party may assign the Agreement in its entirety, without the other Party’s consent (i) to its Affiliate, or (ii) in connection with a merger, acquisition, corporate reorganization, or sale of all or substantially all of its assets. 
+8.3.2
 
-10.6 
+Furthermore, Legora may collect Usage Data to develop, improve, support and operate its Services. Legora may not share Usage Data with a third party except (i) in accordance with [Section 7](#seg-66) or (ii) to the extent the Usage Data is aggregated and anonymized such that the Subscriber and its end users cannot be identified.
 
-Subcontractors 
+8.3.3
 
-Legora may, subject to [Section 7](#seg-66) and, in relation to the processing of personal data, the *Data Processing Agreement* entered into between the Parties, use subcontractors for the provision of the Services. Legora shall be liable for its subcontractors’ actions and omissions as for its own and remain the Subscriber’s sole point of contact in relation to the Services.  
+Legora will not use Subscriber’s Confidential Information to train generative or base AI models, nor will it allow its subcontractors to do so, unless agreed upon separately in writing (e.g. for finetuning).
 
-10.7 
+## 9
 
-Marketing 
+## Personal data
 
-The Subscriber grants Legora the right to use the Subscriber’s company logo(s), company name(s), trademark(s), and user quotes as reference material for marketing and public relations material, thereby identifying Subscriber as a Legora customer. Upon the Subscriber’s written request, Legora shall immediately cease any further use of such materials as instructed by the Subscriber. 
+When providing the Services to the Subscriber, Legora will process any personal data contained within the Subscriber Content on behalf of the Subscriber in accordance with the *Data Processing Agreement* entered into between the Parties.
 
-### 10.8 Force majeure 
+## 10
 
-<a id="seg-108"></a>10.8.1 
+## Miscellaneous
 
-Except for payment obligations under the Agreement, neither Party will be liable for failure to perform or inadequate performance under the Agreement to the extent caused by a condition that was beyond the Party’s reasonable control and which substantially affects the Party’s or its sub-contractors’ performance, including, for example, a natural disaster, epidemic or pandemic, act of war or terrorism, riot or civil unrest, labor conditions such as boycott, strike, lock-out, governmental action, disruption of telecommunications, failure or delay of internet services providers or widespread internet disturbance, disruption of power or other essential services.  
+10.1
 
-10.8.2 
+No partnership
 
-A Party claiming that circumstances described in [Clause 10.8.1](#seg-108) prevents it from performing in accordance with the Agreement shall use commercially reasonable efforts to overcome and mitigate the effects of such circumstances. If the performance of the Services in substantial respects is prevented for a period exceeding 1 month due to a circumstance stated in [Clause 10.8.1](#seg-108), either Party shall have the right to terminate the Agreement upon written notice, without incurring any liability for compensation. 
+This Agreement does not create a partnership, joint venture, or agency relationship between the Parties or their respective Affiliates. The Parties are independent from each other, and neither Party will have the power to bind the other or to incur obligations on the other’s behalf without the other Party’s prior written consent.
 
-10.9 
+10.2
 
-Entire agreement 
+Notices
 
-The Agreement sets forth and constitutes the entire agreement and understanding between the Parties with respect to the subject matter hereof and all prior agreements, understanding, promises and representations, whether written or oral, with respect thereto are superseded hereby. 
+Except as otherwise specified in the Agreement, all notices, permissions, and approvals shall be in writing and shall be deemed to have been given upon (i) personal delivery; (ii) the second business day after mailing; or (iii) the day of sending by email. Notices of termination of the Agreement shall be addressed to legal@legora.com and Legora’s account manager. All other notices under the Agreement shall be provided to the Parties’ respective contact person as specified in the *Order Form*.
 
-### 10.10 Changes to these GTCs 
+10.3
 
-10.10.1 
+Waiver
 
-Legora may amend these GTCs (and the resulting Acceptable Use Policy) by posting updated GTCs on its website. All updates become effective when posted. Notwithstanding the above, in no event may Legora alter the GTCs in a way that detracts from its obligations with respect to Confidential Information as agreed to in this Agreement without the express written consent from the Subscriber.  
+No failure or delay by either Party in exercising any right under the Agreement will constitute a waiver of that right. Any term or condition of this Agreement may be waived at any time by the Party that is entitled to the benefit thereof, but no such waiver shall be effective unless set forth in a written instrument duly executed by or on behalf of the Party waiving such term or condition. No waiver by any Party of any term or condition of this Agreement, in any one or more instances, shall construed as a waiver of the same or any other term or condition of this Agreement.
 
-10.10.2 
+10.4
 
-If the Subscriber reasonably considers an update to materially adversely affect it, it has 15 days after posting of such update to bring such matter to Legora’s attention. If Legora is unable to resolve the Subscriber’s issue (including by reverting to the prior language for the rest of the applicable subscription period) within 15 days of Subscriber bringing such issue to its attention, Subscriber may terminate the Agreement without penalty upon 5 days’ notice and Legora will refund Subscriber any prepaid unused fees. 
+Severability
 
-## 11 Governing law and disputes 
+In the event any provision of this Agreement is wholly or partly invalid, the validity of this Agreement as a whole shall not be affected and the remaining provisions of this Agreement shall remain valid. To the extent that such invalidity materially affects a Party’s benefit from, or performance under, this Agreement, it shall be reasonably amended.
 
-11.1 
+10.5
 
-This Agreement shall be governed by the substantive law of the State of New York without regard to any conflict-of-law or choice-of-law rules.  
+Assignment
 
-<a id="seg-117"></a>11.2 
+Neither Party may assign any of its rights or obligations under the Agreement, whether by operation of law or otherwise, without the other Party’s prior written consent (not to be unreasonably withheld) provided, however, that either Party may assign the Agreement in its entirety, without the other Party’s consent (i) to its Affiliate, or (ii) in connection with a merger, acquisition, corporate reorganization, or sale of all or substantially all of its assets.
 
-Any dispute, controversy or claim arising out of or in connection with the Agreement, or the breach, termination, enforcement, interpretation or invalidity thereof, including the determination of the scope or applicability of the Agreement to arbitrate, shall be determined through confidential binding arbitration in New York, New York before 1 arbitrator and administered by the American Arbitration Association (the “AAA”). 
+10.6
 
-11.3 
+Subcontractors
 
-The AAA shall administer the confidential binding arbitration pursuant to its Commercial Arbitration Rules.  The Parties shall maintain the confidential nature of the arbitration proceeding and the award, including the hearing.  Judgment on the award may be entered in any court having jurisdiction. The Parties intend that the rule of construction that provides that a document is construed against the maker thereof be inapplicable in the construction of any of the terms of the Agreement. 
+Legora may, subject to [Section 7](#seg-66) and, in relation to the processing of personal data, the *Data Processing Agreement* entered into between the Parties, use subcontractors for the provision of the Services. Legora shall be liable for its subcontractors’ actions and omissions as for its own and remain the Subscriber’s sole point of contact in relation to the Services. 
 
-## 12 Definitions 
+10.7
 
-“AAA” means as defined in [Clause 11.2](#seg-117). 
+Marketing
 
-“Acceptable Use Policy” means Legora’s Acceptable Use Policy available on Legora’s website. 
+The Subscriber grants Legora the right to use the Subscriber’s company logo(s), company name(s), trademark(s), and user quotes as reference material for marketing and public relations material, thereby identifying Subscriber as a Legora customer. Upon the Subscriber’s written request, Legora shall immediately cease any further use of such materials as instructed by the Subscriber.
 
-“Affiliate” means a Party’s ultimate parent company and any legal entity that directly or indirectly through one or more intermediaries is controlled by or under common control with the ultimate parent company. For the purposes of this definition, the term ‘control’ shall be understood as the possession, directly or indirectly, of the power to direct or cause the direction of the management and policies of a legal entity, whether through the ownership of voting stock, by contract, or otherwise. 
+### 10.8
 
-“Confidential Information” means as defined in [Clause 7.1.1](#seg-68).  
+### Force majeure
 
-“Disclosing Party” means as defined in [Clause 7.1.1](#seg-68). 
+<a id="seg-108"></a>10.8.1
 
-“Deliverables” means deliverables (including software, if applicable) developed and/or provided by Legora to Subscriber in connection with the Implementation Work. 
+Except for payment obligations under the Agreement, neither Party will be liable for failure to perform or inadequate performance under the Agreement to the extent caused by a condition that was beyond the Party’s reasonable control and which substantially affects the Party’s or its sub-contractors’ performance, including, for example, a natural disaster, epidemic or pandemic, act of war or terrorism, riot or civil unrest, labor conditions such as boycott, strike, lock-out, governmental action, disruption of telecommunications, failure or delay of internet services providers or widespread internet disturbance, disruption of power or other essential services. 
 
-“Effective Date” means the date when the *Order Form* is signed by duly authorized representatives of both Parties. 
+10.8.2
 
-“Enhanced Claims” means as defined in [Clause 6.4.3](#seg-60). 
+A Party claiming that circumstances described in [Clause 10.8.1](#seg-108) prevents it from performing in accordance with the Agreement shall use commercially reasonable efforts to overcome and mitigate the effects of such circumstances. If the performance of the Services in substantial respects is prevented for a period exceeding 1 month due to a circumstance stated in [Clause 10.8.1](#seg-108), either Party shall have the right to terminate the Agreement upon written notice, without incurring any liability for compensation.
 
-“GTCs” means as defined in [Clause 1.1](#seg-1). 
+10.9
 
-“Implementation Work” means the work carried out by or on behalf of Legora pursuant to a Statement of Work (whether explicitly stated in the Statement of Work or not). 
+Entire agreement
 
-“Initial Service Term” means as defined in [Clause 4.1.1](#seg-27). 
+The Agreement sets forth and constitutes the entire agreement and understanding between the Parties with respect to the subject matter hereof and all prior agreements, understanding, promises and representations, whether written or oral, with respect thereto are superseded hereby.
 
-“Input” means the data, software, documents, third-party services, and other content (including prompts) uploaded, accessed, stored, or submitted by any means for the use in the Services by or on behalf of the Subscriber. 
+### 10.10
 
-“Intellectual Property Rights” means all intellectual or industrial property rights, including patents, trademarks, trade names, service marks, domain names, designs, utility models, copyrights, neighboring rights, data base rights, confidential know-how, trade secrets, and similar rights valid against third parties, whether registered or not, and including applications and the right to apply for registration of any rights, which may be protected anywhere in the world. 
+### Changes to these GTCs
 
-“Output” means the output generated and returned by the Services, by or on behalf of the Subscriber, based on the Input. 
+10.10.1
 
-“Receiving Party” means as defined in [Clause 7.1.1](#seg-68).  
+Legora may amend these GTCs (and the resulting Acceptable Use Policy) by posting updated GTCs on its website. All updates become effective when posted. Notwithstanding the above, in no event may Legora alter the GTCs in a way that detracts from its obligations with respect to Confidential Information as agreed to in this Agreement without the express written consent from the Subscriber. 
 
-“Renewal Term” means as defined in [Clause 4.1.2](#seg-28).  
+10.10.2
 
-“Services” means the Legora AI platform, a legal AI workspace, which is comprised of a cloud service accessible via a web interface through a browser and/or desktop app (or, if specifically agreed in the *Order Form*, APIs offered by Legora), plug-ins and add-ins to other software and any ancillary documentation and modules provided by Legora and its Affiliates to Subscriber hereunder. For the avoidance of doubt, the term “Services” explicitly excludes Subscriber Content and Implementation Work. 
+If the Subscriber reasonably considers an update to materially adversely affect it, it has 15 days after posting of such update to bring such matter to Legora’s attention. If Legora is unable to resolve the Subscriber’s issue (including by reverting to the prior language for the rest of the applicable subscription period) within 15 days of Subscriber bringing such issue to its attention, Subscriber may terminate the Agreement without penalty upon 5 days’ notice and Legora will refund Subscriber any prepaid unused fees.
 
-“Statement of Work” means, if executed between the Parties, one or more documents appended to the *Order Form*, describing the setup and integration work to be carried out by or on behalf of Legora to onboard the Subscriber. 
+## 11
 
-“Subscriber Content” means both Input and Output collectively. 
+## Governing law and disputes
 
-“Term” means the Initial Service Term and all Renewal Terms combined.  
+11.1
+
+This Agreement shall be governed by the substantive law of the State of New York without regard to any conflict-of-law or choice-of-law rules. 
+
+<a id="seg-117"></a>11.2
+
+Any dispute, controversy or claim arising out of or in connection with the Agreement, or the breach, termination, enforcement, interpretation or invalidity thereof, including the determination of the scope or applicability of the Agreement to arbitrate, shall be determined through confidential binding arbitration in New York, New York before 1 arbitrator and administered by the American Arbitration Association (the “AAA”).
+
+11.3
+
+The AAA shall administer the confidential binding arbitration pursuant to its Commercial Arbitration Rules.  The Parties shall maintain the confidential nature of the arbitration proceeding and the award, including the hearing.  Judgment on the award may be entered in any court having jurisdiction. The Parties intend that the rule of construction that provides that a document is construed against the maker thereof be inapplicable in the construction of any of the terms of the Agreement.
+
+## 12
+
+## Definitions
+
+“AAA” means as defined in [Clause 11.2](#seg-117).
+
+“Acceptable Use Policy” means Legora’s Acceptable Use Policy available on Legora’s website.
+
+“Affiliate” means a Party’s ultimate parent company and any legal entity that directly or indirectly through one or more intermediaries is controlled by or under common control with the ultimate parent company. For the purposes of this definition, the term ‘control’ shall be understood as the possession, directly or indirectly, of the power to direct or cause the direction of the management and policies of a legal entity, whether through the ownership of voting stock, by contract, or otherwise.
+
+“Confidential Information” means as defined in [Clause 7.1.1](#seg-68). 
+
+“Disclosing Party” means as defined in [Clause 7.1.1](#seg-68).
+
+“Deliverables” means deliverables (including software, if applicable) developed and/or provided by Legora to Subscriber in connection with the Implementation Work.
+
+“Effective Date” means the date when the *Order Form* is signed by duly authorized representatives of both Parties.
+
+“Enhanced Claims” means as defined in [Clause 6.4.3](#seg-60).
+
+“GTCs” means as defined in [Clause 1.1](#seg-1).
+
+“Implementation Work” means the work carried out by or on behalf of Legora pursuant to a Statement of Work (whether explicitly stated in the Statement of Work or not).
+
+“Initial Service Term” means as defined in [Clause 4.1.1](#seg-27).
+
+“Input” means the data, software, documents, third-party services, and other content (including prompts) uploaded, accessed, stored, or submitted by any means for the use in the Services by or on behalf of the Subscriber.
+
+“Intellectual Property Rights” means all intellectual or industrial property rights, including patents, trademarks, trade names, service marks, domain names, designs, utility models, copyrights, neighboring rights, data base rights, confidential know-how, trade secrets, and similar rights valid against third parties, whether registered or not, and including applications and the right to apply for registration of any rights, which may be protected anywhere in the world.
+
+“Output” means the output generated and returned by the Services, by or on behalf of the Subscriber, based on the Input.
+
+“Receiving Party” means as defined in [Clause 7.1.1](#seg-68). 
+
+“Renewal Term” means as defined in [Clause 4.1.2](#seg-28). 
+
+“Services” means the Legora AI platform, a legal AI workspace, which is comprised of a cloud service accessible via a web interface through a browser and/or desktop app (or, if specifically agreed in the *Order Form*, APIs offered by Legora), plug-ins and add-ins to other software and any ancillary documentation and modules provided by Legora and its Affiliates to Subscriber hereunder. For the avoidance of doubt, the term “Services” explicitly excludes Subscriber Content and Implementation Work.
+
+“Statement of Work” means, if executed between the Parties, one or more documents appended to the *Order Form*, describing the setup and integration work to be carried out by or on behalf of Legora to onboard the Subscriber.
+
+“Subscriber Content” means both Input and Output collectively.
+
+“Term” means the Initial Service Term and all Renewal Terms combined. 
 
 “Usage Data” means information reflecting the access, interaction, or use of the Service by or on behalf of Subscriber and individual end users, including frequency, duration, volume, features, functions, visit, session, click through or click stream data, and statistical or other analysis, information, or data based on, or derivative works of, the foregoing. Usage Data does not include any Subscriber Content.

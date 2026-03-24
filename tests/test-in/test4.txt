@@ -11,7 +11,7 @@ Table of Contents
    3.1 Section 1 — Grant of License
    3.2 Section 2 — Data Protection
         2.1 Subsection — Lawful Basis
-        2.2 Subsection — Cross-References
+	    2.2 Subsection — Cross-References
    3.3 Section 3 — Payment, Delivery & Expiry
 4. Part IV — Miscellaneous
 5. Schedule 1 — Service Levels
