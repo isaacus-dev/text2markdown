@@ -176,7 +176,7 @@ It is very difficult to displace the presumption that a written document does no
 
 President Allsop (as he then was) in the NSW Court of Appeal set out the following principles for deciding whether an agreement is wholly in writing or partly written and partly oral (➤ *Masterton Homes Pty Ltd v Palm Assets Pty Ltd [2009] NSWCA 234* at [90] (footnotes omitted)).
 
-(1) When there is a document that on its face appears to be a complete contract, that provides an evidentiary basis for inferring that the document contains the whole of the express contractual terms that bind the parties ...
+&emsp;(1) When there is a document that on its face appears to be a complete contract, that provides an evidentiary basis for inferring that the document contains the whole of the express contractual terms that bind the parties ...
 
 &emsp;(2) It is open to a party to prove that, even though there is a document that on its face appears to be a complete contract, the parties have agreed orally on terms additional to those contained in the writing ...
 
@@ -190,7 +190,7 @@ President Allsop (as he then was) in the NSW Court of Appeal set out the followi
 
 In *Codelfa Construction Pty Ltd v State Rail Authority of NSW [1982] HCA 24; (1982) 149 CLR 337* at 352, Mason J stated (emphasis added):
 
-[11] The broad purpose of the parol evidence rule is to exclude extrinsic evidence (except as to surrounding circumstances), including direct statements of intention (except in cases of latent ambiguity) and antecedent negotiations, to subtract from, add to, vary or contradict the language of a written instrument ....
+&emsp;[11] The broad purpose of the parol evidence rule is to exclude extrinsic evidence (except as to surrounding circumstances), including direct statements of intention (except in cases of latent ambiguity) and antecedent negotiations, to subtract from, add to, vary or contradict the language of a written instrument .... 
 
 ## Evidence to explain the document
 

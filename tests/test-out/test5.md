@@ -1,4 +1,4 @@
-<h1 style ="text-align: center;">Apple Media Services Terms and Conditions</h1>
+<h1 style="text-align: center;">Apple Media Services Terms and Conditions</h1>
 
 These terms and conditions create a contract between you and Apple (the “Agreement”). Please read the Agreement carefully. 
 

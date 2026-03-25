@@ -1,4 +1,4 @@
-<h1 style ="text-align: center;">THE OMNIBUS EXAMPLE INSTRUMENT</h1>
+<h1 style="text-align: center;">THE OMNIBUS EXAMPLE INSTRUMENT</h1>
 
 <p style="text-align: center;">Subtitle: Cross-Domain Act, Agreement, and Notice</p>
 
@@ -16,7 +16,7 @@
 
 &ensp;&nbsp;3.2 [Section 2 — Data Protection](#seg-47)
 
-&emsp;&emsp;2.1 Subsection — Lawful Basis
+&emsp;&emsp;[2.1 Subsection — Lawful Basis](#seg-49)
 
 &emsp;&emsp;[2.2 Subsection — Cross-References](#seg-53)
 
@@ -94,7 +94,7 @@ Clause 1.1. Licensor hereby grants to Licensee a non-exclusive, revocable, non-t
 
 Introductory paragraph (decision-style, unnumbered): The tribunal notes that data processing must be lawful, fair, and transparent.
 
-#### 2.1 Subsection — Lawful Basis.
+#### <a id="seg-49"></a>2.1 Subsection — Lawful Basis.
 
 <a id="seg-50"></a>(a) Item. Processing shall rely on at least one lawful basis as per GDPR Article 6(1)(b).
 

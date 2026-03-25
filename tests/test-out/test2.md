@@ -1,4 +1,4 @@
-<h1 style ="text-align: center;">2025 VCE Business Management external assessment report</h1>
+<h1 style="text-align: center;">2025 VCE Business Management external assessment report</h1>
 
 This report provides sample answers, or an indication of what answers may have included. Unless otherwise stated, these are not intended to be exemplary or complete responses. 
 
@@ -121,8 +121,7 @@ Students need to demonstrate a breadth of understanding in their response to the
 The following is an example of a high-scoring student response:
 
 > One advantage of using high risk strategies is that it has the short term positive outcome of immediate compliance. Typically, threatening or manipulating employees by either implying negative consequences or sharing selective information encourages employees to comply quickly. This saves time and may be beneficial in critical situations where a business requires employees to quickly overcome resistance and support change.
-
-However, one disadvantage is that high risk strategies can destroy the manager–employee relationship. Employees may feel betrayed when they are threatened or manipulated and no longer trust the management. This can damage corporate culture and even create more resistance to change as employees no longer feel connected to the business in a positive way.
+> However, one disadvantage is that high risk strategies can destroy the manager–employee relationship. Employees may feel betrayed when they are threatened or manipulated and no longer trust the management. This can damage corporate culture and even create more resistance to change as employees no longer feel connected to the business in a positive way.
 
 ~~© VCAA              Page 3~~
 

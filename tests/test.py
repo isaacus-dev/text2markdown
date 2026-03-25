@@ -23,6 +23,9 @@ def get_text(path: PathLike) -> str:
     text = ""
     with open(Path(path), "r") as f:
         for line in f.readlines():
+            if line.startswith("!"):
+                # in test-case comments
+                continue
             text += line
     return text
 

@@ -1,6 +1,6 @@
 ~~Updated: December 1, 2025~~
 
-<h1 style ="text-align: center;">OpenAI Data Processing Addendum</h1>
+<h1 style="text-align: center;">OpenAI Data Processing Addendum</h1>
 
 Download PDF
 
