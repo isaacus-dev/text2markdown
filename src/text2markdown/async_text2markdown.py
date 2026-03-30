@@ -30,7 +30,7 @@ async def text2markdown_async(
 
         block_quotes (bool, optional): Whether to transform non-inline quotes into Markdown block quotes.
 
-        escape_lists (bool, optional): Whether to escape list-like lines (lines starting with "-", "*", "+", or numbered lists). This leads to nicer rendering at the cost of cleaner Markdown source code.
+        escape_lists (bool, optional): Whether to escape list-like lines (lines starting with "-", "*", "+", or numbered lists).
 
         italicize_refs (bool, optional): Whether to italicize the names of any referenced documents, for example, "as mentioned in *Smith v. Jones*".
 

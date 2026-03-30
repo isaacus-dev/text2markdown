@@ -76,6 +76,7 @@ output = text2markdown(
     strike_junk=True,
     block_quotes=True,
     italicize_refs=True,
+    escape_lists=True,
     enrichment_model="kanon-2-enricher",
     isaacus_client=Isaacus(),
 )
