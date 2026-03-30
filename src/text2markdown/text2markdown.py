@@ -17,29 +17,31 @@ _LIST_PATTERNS = [
     re.compile(r"^\s{0,3}\d+\)\s+"),  # Ordered lists with parentheses: 1)  2)
 ]
 
+_AnnotationKind = Literal[
+    "heading",
+    "xref",  # Cross referencing another annotation
+    "junk",
+    "quote",
+    "ext_ref",  # External references
+    "src_ref",  # Pointed to by a xref
+    "terms",  # Defined terms
+]
+
 
 @dataclass
 class _Annotation:
     start: int  # Annotation starting index
     end: int  # Annotation ending index
-    kind: Literal[
-        "heading",
-        "subtitle",
-        "xref",  # Cross referencing another annotation
-        "junk",
-        "quote",
-        "ext_ref",  # External references
-        "src_ref",  # Pointed to by a xref
-    ]
+    kind: _AnnotationKind
     force_blank_line: bool = False
-    level: int | None = None  # kind=="heading" only
-    start_id: int | None = None  # kind=="xref" or "src_ref" only
+    level: int | None = None  # not `None` for `kind==heading` only
+    start_id: str | None = None  # not `None` for `kind==xref` or `src_ref` only
 
     _static_tags = {  # Markdown tags to attach to each `_Annotation` kind
-        "subtitle": ("""<p style="text-align: center;">""", "</p>"),
         "junk": ("~~", "~~"),
         "quote": ("> ", None),
-        "ext_ref": ("*", "*"),  # Italicise external references
+        "ext_ref": ("*", "*"),
+        "terms": ("*", "*"),
     }
 
     @property
@@ -47,10 +49,7 @@ class _Annotation:
         """Returns the markdown/html tags that need to be added at the `start` and `end` index of this `_Annotation`, respectively."""
         match self.kind:
             case "heading":
-                if self.level == 1:
-                    return ("""<h1 style="text-align: center;">""", "</h1>")
-                else:
-                    return (f"\n{'#' * min(6, self.level)} ", None)
+                return (f"\n{'#' * min(6, self.level)} ", None)
 
             case "xref":
                 return ("[", f"](#{self.start_id.replace(':', '-')})")
@@ -127,8 +126,8 @@ def _filter_events(events: list[_Event]) -> list[_Event]:
     priority = {
         "junk": 0,  # Lower value = lower priority
         "ext_ref": 1,
-        "subtitle": 2,
-        "xref": 3,
+        "terms": 1,
+        "xref": 2,
     }
     active: list[_Annotation] = []  # stack of active annotations
     filtered_events: list[_Event] = []
@@ -175,6 +174,26 @@ def _filter_events(events: list[_Event]) -> list[_Event]:
     return filtered_events
 
 
+def _merge_annotations(anns: list[_Annotation], kinds: set[_AnnotationKind]) -> Iterable[_Annotation]:
+    """Merges annotations with `kind` in `kinds` if they have the same start and end indices, returning the merged list of annotations."""
+    anns = sorted(anns, key=lambda a: (a.start, a.end, a.kind in kinds))
+    skip_next = False
+    skipped_ann: _Annotation | None = None
+    for i in range(len(anns) - 1):
+        a1, a2 = anns[i], anns[i + 1]
+        if skip_next:
+            # Continue skipping if needed
+            skip_next = a2.kind in kinds and skipped_ann and (skipped_ann.start, skipped_ann.end) == (a2.start, a2.end)
+            continue
+
+        skip_next = a1.kind in kinds and a2.kind in kinds and (a1.start, a2.start) == (a1.end, a2.end)
+        skipped_ann = a2
+        yield a1
+
+    if not skip_next:
+        yield anns[-1]
+
+
 # ==== END HELPER FUNCTIONS ====
 
 
@@ -184,7 +203,9 @@ def text2markdown(
     link_xrefs: bool = True,
     strike_junk: bool = True,
     block_quotes: bool = True,
+    escape_lists: bool = True,
     italicize_refs: bool = True,
+    italicize_terms: bool = True,
     enrichment_model: str = "kanon-2-enricher",
     isaacus_client: isaacus.Isaacus | None = None,
 ) -> str:
@@ -199,7 +220,11 @@ def text2markdown(
 
         block_quotes (bool, optional): Whether to transform non-inline quotes into Markdown block quotes.
 
+        escape_lists (bool, optional): Whether to escape list-like lines (lines starting with "-", "*", "+", or numbered lists). This leads to nicer rendering at the cost of cleaner Markdown source code.
+
         italicize_refs (bool, optional): Whether to italicize the names of any referenced documents, for example, "as mentioned in *Smith v. Jones*".
+
+        italicize_terms (bool, optional): Whether to italicize any terms defined in the document.
 
         enrichment_model (str, optional): The name of the Isaacus enrichment model to use for converting the input text into Markdown. Defaults to the latest and most advanced Isaacus enrichment model, currently `kanon-2-enricher`.
 
@@ -222,7 +247,7 @@ def text2markdown(
     # Idea: Gather all annotations to queue, build a hierarchy of events ordered by index,
     # then perform the necessary plain text -> markdown transformations
     # as we iterate over the input text
-    ann_queue: set[_Annotation] = set()
+    anns: set[_Annotation] = set()
     headings = deque(sorted([h for h in doc.headings if h.decode(text).strip()], key=lambda span: span.start))
     segs = sorted(doc.segments, key=lambda s: (s.span.start, -s.span.end))
     num_segs = len(segs)
@@ -245,12 +270,7 @@ def text2markdown(
     # Check for title; level 1 heading "#" is reserved for the title heading
     if (title := doc.title) and headings and headings[0].start <= title.start < headings[0].end:
         h = headings.popleft()
-        ann_queue.add(_Annotation(h.start, h.end, kind="heading", level=1))
-
-    # Extract subtitle
-    if (subtitle := doc.subtitle) and headings and headings[0].start <= subtitle.start < headings[0].end:
-        h = headings.popleft()
-        ann_queue.add(_Annotation(h.start, h.end, kind="subtitle"))
+        anns.add(_Annotation(h.start, h.end, kind="heading", level=1))
 
     id_to_seg: dict[str | None, Segment | None] = {None: None}
     has_heading: set[tuple[int, int]] = set()
@@ -267,7 +287,7 @@ def text2markdown(
         while headings and headings[0].start < span_start:
             h = headings.popleft()
             # Default segmentless headings' level
-            ann_queue.add(_Annotation(h.start, h.end, kind="heading", level=curr_level))
+            anns.add(_Annotation(h.start, h.end, kind="heading", level=curr_level))
 
         annotations: list[tuple[int, int, int]] = []
         # annotate headings in segment
@@ -291,7 +311,7 @@ def text2markdown(
                 if (curr.span.start, curr.span.end) not in has_heading:
                     ann_level -= 1
                 curr = id_to_seg[curr.parent]
-            ann_queue.update(
+            anns.update(
                 _annotate_each_line(_Annotation(ann_start, ann_end, kind="heading", level=max(2, ann_level)), text)
             )
 
@@ -299,7 +319,7 @@ def text2markdown(
 
     # Add any remaining headings which come after the last segment
     for heading in headings:
-        ann_queue.add(_Annotation(heading.start, heading.end, kind="heading", level=2))
+        anns.add(_Annotation(heading.start, heading.end, kind="heading", level=2))
 
     # We've annotated all headings, now gather annotations for the optional parameters.
     optional_annotators = {
@@ -307,6 +327,7 @@ def text2markdown(
         "junk": (doc.junk, strike_junk),
         "quote": (doc.quotes, block_quotes),
         "ext_ref": (doc.external_documents, italicize_refs),
+        "terms": (doc.terms, italicize_terms),
     }
     for kind, (annotators, asked_to_implement) in optional_annotators.items():
         if not asked_to_implement:
@@ -317,7 +338,7 @@ def text2markdown(
                 case "xref":
                     start_id = ann.start  # references' start segment id
                     # Add annotations for the text itself (indicated by ann.span)
-                    ann_queue.update(
+                    anns.update(
                         _annotate_each_line(
                             _Annotation(ann.span.start, ann.span.end, kind=kind, start_id=start_id), text
                         )
@@ -325,18 +346,16 @@ def text2markdown(
 
                     # need to add in annotations for the source reference as well, for anchoring
                     start_seg_span = id_to_seg[start_id].span
-                    ann_queue.add(
-                        _Annotation(start_seg_span.start, start_seg_span.end, kind="src_ref", start_id=start_id)
-                    )
+                    anns.add(_Annotation(start_seg_span.start, start_seg_span.end, kind="src_ref", start_id=start_id))
 
                 case "junk":
-                    ann_queue.update(_annotate_each_line(_Annotation(ann.start, ann.end, kind=kind), text))
+                    anns.update(_annotate_each_line(_Annotation(ann.start, ann.end, kind=kind), text))
 
                 case "quote":
                     if ann.span.start > 0 and text[ann.span.start - 1] != "\n":
                         # Only annotate block quotes; must be preceded with '\n' char
                         continue
-                    ann_queue.update(
+                    anns.update(
                         _annotate_each_line(
                             _Annotation(ann.span.start, ann.span.end, kind=kind), text, add_newlines=True
                         )
@@ -345,16 +364,31 @@ def text2markdown(
                 case "ext_ref":
                     # Each external reference has an array of mentions we want to annotate.
                     for mention in ann.mentions:
-                        ann_queue.update(_annotate_each_line(_Annotation(mention.start, mention.end, kind=kind), text))
+                        anns.update(_annotate_each_line(_Annotation(mention.start, mention.end, kind=kind), text))
+
+                case "terms":
+                    anns.update(_annotate_each_line(_Annotation(ann.name.start, ann.name.end, kind=kind), text))
+
+    # ext_ref and terms both use italics, ensure they are merged to avoid duplication
+    anns = _merge_annotations(list(anns), kinds={"ext_ref", "terms"})
 
     events: list[_Event] = []
-    for ann in ann_queue:
+    for ann in anns:
         events.append(_Event(ann.start, "start", ann))
         # Don't need end events for some annotation types
         if ann.kind != "src_ref":
             events.append(_Event(ann.end, "end", ann))
 
-    kind_priority = {"heading": 6, "quote": 5, "ext_ref": 4, "junk": 3, "xref": 2, "subtitle": 1, "src_ref": 0}
+    kind_priority = {
+        "heading": 6,
+        "quote": 5,
+        "ext_ref": 4,
+        "terms": 4,
+        "junk": 3,
+        "xref": 2,
+        "subtitle": 1,
+        "src_ref": 0,
+    }
     zero_length_annotations = {"src_ref"}
 
     def event_sort_key(e: _Event):
@@ -410,7 +444,7 @@ def text2markdown(
         prev_is_blank = not line.strip()
 
         # prevent markdown list rendering
-        if _is_list_line(line) and line.lstrip() == line:
+        if _is_list_line(line) and line.lstrip() == line and escape_lists:
             line = f"&#8203;{line}"
 
         # Convert leading tabs/whitespace to html indent flags

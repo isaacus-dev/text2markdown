@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">2025 VCE Business Management external assessment report</h1>
+# 2025 VCE Business Management external assessment report
 
 This report provides sample answers, or an indication of what answers may have included. Unless otherwise stated, these are not intended to be exemplary or complete responses. 
 
@@ -30,7 +30,7 @@ Average
 
 This question required students to outline one clear difference between the terms ‘retirement’ and ‘redundancy’. There are several differences that were considered acceptable, including:
 
-&emsp;• Retirement is voluntary and initiated by the employee, while redundancy is normally involuntary and is initiated by the business.
+&emsp;• *Retirement* is voluntary and initiated by the employee, while *redundancy* is normally involuntary and is initiated by the business.
 
 &emsp;• Retirement will often mean that the employee leaves the workforce entirely, while redundancy may mean that the employee seeks employment elsewhere.
 

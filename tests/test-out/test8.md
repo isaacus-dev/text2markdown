@@ -2,7 +2,7 @@
 
 The rights and obligations of parties to a contract are determined (subject to some statutory modification) by the terms of that contract.
 
-These terms may broadly be classified as express terms (those articulated by the parties - whether in written or oral form) or implied terms (those the parties did not articulate but may be implied based on the presumed intention of the parties or by statute).
+These terms may broadly be classified as *express terms* (those articulated by the parties - whether in written or oral form) or *implied terms* (those the parties did not articulate but may be implied based on the presumed intention of the parties or by statute).
 
 When assessing contractual terms it is important to keep in mind that both pre-contractual negotiations of the parties and their post-contractual conduct may give rise to non-contractual rights and obligations in addition to, or independently from, the concluded terms of the contract.
 
@@ -90,7 +90,7 @@ In addition, section 18 of the *Australian Consumer Law* provides a wide range o
 
 ## Puff
 
-A 'sales puff' refers to exaggerated sales talk. They are not intended by the speaker to be taken literally and a reasonable person would recognise this. As they do not constitute a 'representation' in law or a term, there is no remedy if they turn out to be false.
+A '*sales puff*' refers to exaggerated sales talk. They are not intended by the speaker to be taken literally and a reasonable person would recognise this. As they do not constitute a 'representation' in law or a term, there is no remedy if they turn out to be false.
 
 ## <a id="seg-43"></a>Terms displayed or delivered
 

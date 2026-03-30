@@ -1,6 +1,6 @@
 ~~Updated: December 1, 2025~~
 
-<h1 style="text-align: center;">OpenAI Data Processing Addendum</h1>
+# OpenAI Data Processing Addendum
 
 Download PDF
 
@@ -76,7 +76,7 @@ Effective: January 1, 2026
 
 &ensp;&nbsp;[7.8 SCCs Information for UK Data](#seg-99)
 
-This OpenAI Data Processing Addendum (“DPA”) supplements, and is incorporated into, the *OpenAI Services Agreement* (“Agreement”) governing use of the Services and is entered as of the Effective Date between the customer identified above (“Customer”) and OpenAI OpCo, LLC, on its behalf and on behalf of its Affiliates, as appropriate, unless Customer is based within a European Economic Area country or Switzerland, in which case it is entered into with OpenAI Ireland Ltd., on its behalf and on behalf of its Affiliates, as appropriate (“OpenAI”). Capitalized terms not defined in the DPA have the meanings provided in the Agreement. In this DPA, OpenAI and Customer are each referred to as a “Party” and collectively as the “Parties.” Customer represents it is lawfully able to enter into this Agreement and, if it is entering into the Agreement for an entity, that it has legal authority to bind that entity. By clicking “I agree,” accepting the Order Form, or using the Services, Customer agrees to this Agreement.
+This OpenAI Data Processing Addendum (“*DPA*”) supplements, and is incorporated into, the *OpenAI Services Agreement* (“*Agreement*”) governing use of the Services and is entered as of the Effective Date between the customer identified above (“*Customer*”) and OpenAI OpCo, LLC, on its behalf and on behalf of its Affiliates, as appropriate, unless Customer is based within a European Economic Area country or Switzerland, in which case it is entered into with OpenAI Ireland Ltd., on its behalf and on behalf of its Affiliates, as appropriate (“OpenAI”). Capitalized terms not defined in the DPA have the meanings provided in the Agreement. In this DPA, OpenAI and Customer are each referred to as a “Party” and collectively as the “Parties.” Customer represents it is lawfully able to enter into this Agreement and, if it is entering into the Agreement for an entity, that it has legal authority to bind that entity. By clicking “I agree,” accepting the Order Form, or using the Services, Customer agrees to this Agreement.
 
 ## <a id="seg-41"></a>1. Details.
 
@@ -86,13 +86,13 @@ This OpenAI Data Processing Addendum (“DPA”) supplements, and is incorporate
 
 ## <a id="seg-44"></a>2. OpenAI Obligations.
 
-&emsp;<a id="seg-45"></a>2.1 Customer Instructions. The Parties agree that this DPA, the Agreement (including the Order Form), and any instructions provided via the configuration tools and other tools within the Services made available by OpenAI within the Services, constitute Customer’s documented instructions regarding OpenAI’s processing of Customer Data (“Customer Instructions”). OpenAI will process Customer Data only in accordance with Customer Instructions, unless required to do so by applicable law to which OpenAI is subject, in which case OpenAI will inform Customer of this requirement prior to processing unless legally prohibited from doing so.
+&emsp;<a id="seg-45"></a>2.1 Customer Instructions. The Parties agree that this DPA, the Agreement (including the Order Form), and any instructions provided via the configuration tools and other tools within the Services made available by OpenAI within the Services, constitute Customer’s documented instructions regarding OpenAI’s processing of Customer Data (“*Customer Instructions*”). OpenAI will process Customer Data only in accordance with Customer Instructions, unless required to do so by applicable law to which OpenAI is subject, in which case OpenAI will inform Customer of this requirement prior to processing unless legally prohibited from doing so.
 
 &emsp;<a id="seg-46"></a>2.2 Notices to Customer. OpenAI will promptly inform Customer in writing if, in OpenAI’s opinion, a Customer Instruction violates Data Protection Laws. OpenAI will, to the extent legally permitted, inform Customer if OpenAI receives a legally binding request for disclosure of Customer Data by a law enforcement authority.
 
 &emsp;<a id="seg-47"></a>2.3 Confidentiality. OpenAI will ensure that all persons authorized by OpenAI to process Customer Data have committed themselves to confidentiality or are under an appropriate statutory obligation of confidentiality.
 
-&emsp;<a id="seg-48"></a>2.4 Data Subject Requests. OpenAI will, to the extent legally permitted, inform Customer if OpenAI receives a request to exercise data subject rights pursuant to Data Protection Laws (“Data Subject Request”) in respect of Customer Data.  OpenAI will not respond to any such request without Customer’s prior written authorization, except that Customer authorizes OpenAI to redirect Data Subject Requests as necessary to allow Customer to respond directly. Taking into account the nature of the processing, OpenAI will assist Customer by implementing appropriate technical and organizational measures, in so far as this is possible, to allow Customer to respond to Data Subject Requests.
+&emsp;<a id="seg-48"></a>2.4 Data Subject Requests. OpenAI will, to the extent legally permitted, inform Customer if OpenAI receives a request to exercise data subject rights pursuant to Data Protection Laws (“*Data Subject Request*”) in respect of Customer Data.  OpenAI will not respond to any such request without Customer’s prior written authorization, except that Customer authorizes OpenAI to redirect Data Subject Requests as necessary to allow Customer to respond directly. Taking into account the nature of the processing, OpenAI will assist Customer by implementing appropriate technical and organizational measures, in so far as this is possible, to allow Customer to respond to Data Subject Requests.
 
 &emsp;<a id="seg-49"></a>2.5 Security. OpenAI will implement and maintain reasonable and appropriate organizational and technical security measures to protect Customer Data, as set forth in the Agreement.
 
@@ -132,33 +132,33 @@ To the extent U.S. Privacy Laws apply:
 
 ## <a id="seg-67"></a>6. Definitions.
 
-“Customer Data” means Personal Data processed by OpenAI on behalf of Customer to provide the Services.
+“*Customer Data*” means Personal Data processed by OpenAI on behalf of Customer to provide the Services.
 
-“Data Controller” has the meaning assigned to the term “controller” (or another analogous term) under Data Protection Laws.
+*“Data Controller*” has the meaning assigned to the term “controller” (or another analogous term) under Data Protection Laws.
 
-“Data Processor” has the meaning assigned to the term “processor” (or another analogous term) under Data Protection Laws.
+*“Data Processor*” has the meaning assigned to the term “processor” (or another analogous term) under Data Protection Laws.
 
-“Data Protection Laws” means data privacy and data protection laws applicable to OpenAI’s processing of Customer Data in connection with the Services. 
+*“Data Protection Laws*” means data privacy and data protection laws applicable to OpenAI’s processing of Customer Data in connection with the Services. 
 
 “Data Subject” has the meaning assigned to the term “data subject” (or another analogous term) under Data Protection Laws.
 
-“GDPR” means Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016
+“*GDPR*” means Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016
 
-“Personal Data” has the meaning assigned to the term “personal data” or “personal information (or another analogous term) under Data Protection Laws.
+“*Personal Data*” has the meaning assigned to the term “personal data” or “personal information (or another analogous term) under Data Protection Laws.
 
-“Personal Data Breach” means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to Customer Data stored, transmitted or otherwise processed by OpenAI, its Sub-Processors, or any other third parties acting on OpenAI’s behalf.
+“*Personal Data Breach*” means a breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to Customer Data stored, transmitted or otherwise processed by OpenAI, its Sub-Processors, or any other third parties acting on OpenAI’s behalf.
 
 “Processing” has the meaning assigned to the term “processing” (or another analogous term) under Data Protection Laws.
 
-“SCCs” means the standard contractual clauses for the transfer of personal data to third countries adopted by the EU Commission on June 4, 2021 (as may be amended, updated or replaced from time to time).
+*“SCCs*” means the standard contractual clauses for the transfer of personal data to third countries adopted by the EU Commission on June 4, 2021 (as may be amended, updated or replaced from time to time).
 
-“Sub-Processors” means the sub-processors engaged by OpenAI to process Customer Data in connection with the Services, listed in the Sub-Processor List.
+“*Sub-Processors*” means the sub-processors engaged by OpenAI to process Customer Data in connection with the Services, listed in the Sub-Processor List.
 
-“Sub-Processor List” means the list available at the following address https://platform.openai.com/subprocessors⁠(opens in a new window).
+“*Sub-Processor List*” means the list available at the following address https://platform.openai.com/subprocessors⁠(opens in a new window).
 
-“UK Addendum” means the UK addendum to the EU SCCs issued by the Information Commissioner under section 119A(1) of the *Data Protection Act 2018*.
+“*UK Addendum*” means the UK addendum to the EU SCCs issued by the Information Commissioner under section 119A(1) of the *Data Protection Act 2018*.
 
-“U.S. Privacy Laws” means the subset of Data Protection Laws applicable to residents of the United States, including without limitation the *California Consumer Privacy Act* (“*CCPA*”).
+“*U.S. Privacy Laws*” means the subset of Data Protection Laws applicable to residents of the United States, including without limitation the *California Consumer Privacy Act* (“*CCPA*”).
 
 ## <a id="seg-82"></a>Schedule 1
 

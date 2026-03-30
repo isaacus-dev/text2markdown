@@ -1,6 +1,6 @@
-<h1 style="text-align: center;">THE OMNIBUS EXAMPLE INSTRUMENT</h1>
+# THE OMNIBUS EXAMPLE INSTRUMENT
 
-<p style="text-align: center;">Subtitle: Cross-Domain Act, Agreement, and Notice</p>
+## Subtitle: Cross-Domain Act, Agreement, and Notice
 
 ~~PDF | HTML | DOCX | TXT | PRINT~~
 
@@ -38,7 +38,7 @@
 
 ## <a id="seg-19"></a>Part I — Front Matter
 
-Document Title: “The Omnibus Example Instrument” (the “Instrument”)
+Document Title: “The Omnibus Example Instrument” (the “*Instrument*”)
 
 Document Subtitle: “Cross-Domain Act, Agreement, and Notice”
 
@@ -58,17 +58,17 @@ This document was created on 01 January 2024, signed on 31 January 2024, takes e
 
 For the purposes of this Instrument:
 
-“Agreement” means this Instrument as binding between the Parties.
+“*Agreement*” means this Instrument as binding between the Parties.
 
-“Confidential Information” means any information marked “confidential” or that a reasonable person would treat as confidential.
+“*Confidential Information*” means any information marked “confidential” or that a reasonable person would treat as confidential.
 
-“Effective Date” means 01 February 2024.
+“*Effective Date*” means 01 February 2024.
 
-“Services” means the managed data processing and hosting services described in [Schedule 1](#seg-67).
+“*Services*” means the managed data processing and hosting services described in [Schedule 1](#seg-67).
 
-“Force Majeure Event” means an event beyond a party’s reasonable control (including acts of God, war, strikes, or Internet backbone failure).
+“*Force Majeure Event*” means an event beyond a party’s reasonable control (including acts of God, war, strikes, or Internet backbone failure).
 
-law means any statute, regulation, or decision of a competent authority (including, without limitation, the *Privacy Act 1988 (Cth)* and *Regulation (EU) 2016/679 (GDPR)).*
+*law* means any statute, regulation, or decision of a competent authority (including, without limitation, the *Privacy Act 1988 (Cth)* and *Regulation (EU) 2016/679 (GDPR)).*
 
 References to Sections, Subsections, Paragraphs, Clauses, Items, Schedules, Annexes, Appendices, Exhibits, and Figures are to those of this Instrument unless otherwise stated.
 
@@ -172,9 +172,9 @@ Description: A block diagram showing user → app → API → database.
 
 The Parties:
 
-The Licensor (corporate): Acme Data Pty Ltd (ACN 123 456 789), registered in Australia on 15 August 2010; principal place of business: Level 10, 200 Collins Street, Melbourne VIC 3000, Australia; website https://acmedata.example
+The *Licensor* (corporate): Acme Data Pty Ltd (ACN 123 456 789), registered in Australia on 15 August 2010; principal place of business: Level 10, 200 Collins Street, Melbourne VIC 3000, Australia; website https://acmedata.example
 
-The Licensee (corporate): Beta Health, Inc., incorporated in Delaware on 22 May 2012; principal place of business: 500 Market St, San Francisco, CA 94105, USA; website https://betahealth.example
+The *Licensee* (corporate): Beta Health, Inc., incorporated in Delaware on 22 May 2012; principal place of business: 500 Market St, San Francisco, CA 94105, USA; website https://betahealth.example
 
 The Government (politic, empowered authority): Department of Government Services (Victoria).
 

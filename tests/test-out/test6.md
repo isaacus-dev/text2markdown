@@ -8,7 +8,7 @@
 
 <a id="seg-1"></a>1.1
 
-These general terms and conditions (“GTCs”), as they may be amended from time to time as set out herein, govern the use and provision of the Services provided by Legora or its Affiliates to the Subscriber and forms part of the Agreement between the Parties.
+These general terms and conditions (“*GTCs*”), as they may be amended from time to time as set out herein, govern the use and provision of the Services provided by Legora or its Affiliates to the Subscriber and forms part of the Agreement between the Parties.
 
 1.2
 
@@ -116,7 +116,7 @@ The Agreement is valid from the earlier of (i) the Effective Date, and (ii) the 
 
 <a id="seg-28"></a>4.1.2
 
-Unless terminated by Legora with at least 90 days’ written notice or by Subscriber with at least 30 days’ written notice before the expiry of the then current service period, the Agreement shall automatically renew for additional periods equal to the expiring Initial Service Term (each a “Renewal Term”).
+Unless terminated by Legora with at least 90 days’ written notice or by Subscriber with at least 30 days’ written notice before the expiry of the then current service period, the Agreement shall automatically renew for additional periods equal to the expiring Initial Service Term (each a “*Renewal Term*”).
 
 <a id="seg-29"></a>4.2
 
@@ -168,7 +168,7 @@ Subscriber will defend Legora against any third-party claim arising from or rela
 
 5.3.1
 
-The indemnity obligations under [Sections 5.1 and 5.2](#seg-36) are conditioned upon the party receiving the claim (the “Indemnified Party”) (i) promptly giving the other party (the “Indemnifying Party”) written notice of the claim (ii) giving the Indemnifying Party sole control of the defense and settlement of the claim (except that the Indemnifying Party may not settle any claim unless the settlement unconditionally releases the Indemnified Party of all liability, the settlement does not affect the Indemnified Party’s Intellectual Property Rights, and the Indemnifying Party pays any settlement fees), and (iii) gives the Indemnifying Party all reasonable assistance in connection with the defense or settlement of the claim, at the Indemnifying Party’s expense.
+The indemnity obligations under [Sections 5.1 and 5.2](#seg-36) are conditioned upon the party receiving the claim (the “*Indemnified Party*”) (i) promptly giving the other party (the “Indemnifying Party”) written notice of the claim (ii) giving the Indemnifying Party sole control of the defense and settlement of the claim (except that the Indemnifying Party may not settle any claim unless the settlement unconditionally releases the Indemnified Party of all liability, the settlement does not affect the Indemnified Party’s Intellectual Property Rights, and the Indemnifying Party pays any settlement fees), and (iii) gives the Indemnifying Party all reasonable assistance in connection with the defense or settlement of the claim, at the Indemnifying Party’s expense.
 
 5.3.2
 
@@ -272,7 +272,7 @@ Each Party shall bear its own attorneys’ fees, arbitration costs and other leg
 
 <a id="seg-68"></a>7.1.1
 
-“Confidential Information” means all information disclosed by a Party (”Disclosing Party”) to the other Party (”Receiving Party”), whether orally or in writing, (i) that is designated as confidential or, given the nature of the information and the circumstances of disclosure, should be understood to be confidential, (ii) Subscriber Content, (iii) the Services, (iv) the terms and conditions of the Agreement, and (iv) any business and marketing plans, technology and technical information, product plans and designs, and business processes disclosed by each Party in connection with the Agreement.
+“*Confidential Information*” means all information disclosed by a Party (”Disclosing Party”) to the other Party (”Receiving Party”), whether orally or in writing, (i) that is designated as confidential or, given the nature of the information and the circumstances of disclosure, should be understood to be confidential, (ii) Subscriber Content, (iii) the Services, (iv) the terms and conditions of the Agreement, and (iv) any business and marketing plans, technology and technical information, product plans and designs, and business processes disclosed by each Party in connection with the Agreement.
 
 7.1.2
 
@@ -348,7 +348,7 @@ The Subscriber grants Legora a limited, non-exclusive, non-transferable, non-sub
 
 8.3.1
 
-Feedback, comments, ideas, proposals, and suggestions for improvements (collectively ‘feedback’) from the Subscriber (including its administrators and end users) is encouraged by Legora. It is noted that feedback is not treated as confidential, and Legora may use feedback without restriction or paying compensation, and that any Intellectual Property Rights resulting therefrom shall vest exclusively in Legora.
+Feedback, comments, ideas, proposals, and suggestions for improvements (collectively ‘*feedback*’) from the Subscriber (including its administrators and end users) is encouraged by Legora. It is noted that feedback is not treated as confidential, and Legora may use feedback without restriction or paying compensation, and that any Intellectual Property Rights resulting therefrom shall vest exclusively in Legora.
 
 8.3.2
 
@@ -462,15 +462,15 @@ The AAA shall administer the confidential binding arbitration pursuant to its Co
 
 “AAA” means as defined in [Clause 11.2](#seg-117).
 
-“Acceptable Use Policy” means Legora’s Acceptable Use Policy available on Legora’s website.
+“*Acceptable Use Policy*” means Legora’s Acceptable Use Policy available on Legora’s website.
 
-“Affiliate” means a Party’s ultimate parent company and any legal entity that directly or indirectly through one or more intermediaries is controlled by or under common control with the ultimate parent company. For the purposes of this definition, the term ‘control’ shall be understood as the possession, directly or indirectly, of the power to direct or cause the direction of the management and policies of a legal entity, whether through the ownership of voting stock, by contract, or otherwise.
+“*Affiliate*” means a Party’s ultimate parent company and any legal entity that directly or indirectly through one or more intermediaries is controlled by or under common control with the ultimate parent company. For the purposes of this definition, the term ‘control’ shall be understood as the possession, directly or indirectly, of the power to direct or cause the direction of the management and policies of a legal entity, whether through the ownership of voting stock, by contract, or otherwise.
 
 “Confidential Information” means as defined in [Clause 7.1.1](#seg-68). 
 
 “Disclosing Party” means as defined in [Clause 7.1.1](#seg-68).
 
-“Deliverables” means deliverables (including software, if applicable) developed and/or provided by Legora to Subscriber in connection with the Implementation Work.
+“*Deliverables*” means deliverables (including software, if applicable) developed and/or provided by Legora to Subscriber in connection with the Implementation Work.
 
 “Effective Date” means the date when the *Order Form* is signed by duly authorized representatives of both Parties.
 
@@ -478,25 +478,25 @@ The AAA shall administer the confidential binding arbitration pursuant to its Co
 
 “GTCs” means as defined in [Clause 1.1](#seg-1).
 
-“Implementation Work” means the work carried out by or on behalf of Legora pursuant to a Statement of Work (whether explicitly stated in the Statement of Work or not).
+“*Implementation Work*” means the work carried out by or on behalf of Legora pursuant to a Statement of Work (whether explicitly stated in the Statement of Work or not).
 
 “Initial Service Term” means as defined in [Clause 4.1.1](#seg-27).
 
-“Input” means the data, software, documents, third-party services, and other content (including prompts) uploaded, accessed, stored, or submitted by any means for the use in the Services by or on behalf of the Subscriber.
+*“Input*” means the data, software, documents, third-party services, and other content (including prompts) uploaded, accessed, stored, or submitted by any means for the use in the Services by or on behalf of the Subscriber.
 
-“Intellectual Property Rights” means all intellectual or industrial property rights, including patents, trademarks, trade names, service marks, domain names, designs, utility models, copyrights, neighboring rights, data base rights, confidential know-how, trade secrets, and similar rights valid against third parties, whether registered or not, and including applications and the right to apply for registration of any rights, which may be protected anywhere in the world.
+“*Intellectual Property Rights*” means all intellectual or industrial property rights, including patents, trademarks, trade names, service marks, domain names, designs, utility models, copyrights, neighboring rights, data base rights, confidential know-how, trade secrets, and similar rights valid against third parties, whether registered or not, and including applications and the right to apply for registration of any rights, which may be protected anywhere in the world.
 
-“Output” means the output generated and returned by the Services, by or on behalf of the Subscriber, based on the Input.
+“*Output*” means the output generated and returned by the Services, by or on behalf of the Subscriber, based on the Input.
 
 “Receiving Party” means as defined in [Clause 7.1.1](#seg-68). 
 
 “Renewal Term” means as defined in [Clause 4.1.2](#seg-28). 
 
-“Services” means the Legora AI platform, a legal AI workspace, which is comprised of a cloud service accessible via a web interface through a browser and/or desktop app (or, if specifically agreed in the *Order Form*, APIs offered by Legora), plug-ins and add-ins to other software and any ancillary documentation and modules provided by Legora and its Affiliates to Subscriber hereunder. For the avoidance of doubt, the term “Services” explicitly excludes Subscriber Content and Implementation Work.
+“*Services*” means the Legora AI platform, a legal AI workspace, which is comprised of a cloud service accessible via a web interface through a browser and/or desktop app (or, if specifically agreed in the *Order Form*, APIs offered by Legora), plug-ins and add-ins to other software and any ancillary documentation and modules provided by Legora and its Affiliates to Subscriber hereunder. For the avoidance of doubt, the term “Services” explicitly excludes Subscriber Content and Implementation Work.
 
-“Statement of Work” means, if executed between the Parties, one or more documents appended to the *Order Form*, describing the setup and integration work to be carried out by or on behalf of Legora to onboard the Subscriber.
+“*Statement of Work*” means, if executed between the Parties, one or more documents appended to the *Order Form*, describing the setup and integration work to be carried out by or on behalf of Legora to onboard the Subscriber.
 
-“Subscriber Content” means both Input and Output collectively.
+“*Subscriber Content*” means both Input and Output collectively.
 
 “Term” means the Initial Service Term and all Renewal Terms combined. 
 

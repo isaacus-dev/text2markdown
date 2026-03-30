@@ -13,7 +13,9 @@ async def text2markdown_async(
     link_xrefs: bool = True,
     strike_junk: bool = True,
     block_quotes: bool = True,
+    escape_lists: bool = True,
     italicize_refs: bool = True,
+    italicize_terms: bool = True,
     enrichment_model: str = "kanon-2-enricher",
     isaacus_client: isaacus.AsyncIsaacus | None = None,
 ) -> str:
@@ -22,13 +24,17 @@ async def text2markdown_async(
     Args:
         text (str | ILGSDocument): Input to be converted into Markdown. If an Isaacus Legal Graph Schema (ILGS) Document is supplied, this function will convert the Document's text into Markdown without needing to enrich it first with an Isaacus enrichment model.
 
-        link_cross_references (bool, optional): Whether to link cross-references in the input text to their targets, for example, linking "as mentioned in Section 2.1" to the relevant section.
+        link_xrefs (bool, optional): Whether to link cross-references in the input text to their targets, for example, linking "as mentioned in Section 2.1" to the relevant section.
 
         strike_junk (bool, optional): Whether to strike out junk text.
 
         block_quotes (bool, optional): Whether to transform non-inline quotes into Markdown block quotes.
 
+        escape_lists (bool, optional): Whether to escape list-like lines (lines starting with "-", "*", "+", or numbered lists). This leads to nicer rendering at the cost of cleaner Markdown source code.
+
         italicize_refs (bool, optional): Whether to italicize the names of any referenced documents, for example, "as mentioned in *Smith v. Jones*".
+
+        italicize_terms (bool, optional): Whether to italicize the names of any defined terms.
 
         enrichment_model (str, optional): The name of the Isaacus enrichment model to use for converting the input text into Markdown. Defaults to the latest and most advanced Isaacus enrichment model, currently `kanon-2-enricher`.
 
@@ -55,7 +61,9 @@ async def text2markdown_async(
         link_xrefs=link_xrefs,
         strike_junk=strike_junk,
         block_quotes=block_quotes,
+        escape_lists=escape_lists,
         italicize_refs=italicize_refs,
+        italicize_terms=italicize_terms,
         enrichment_model=enrichment_model,
         isaacus_client=None,
     )
