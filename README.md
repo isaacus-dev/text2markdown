@@ -8,6 +8,7 @@ In all, text2markdown is capable of:
 - Segmenting text into nested sections.
 - Hyperlinking cross-references within texts to other sections.
 - Italicizing cited documents.
+- Italicizing defined terms. 
 - Detecting and formatting block quotations.
 - Striking through junk text.
 
@@ -75,8 +76,9 @@ output = text2markdown(
     link_xrefs=True,
     strike_junk=True,
     block_quotes=True,
-    italicize_refs=True,
     escape_lists=True,
+    italicize_refs=True,
+    italicize_terms=True,
     enrichment_model="kanon-2-enricher",
     isaacus_client=Isaacus(),
 )
