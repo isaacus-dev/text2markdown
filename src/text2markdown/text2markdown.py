@@ -246,7 +246,6 @@ def text2markdown(
 
     # Idea: Gather all annotations to queue, build a hierarchy of events ordered by index,
     # then perform the necessary plain text -> markdown transformations
-    # as we iterate over the input text
     anns: set[_Annotation] = set()
     headings = deque(sorted([h for h in doc.headings if h.decode(text).strip()], key=lambda span: span.start))
     segs = sorted(doc.segments, key=lambda s: (s.span.start, -s.span.end))
