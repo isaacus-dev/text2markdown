@@ -85,7 +85,7 @@ def _annotate_each_line(
     span_text_lines = doc_text[a_start:a_end].splitlines(keepends=True)
     offset = a_start
     for i, line in enumerate(span_text_lines):
-        # add newline at the end of annotation group if `force_blank == True``
+        # add newline at the end of annotation group if `add_newlines == True``
         add_newline = (i == len(span_text_lines) - 1) and add_newlines
 
         line_start = offset
@@ -186,7 +186,7 @@ def _merge_annotations(anns: list[_Annotation], kinds: set[_AnnotationKind]) -> 
             skip_next = a2.kind in kinds and skipped_ann and (skipped_ann.start, skipped_ann.end) == (a2.start, a2.end)
             continue
 
-        skip_next = a1.kind in kinds and a2.kind in kinds and (a1.start, a2.start) == (a1.end, a2.end)
+        skip_next = a1.kind in kinds and a2.kind in kinds and (a1.start, a1.end) == (a2.start, a2.end)
         skipped_ann = a2
         yield a1
 
@@ -352,8 +352,10 @@ def text2markdown(
                     anns.update(_annotate_each_line(_Annotation(ann.start, ann.end, kind=kind), text))
 
                 case "quote":
-                    if ann.span.start > 0 and text[ann.span.start - 1] != "\n":
-                        # Only annotate block quotes; must be preceded with '\n' char
+                    if (ann.span.start > 0 and text[ann.span.start - 1] != "\n") or (
+                        ann.span.end < len(text) and bool(re.match(r"[^\S\n]*\S", text[ann.span.end :]))
+                    ):
+                        # Only annotate block quotes; must be preceded and succeeded with '\n' char
                         continue
                     anns.update(
                         _annotate_each_line(
@@ -413,7 +415,6 @@ def text2markdown(
     md: list[str] = []  # Output markdown
     curr_idx = 0
     for pos, t, ann in events:
-        kind = ann.kind
         if curr_idx != pos:
             md.append(text[curr_idx:pos])
 
