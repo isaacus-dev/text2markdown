@@ -49,7 +49,7 @@ class _Annotation:
         """Returns the markdown/html tags that need to be added at the `start` and `end` index of this `_Annotation`, respectively."""
         match self.kind:
             case "heading":
-                return (f"\n{'#' * min(6, self.level)} ", None)
+                return (f"\n{'#' * min(6, self.level)} ", "\n") # ensure heading is on it's own line
 
             case "xref":
                 return ("[", f"](#{self.start_id.replace(':', '-')})")

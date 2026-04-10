@@ -46,7 +46,7 @@ The following terms and conditions are subject to consumer protection laws, incl
 
 [T. MISC. TERMS APPLICABLE TO ALL SERVICES](#seg-137)
 
-## <a id="seg-23"></a>A. INTRODUCTION 
+## <a id="seg-23"></a>A. INTRODUCTION
 
 This Agreement governs your use of Apple’s services (“*Services*”) through which you can buy, get, license, rent or subscribe to content, Apps (as defined below), and other in-app services (collectively, “Content”). Content may be offered through the Services by Apple or a third party. Examples of Services include, where available, App Store, Subscriptions (as defined below), Apple Arcade, Apple Books, Apple Fitness+, Apple Games, Game Center, Apple Music, Apple News, Apple One, Apple Podcasts, Apple Sports, Apple TV, iTunes, and Shazam. Our Services are available for your use in your country or territory of residence (“*Home Country*”). By creating an account for use of the Services in a particular country or territory you are specifying it as your Home Country. To use our Services, you need compatible hardware, software (latest version recommended and sometimes required) and Internet access (fees may apply). Our Services’ performance may be affected by these factors.
 
@@ -322,7 +322,7 @@ You agree that the Services, including but not limited to Content, graphics, use
 
 The Apple name, the Apple logo, iTunes, iTunes Store, App Store, Apple Books, Apple Music, Apple TV, Apple TV+, Apple Arcade, Apple News, Apple News+, Apple One, Apple Podcasts, Apple Fitness+, and other Apple trademarks, service marks, graphics, and logos used in connection with the Services are trademarks or registered trademarks of Apple in the U.S. and other countries throughout the world. You are granted no right or license with respect to any of the aforesaid trademarks.
 
-### COPYRIGHT 
+### COPYRIGHT
 
 Unless otherwise noted, Services and Content provided by Apple are copyrights of Apple Inc. and its subsidiaries.
 

@@ -170,7 +170,7 @@ Extrinsic evidence can be given to show there was no binding contract. For examp
 
 In cases of mistake that would give rise to rectification (for example, a typo in the price or address on a contract), evidence may be given as to the true term. Extrinsic evidence may also be introduced, for example, to show that one party was acting as an agent for an undisclosed principal.
 
-## <a id="seg-70"></a>Evidence of other terms 
+## <a id="seg-70"></a>Evidence of other terms
 
 It is very difficult to displace the presumption that a written document does not or was not intended to contain all the terms agreed by the parties. However, evidence may be introduced to demonstrate this was not the intention. For example, the nature of the written document itself might suggest that it was only intending to address in detail one aspect of a broader arrangement. Even where the presumption can be displaced, evidence as to oral terms must not contradict the written part.
 
