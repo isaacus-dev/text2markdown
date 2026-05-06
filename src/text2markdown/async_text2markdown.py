@@ -22,7 +22,7 @@ async def text2markdown_async(
     """Intelligently converts plain text into Markdown asynchronously.
 
     Args:
-        text (str | ILGSDocument): Input to be converted into Markdown. If an Isaacus Legal Graph Schema (ILGS) Document is supplied, this function will convert the Document's text into Markdown without needing to enrich it first with an Isaacus enrichment model.
+        text (str | ILGSDocument): Input to be converted into Markdown. If an Isaacus Legal Document Graph Schema (ILDGS) Document is supplied, this function will convert the Document's text into Markdown without needing to enrich it first with an Isaacus enrichment model.
 
         link_xrefs (bool, optional): Whether to link cross-references in the input text to their targets, for example, linking "as mentioned in Section 2.1" to the relevant section.
 
@@ -38,7 +38,7 @@ async def text2markdown_async(
 
         enrichment_model (str, optional): The name of the Isaacus enrichment model to use for converting the input text into Markdown. Defaults to the latest and most advanced Isaacus enrichment model, currently `kanon-2-enricher`.
 
-        isaacus_client (isaacus.AsyncIsaacus, optional): An Isaacus API client to use for enriching the input text with an Isaacus enrichment model if the input is not already an Isaacus Legal Graph Schema (ILGS) Document. If `None`, a new instance will be created instead where necessary.
+        isaacus_client (isaacus.AsyncIsaacus, optional): An Isaacus API client to use for enriching the input text with an Isaacus enrichment model if the input is not already an Isaacus Legal Document Graph Schema (ILDGS) Document. If `None`, a new instance will be created instead where necessary.
     """
 
     # Raise an error if supplied with a synchronous Isaacus client.
@@ -46,7 +46,7 @@ async def text2markdown_async(
         raise ValueError("""\
         `text2markdown_async()` requires an asynchronous Isaacus client, but a synchronous Isaacus client was provided. Please supply an `isaacus.AsyncIsaacus` client or set `isaacus_client` to `None` to have an asynchronous client created automatically.""")
 
-    # Convert the text into an Isaacus Legal Graph Schema (ILGS) Document if it is not one already.
+    # Convert the text into an Isaacus Legal Document Graph Schema (ILDGS) Document if it is not one already.
     doc = text
 
     if isinstance(text, str):
